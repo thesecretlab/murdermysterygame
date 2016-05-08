@@ -134,8 +134,6 @@ namespace Yarn.Unity
 			// Mark that we're in conversation.
 			isDialogueRunning = true;
 
-			
-
 			// Signal that we're starting up.
 			yield return StartCoroutine(this.dialogueUI.DialogueStarted());
 

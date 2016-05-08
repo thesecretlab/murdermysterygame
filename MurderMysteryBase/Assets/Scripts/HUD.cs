@@ -11,7 +11,7 @@ public class HUD : MonoBehaviour {
 	public Canvas inventory; //A reference to the Canvas UI Object
 	public bool[] slots = new bool[3]; //An array of 4 slots for the inventory
 	public Camera UIcam;
-	public FirstPersonController firstPersonController;
+	public GameObject firstPersonController;
 
 	public Image button1; //A Reference the original button image
 	public Image button2;
@@ -23,10 +23,10 @@ public class HUD : MonoBehaviour {
 	public Sprite clue4;
 
 
+
 	// Use this for initialization
 	void Start () 
 	{
-		firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //Gets controller for the player and assigns it to a local variable for ease of use
 		inventory.enabled = false; //Set the inventory to false at start of scene
 		updateInventory();	
 	}
@@ -38,22 +38,19 @@ public class HUD : MonoBehaviour {
 
 		if(Input.GetKeyDown("i")) //if player presses inventory hotkey
 		{
-	 		GameObject myEventSystem = GameObject.Find("EventSystem");
-	 		myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
-			
-
+	 	GameObject myEventSystem = GameObject.Find("EventSystem");
+	 	myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
+		GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().enabled = false;
 
 			if(inventory.enabled == false)
 			{
-				firstPersonController.LockControllerReleaseMouse(true); //locks mouse to controller
-				//firstPersonController.enabled = false;
 				inventory.enabled = true;
 			}
 			else if(inventory.enabled == true)
 			{
 				inventory.enabled = false;
-				firstPersonController.LockControllerReleaseMouse(false); //releases mouse cursor
-				//firstPersonController.enabled = true;
+
+		 GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().enabled = true;
 
 			}
 		}
