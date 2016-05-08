@@ -1,0 +1,172 @@
+[
+	{
+		"title": "Victim-Body",
+		"tags": "",
+		"body": "Jacob Wright. Looks like his death was pretty brutal\nI should put some gloves on...\n[[Examine Head|Victim-Body.Head]]\n[[Examine Jacket|Victim-Body.Jacket]]\n[[Examine Torso|Victim-Body.Torso]]\n[[Examine Hands|Victim-Body.Hands]]\n[[Examine Legs|Victim-Body.Legs]]\n[[Look around the room some more|Victim-Body.Exit]]",
+		"position": {
+			"x": 194,
+			"y": 88
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Head",
+		"tags": "",
+		"body": "He vomited before he died...\n[[Probably shock|Victim-Body.Conclusion.Shock]]\n[[Maybe he drank too much whisky|Victim-Body.Conclusion.Drunk]]\n[[Hard to say why just yet.|Victim-Body]]",
+		"position": {
+			"x": 69,
+			"y": 557
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Jacket",
+		"tags": "",
+		"body": "There's a fair amount of blood on the jacket.\nBetter check his pockets...\n[[Outside pocket|Victim-Body.Jacket.OutsidePocket]]\n[[Inside pocket|Victim-Body.Jacket.InsidePocket]]\n",
+		"position": {
+			"x": 444,
+			"y": 559
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso",
+		"tags": "",
+		"body": "Geez... There's a lot of blood here....\n[[Examine stomach wound|Victim-Body.Torso.Stomach]]\n[[Examine chest|Victim-Body.Torso.Chest]]",
+		"position": {
+			"x": 1100,
+			"y": 572
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Legs",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1774,
+			"y": 608
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Hands",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2292,
+			"y": 599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Exit",
+		"tags": "",
+		"body": "Don't go anywhere Jacob.\n*Chuckles*",
+		"position": {
+			"x": 816,
+			"y": 68
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Conclusion.Shock",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 66,
+			"y": 850
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Conclusion.Drunk",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -180,
+			"y": 851
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Jacket.InsidePocket",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 323,
+			"y": 848
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Jacket.OutsidePocket",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 566,
+			"y": 847
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso.Stomach",
+		"tags": "",
+		"body": "There's a bullet hole in his stomach.\nThe alcohol would have made him bleed out much faster than normal...\n[[Check the entrance wound|Victim-Body.Torso.Stomach.Entrance]]\n[[Check for exit wound|Victim-Body.Torso.Stomach.Exit]]",
+		"position": {
+			"x": 861,
+			"y": 857
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso.Chest",
+		"tags": "",
+		"body": "There's a lot of bruising around the chest...\nHis ribs appear to be broken.\n[[Perhaps it happened when he fell|Victim-Body.Conclusion.Fell]]\n",
+		"position": {
+			"x": 1392,
+			"y": 856
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso.Stomach.Entrance",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 747,
+			"y": 1163
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso.Stomach.Exit",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1002,
+			"y": 1166
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1283,
+			"y": 1160
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node17",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1557,
+			"y": 1163
+		},
+		"colorID": 0
+	}
+]
