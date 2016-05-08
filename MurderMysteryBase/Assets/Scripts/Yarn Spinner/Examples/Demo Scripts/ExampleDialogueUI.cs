@@ -29,6 +29,8 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
+using UnityStandardAssets.Characters.FirstPerson;
+
 
 // Displays dialogue lines to the player, and sends
 // user choices back to the dialogue system.
@@ -204,7 +206,8 @@ namespace Yarn.Unity.Example {
 			if (gameControlsContainer != null) {
 				gameControlsContainer.gameObject.SetActive(true);
 			}
-			
+			GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().enabled = true;
+
 			yield break;
 		}
 		
