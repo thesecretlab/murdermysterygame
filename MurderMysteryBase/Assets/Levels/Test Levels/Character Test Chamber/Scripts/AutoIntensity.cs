@@ -62,10 +62,12 @@ public class AutoIntensity : MonoBehaviour {
 		i = ((dayAtmosphereThickness - nightAtmosphereThickness) * dot) + nightAtmosphereThickness;
 		skyMat.SetFloat ("_AtmosphereThickness", i);
 
-		if (dot > 0) 
+        transform.rotation = Quaternion.AngleAxis((float)(GameObject.Find("GameTimeObject").GetComponent<GameTime>().hour*15)+90, Vector3.left);
+
+		/*if (dot > 0) 
 			transform.Rotate (dayRotateSpeed * Time.deltaTime * skySpeed);
 		else
-			transform.Rotate (nightRotateSpeed * Time.deltaTime * skySpeed);
+			transform.Rotate (nightRotateSpeed * Time.deltaTime * skySpeed);*/
 
 		if (Input.GetKeyDown (KeyCode.Q)) skySpeed *= 0.5f;
 		if (Input.GetKeyDown (KeyCode.E)) skySpeed *= 2f;

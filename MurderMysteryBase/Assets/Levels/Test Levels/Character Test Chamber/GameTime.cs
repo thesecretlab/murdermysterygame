@@ -76,9 +76,13 @@ public class GameTime : MonoBehaviour {
 		//GUI.Label(new Rect(0, 350, 500, 500), "Month: " + (int)months % 12);
 		//GUI.Label(new Rect(0, 375, 500, 500), "Year: " + (int)years);
 
-		string niceTime = string.Format("{0:00}:{1:00}:{2:00}", (int)hour, (int)minute, (int)second);
-		GUI.Label(new Rect(0, 375, 500, 500), niceTime);
+		
+		//GUI.Label(new Rect(0, 375, 500, 500), niceTime);
 
 	}
 
+    public string getGameTimeString()
+    {
+        return string.Format("{0:00}:{1:00}:{2:00}", (int)hour, (int)minute, (int)second);
+    }
 }
