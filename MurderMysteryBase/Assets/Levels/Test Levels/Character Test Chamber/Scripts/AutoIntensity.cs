@@ -26,6 +26,7 @@ public class AutoIntensity : MonoBehaviour {
 
 	float skySpeed = 1;
 
+	GameTime time;
 
 	Light mainLight;
 	Skybox sky;
@@ -46,6 +47,8 @@ public class AutoIntensity : MonoBehaviour {
 		float dot = Mathf.Clamp01 ((Vector3.Dot (mainLight.transform.forward, Vector3.down) - minPoint) / tRange);
 		float i = ((maxIntensity - minIntensity) * dot) + minIntensity;
 
+		time = GameObject.Find("GameTimeObject").GetComponent<GameTime>();
+
 		mainLight.intensity = i;
 
 		tRange = 1 - minAmbientPoint;
@@ -62,15 +65,28 @@ public class AutoIntensity : MonoBehaviour {
 		i = ((dayAtmosphereThickness - nightAtmosphereThickness) * dot) + nightAtmosphereThickness;
 		skyMat.SetFloat ("_AtmosphereThickness", i);
 
-        transform.rotation = Quaternion.AngleAxis((float)(GameObject.Find("GameTimeObject").GetComponent<GameTime>().hour*15)+90, Vector3.left);
+		float angle = (time.hour * 15)-90;
+		transform.rotation = Quaternion.AngleAxis(angle, Vector3.right);
 
 		/*if (dot > 0) 
-			transform.Rotate (dayRotateSpeed * Time.deltaTime * skySpeed);
-		else
-			transform.Rotate (nightRotateSpeed * Time.deltaTime * skySpeed);*/
+		{
+			//transform.Rotate (dayRotateSpeed * Time.deltaTime * skySpeed);
 
-		if (Input.GetKeyDown (KeyCode.Q)) skySpeed *= 0.5f;
-		if (Input.GetKeyDown (KeyCode.E)) skySpeed *= 2f;
+			//Debug.Log(transform.rotation);
+			//Debug.Log(transform.localRotation);
+			
+		}
+		else
+		{
+			//transform.Rotate (nightRotateSpeed * Time.deltaTime * skySpeed);
+			//Debug.Log(transform.rotation);
+			//Debug.Log(transform.localRotation);
+		}*/
+
+
+		if (Input.GetKeyDown(KeyCode.Q)) time.addGameTime(0, 0, -1);
+		if (Input.GetKeyDown(KeyCode.F)) transform.rotation *= Quaternion.AngleAxis(10, Vector3.right);
+		if (Input.GetKeyDown(KeyCode.E)) time.addGameTime(0, 0, 1);
 
 
 	}
