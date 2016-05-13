@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Victim-Computer",
+		"tags": "",
+		"body": "The victim's laptop.\n[[Attempt to log on|Victim-Computer.LoginSuccess]]\n[[Step Away]]",
+		"position": {
+			"x": 1440,
+			"y": 62
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Computer.LoginSuccess",
+		"tags": "",
+		"body": "It logs straight in like they haven't implemented a password minigame or something...\n[[Check emails|Victim-Computer.Emails]] <<if not visited Victim-Computer.Emails>>\n[[Recent files|Victim-Computer.Documents]]<<if not visited Victim-Computer.Documents>>\n[[Internet History|Victim-Computer.Internet]]<<if not visited Victim-Computer.Internet>>",
+		"position": {
+			"x": 1464,
+			"y": 479
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Computer.Emails",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1011,
+			"y": 855
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Computer.Documents",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1461,
+			"y": 873
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Computer.Internet",
+		"tags": "",
+		"body": "I IMMEDIATELY REGRET THIS DECISION!",
+		"position": {
+			"x": 1903,
+			"y": 849
+		},
+		"colorID": 0
+	}
+]
