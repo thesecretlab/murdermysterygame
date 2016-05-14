@@ -1,0 +1,1251 @@
+﻿Merge branch 'Skeleton-Project' into victimsapartment
+
+# Conflicts:
+#	MurderMysteryBase/Assets/Audio/Music.meta
+#	MurderMysteryBase/Assets/Audio/Sound Effects.meta
+#	MurderMysteryBase/Assets/Character Models.meta
+#	MurderMysteryBase/Assets/Characters.meta
+#	MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female.meta
+#	MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm.meta
+#	MurderMysteryBase/Assets/Dialogue.meta
+#	MurderMysteryBase/Assets/Dialogue/VictimApartment.meta
+#	MurderMysteryBase/Assets/Dialogue/VictimApartment/Clues.meta
+#	MurderMysteryBase/Assets/Levels/detectivesoffice/Materials.meta
+#	MurderMysteryBase/Assets/Standard Assets/Effects.meta
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch victimsapartment
+# Your branch is up-to-date with 'origin/victimsapartment'.
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   MurderMysteryBase/.gitignore
+#	renamed:    MurderMysteryBase/Assets/Levels/detectivesoffice.meta -> MurderMysteryBase/Assets/Characters/Models & Animations.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Bottom_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hair_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Hat_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbm/Detective_Female_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@left_strafe_walk.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@left_strafe_walk.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@left_turn.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@left_turn.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@right_strafe_walk.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@right_strafe_walk.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@right_turn.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@right_turn.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@running.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@running.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@smoking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@smoking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@stand_up.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@stand_up.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Detective_Female@walking.fbx.meta
+#	renamed:    MurderMysteryBase/Assets/Levels/detectivesoffice/Materials.meta -> MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Hat_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Hat_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Female/Materials/Detective_Female_Top_Diffuse.mat.meta
+#	renamed:    MurderMysteryBase/Assets/Dialogue.meta -> MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male Animator Controller.controller.meta
+#	renamed:    MurderMysteryBase/Assets/Dialogue/VictimApartment.meta -> MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Beard_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Bottom_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hair_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Hat_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Moustache_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbm/Detective_Male_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@left_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@left_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@left_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@left_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@right_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@right_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@right_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@right_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@standard_run.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@standard_run.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Detective_Male@walking.fbx.meta
+#	renamed:    MurderMysteryBase/Assets/Dialogue/VictimApartment/Clues.meta -> MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Beard_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Beard_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Hat_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Hat_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Moustache_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Moustache_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Detective_Male/Materials/Detective_Male_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Bottom_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Eyewear_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Hair_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbm/Jacob_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@left_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@left_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@left_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@left_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@right_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@right_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@right_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@right_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@standard_run.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@standard_run.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@standing_death_backward_01.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@standing_death_backward_01.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Jacob@walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Eyewear_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Eyewear_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jacob/Materials/Jacob_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Bottom_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Hair_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbm/Jonas_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@left_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@left_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@left_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@left_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@right_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@right_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@right_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@right_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@smoking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@smoking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@standard_run.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@standard_run.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Jonas@walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Jonas/Materials/Jonas_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Bottom_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Hair_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbm/Kyle_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@left_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@left_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@left_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@left_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@right_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@right_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@right_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@right_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@smoking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@smoking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@standard_run.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@standard_run.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Kyle@walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Kyle/Materials/Kyle_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Beard_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Bottom_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Moustache_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbm/Logan_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@left_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@left_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@left_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@left_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@right_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@right_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@right_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@right_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@smoking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@smoking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@standard_run.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@standard_run.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Logan@walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Beard_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Beard_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Moustache_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Moustache_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Logan/Materials/Logan_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Hair_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbm/Lola_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@hip_hop_dancing.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@hip_hop_dancing.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@hip_hop_dancing_1.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@hip_hop_dancing_1.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@left_strafe_walk.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@left_strafe_walk.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@left_turn.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@left_turn.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@right_strafe_walk.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@right_strafe_walk.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@right_turn.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@right_turn.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@rumba_dancing.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@rumba_dancing.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@running.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@running.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@stand_up.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@stand_up.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Lola@walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Lola/Materials/Lola_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Materials/Rachael_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Bottom_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Hair_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbm/Rachael_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@left_strafe_walk.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@left_strafe_walk.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@left_turn.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@left_turn.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@right_strafe_walk.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@right_strafe_walk.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@right_turn.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@right_turn.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@running.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@running.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@smoking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@smoking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Rachael/Rachael@walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Eyeballs.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Eyeballs.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Eyelashes.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Eyelashes.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Materials/Zak_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Body_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Bottom_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Hair_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Shoes_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Diffuse.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Diffuse.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_DiffuseOpacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_DiffuseOpacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Gloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Gloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Normal.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Normal.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Opacity.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Opacity.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Specular.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_Specular.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_SpecularGloss.png
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbm/Zak_Top_SpecularGloss.png.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@idle.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@idle.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@jump.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@jump.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@left_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@left_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@left_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@left_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@left_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@left_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@right_strafe.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@right_strafe.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@right_strafe_walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@right_strafe_walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@right_turn_90.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@right_turn_90.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@smoking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@smoking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@standard_run.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@standard_run.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@walking.fbx
+#	new file:   MurderMysteryBase/Assets/Characters/Models & Animations/Zak/Zak@walking.fbx.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Detective_Female.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Detective_Female.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Detective_Male.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Detective_Male.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Jacob.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Jacob.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Jacob_Dead.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Jacob_Dead.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Jonas.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Jonas.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Kyle.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Kyle.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Logan.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Logan.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Lola.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Lola.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Rachael.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Rachael.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Zak.prefab
+#	new file:   MurderMysteryBase/Assets/Characters/Prefabs/Zak.prefab.meta
+#	new file:   MurderMysteryBase/Assets/ConvoFlow 1.png
+#	new file:   MurderMysteryBase/Assets/ConvoFlow 1.png.meta
+#	new file:   MurderMysteryBase/Assets/ConvoFlow.png
+#	new file:   MurderMysteryBase/Assets/ConvoFlow.png.meta
+#	new file:   MurderMysteryBase/Assets/Dialogue/VictimApartment/Clues/Bullet-Hole-Window.json
+#	new file:   MurderMysteryBase/Assets/Dialogue/VictimApartment/Clues/Fingerprints-Door.json
+#	new file:   MurderMysteryBase/Assets/Dialogue/VictimApartment/Clues/Victim-Body.json
+#	new file:   MurderMysteryBase/Assets/Dialogue/VictimApartment/Clues/Victim-Computer.json
+#	new file:   MurderMysteryBase/Assets/Dialogue/VictimApartment/Clues/Whisky-Glass1.json
+#	new file:   MurderMysteryBase/Assets/Dialogue/VictimApartment/Lola.json
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Character Test Chamber.unity
+#	renamed:    MurderMysteryBase/Assets/Audio.meta -> MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Character Test Chamber.unity.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Beard_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Beard_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Body_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Body_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Bottom_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Bottom_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Hair_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Hair_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Hat_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Hat_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Moustache_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Moustache_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Shoes_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Shoes_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Top_Diffuse.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Detective_Male_Top_Diffuse.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Ground.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Ground.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Skybox.mat
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Materials/Skybox.mat.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts/AutoIntensity.cs
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts/AutoIntensity.cs.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts/GameTime.cs
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts/GameTime.cs.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts/GameTimeDisplay.cs
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts/GameTimeDisplay.cs.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts/SetSunLight.cs
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Scripts/SetSunLight.cs.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Sun.prefab
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Sun.prefab.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Test Animator Controller.controller
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Test Animator Controller.controller.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Textures.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Textures/Ground.PSD
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/Textures/Ground.PSD.meta
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/stars.prefab
+#	new file:   MurderMysteryBase/Assets/Levels/Test Levels/Character Test Chamber/stars.prefab.meta
+#	modified:   MurderMysteryBase/Assets/Levels/murderscene.meta
+#	new file:   MurderMysteryBase/Assets/Levels/prototype level.meta
+#	new file:   MurderMysteryBase/Assets/Levels/prototype level/Dialogue Scrips.meta
+#	new file:   MurderMysteryBase/Assets/Levels/prototype level/Dialogue Scrips/Ethan.json
+#	new file:   MurderMysteryBase/Assets/Levels/prototype level/Dialogue Scrips/Ethan.json.meta
+#	new file:   MurderMysteryBase/Assets/Levels/prototype level/New Terrain.asset
+#	new file:   MurderMysteryBase/Assets/Levels/prototype level/New Terrain.asset.meta
+#	new file:   MurderMysteryBase/Assets/Levels/prototype level/test_scene.unity
+#	new file:   MurderMysteryBase/Assets/Levels/prototype level/test_scene.unity.meta
+#	new file:   MurderMysteryBase/Assets/Scripts/ClueObject.cs
+#	new file:   MurderMysteryBase/Assets/Scripts/ClueObject.cs.meta
+#	new file:   MurderMysteryBase/Assets/Scripts/Editor.meta
+#	new file:   MurderMysteryBase/Assets/Scripts/Editor/FuseFixer.cs
+#	new file:   MurderMysteryBase/Assets/Scripts/Editor/FuseFixer.cs.meta
+#	new file:   MurderMysteryBase/Assets/Scripts/HUD.cs
+#	new file:   MurderMysteryBase/Assets/Scripts/HUD.cs.meta
+#	new file:   MurderMysteryBase/Assets/Scripts/PlayerCharacter3d.cs
+#	new file:   MurderMysteryBase/Assets/Scripts/PlayerCharacter3d.cs.meta
+#	new file:   MurderMysteryBase/Assets/Scripts/Yarn Spinner/Examples/Demo Assets/images/Thumbs.db
+#	new file:   MurderMysteryBase/Assets/Scripts/Yarn Spinner/Examples/Demo Assets/images/Thumbs.db.meta
+#	modified:   MurderMysteryBase/Assets/Scripts/Yarn Spinner/Examples/Demo Scripts/ExampleDialogueUI.cs
+#	modified:   MurderMysteryBase/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs
+#	deleted:    MurderMysteryBase/Assets/Standard Assets/Effects.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Flares.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Flares/FlareSmall.flare
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Flares/FlareSmall.flare.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Flares/Sun.flare
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Flares/Sun.flare.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Materials.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Materials/Flare50mm.mat.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Textures.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd.meta
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd
+#	new file:   MurderMysteryBase/Assets/Standard Assets/Effects/LightFlares/Textures/FlareStar.psd.meta
+#	new file:   MurderMysteryBase/Assets/UI/InventoryBar.prefab
+#	new file:   MurderMysteryBase/Assets/UI/InventoryBar.prefab.meta
+#	modified:   MurderMysteryBase/ProjectSettings/TagManager.asset
+#	new file:   MurderMysteryBase/References.txt
+#
+
