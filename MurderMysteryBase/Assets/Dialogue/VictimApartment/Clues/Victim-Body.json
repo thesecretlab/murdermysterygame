@@ -1,0 +1,192 @@
+[
+	{
+		"title": "Victim-Body",
+		"tags": "",
+		"body": "Jacob Wright. Looks like his death was pretty brutal\nI should put some gloves on...\n[[Examine Head|Victim-Body.Head]]\n[[Examine Jacket|Victim-Body.Jacket]]\n[[Examine Torso|Victim-Body.Torso]]\n[[Examine Hands|Victim-Body.Hands]]\n[[Examine Legs|Victim-Body.Legs]]\n[[Look around the room some more|Victim-Body.Exit]]",
+		"position": {
+			"x": -36,
+			"y": 0
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Head",
+		"tags": "",
+		"body": "He vomited before he died...\n[[Probably shock|Victim-Body.Conclusion.Shock]]\n[[Maybe he drank too much whisky|Victim-Body.Conclusion.Drunk]]\n[[Hard to say why just yet.|Victim-Body]]",
+		"position": {
+			"x": -161,
+			"y": 469
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Jacket",
+		"tags": "",
+		"body": "There's a fair amount of blood on the jacket.\nBetter check his pockets...\n[[Outside pocket|Victim-Body.Jacket.OutsidePocket]]\n[[Inside pocket|Victim-Body.Jacket.InsidePocket]]\n",
+		"position": {
+			"x": 214,
+			"y": 471
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso",
+		"tags": "",
+		"body": "Geez... There's a lot of blood here....\n[[Examine stomach wound|Victim-Body.Torso.Stomach]]\n[[Examine chest|Victim-Body.Torso.Chest]]",
+		"position": {
+			"x": 870,
+			"y": 484
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Legs",
+		"tags": "",
+		"body": "There's a fair amount of blood here.\nNo wounds though.\n[[Better check his pockets|Victim-Body.Legs.Pockets]]",
+		"position": {
+			"x": 1717,
+			"y": 512
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Hands",
+		"tags": "",
+		"body": "There's a little bit of blood on his hands.\nHe's dropped a whisky glass on the floor.\n[[Wait, there's another glass on the bench...|Victim-Body.Conclusion.Glass]]\n",
+		"position": {
+			"x": 2348,
+			"y": 513
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Exit",
+		"tags": "",
+		"body": "Don't go anywhere Jacob.\n*Chuckles*",
+		"position": {
+			"x": 586,
+			"y": -20
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Conclusion.Shock",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -164,
+			"y": 762
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Conclusion.Drunk",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -410,
+			"y": 763
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Jacket.InsidePocket",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 93,
+			"y": 760
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Jacket.OutsidePocket",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 336,
+			"y": 759
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso.Stomach",
+		"tags": "",
+		"body": "There's a bullet hole in his stomach.\nThe alcohol would have made him bleed out much faster than normal...\n[[Check the entrance wound|Victim-Body.Torso.Stomach.Entrance]]\n[[Check for exit wound|Victim-Body.Torso.Stomach.Exit]]",
+		"position": {
+			"x": 631,
+			"y": 769
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso.Chest",
+		"tags": "",
+		"body": "There's a lot of bruising around the chest...\nHis ribs appear to be broken.\n[[Perhaps it happened when he fell|Victim-Body.Conclusion.Fell]]\n[[[CONTRIVED FOR NOW] He must have been attacked|Victim-Body.Conclusion.Beaten]]",
+		"position": {
+			"x": 1162,
+			"y": 768
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso.Stomach.Entrance",
+		"tags": "",
+		"body": "Entrance wound is pretty large.\nLooks like a high-calibre round...",
+		"position": {
+			"x": 517,
+			"y": 1075
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Torso.Stomach.Exit",
+		"tags": "",
+		"body": "The exit wound is massive.\nA civilian bullet couldn't have left that much of a wound...",
+		"position": {
+			"x": 772,
+			"y": 1078
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Conclusion.Fell",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1070,
+			"y": 1084
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Conclusion.Beaten",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1327,
+			"y": 1075
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-Body.Legs.Pockets",
+		"tags": "",
+		"body": "Nothing but loose change..",
+		"position": {
+			"x": 1723,
+			"y": 795
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Victim-body.Conclusion.Glass",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 2337,
+			"y": 800
+		},
+		"colorID": 0
+	}
+]
