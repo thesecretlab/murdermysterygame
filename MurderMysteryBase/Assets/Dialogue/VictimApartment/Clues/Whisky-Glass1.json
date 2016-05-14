@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Whisky-Glass1",
+		"tags": "",
+		"body": "A glass of whisky.\nHmm. Expensive brand...\n[[Wait a minute. He was holding a glass when he fell.]]<<if visited Victim-Body.hands && not visited Whisky-Glass1.Conclusions>>",
+		"position": {
+			"x": 982,
+			"y": 392
+		},
+		"colorID": 0
+	}
+]

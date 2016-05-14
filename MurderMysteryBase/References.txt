@@ -1,0 +1,8 @@
+In-Game Time Code:
+http://answers.unity3d.com/questions/290291/acceleratedecelerate-custom-game-clock.html
+
+Day Night Cycle Code:
+https://unity3d.com/learn/tutorials/modules/intermediate/graphics/realtime-gi-day-night-cycle
+
+Fuse Fixer:
+https://forums.adobe.com/thread/2065607

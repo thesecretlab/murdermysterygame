@@ -29,6 +29,8 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
+using UnityStandardAssets.Characters.FirstPerson;
+
 
 // Displays dialogue lines to the player, and sends
 // user choices back to the dialogue system.
@@ -66,8 +68,12 @@ namespace Yarn.Unity.Example {
 
 		public RectTransform gameControlsContainer;
 
+		public FirstPersonController firstPersonController;
+
 		void Awake ()
 		{
+			 firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //declare local pointer to the players first person controller object
+
 			// Start by hiding the container, line and option buttons
 			if (dialogueContainer != null)
 				dialogueContainer.SetActive(false);
@@ -178,7 +184,9 @@ namespace Yarn.Unity.Example {
 		public override IEnumerator DialogueStarted ()
 		{
 			Debug.Log ("Dialogue starting!");
-			
+
+			firstPersonController.LockControllerReleaseMouse(true);
+
 			// Enable the dialogue controls.
 			if (dialogueContainer != null)
 				dialogueContainer.SetActive(true);
@@ -204,7 +212,9 @@ namespace Yarn.Unity.Example {
 			if (gameControlsContainer != null) {
 				gameControlsContainer.gameObject.SetActive(true);
 			}
-			
+			//GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().enabled = true;
+			firstPersonController.LockControllerReleaseMouse(false);
+
 			yield break;
 		}
 		
