@@ -9,7 +9,7 @@ public class SetSunLight : MonoBehaviour {
 
 	//public Renderer water;
 
-	public Transform stars;
+	//public Transform stars;
 	//public Transform worldProbe;
 
 	// Use this for initialization
@@ -26,7 +26,7 @@ public class SetSunLight : MonoBehaviour {
 	void Update () 
 	{
 
-		stars.transform.rotation = transform.rotation;
+		//stars.transform.rotation = transform.rotation;
 
 		/*if (Input.GetKeyDown(KeyCode.T))
 	    {
