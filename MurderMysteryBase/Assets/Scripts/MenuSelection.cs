@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class MenuSelection : MonoBehaviour
@@ -13,15 +14,19 @@ public class MenuSelection : MonoBehaviour
         //Currently both options select the map screen, easy to change.
         if (newGame)
         {
-            Application.LoadLevel(1);
+			Debug.Log("Button: New Game");
+			SceneManager.LoadScene("detectivesOffice");
         }
        
         if (options)
         {
-            Application.LoadLevel(1);
+			Debug.Log("Button: Options");
+			SceneManager.LoadScene("murderscene");
+			//SceneManager.LoadScene("optionsScene");
         }
         if (quit)
         {
+			Debug.Log("Button: Quit");
             Application.Quit();
         }
     }

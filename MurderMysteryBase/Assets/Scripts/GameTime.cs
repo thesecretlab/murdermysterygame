@@ -16,6 +16,21 @@ public class GameTime : MonoBehaviour {
 
 	private float secondsPerSecond;
 
+	private static GameTime _instance;
+
+	void Awake()
+	{
+		//if we don't have an [_instance] set yet
+		if (!_instance)
+			_instance = this;
+		//otherwise, if we do, kill this thing
+		else
+			Destroy(this.gameObject);
+
+
+		DontDestroyOnLoad(this.gameObject);
+	}
+
 	void Start()
 	{
 		secondsPerSecond = 1;
@@ -89,9 +104,29 @@ public class GameTime : MonoBehaviour {
 		totalGameSeconds += seconds + (minutes * 60) + (hours * 3600);
 	}
 
+	public string getGameTimeString()
+	{
+		return getGameTimeString(false);
+	}
 
-    public string getGameTimeString()
+    public string getGameTimeString(bool ampm)
     {
-        return string.Format("{0:00}:{1:00}:{2:00}", (int)hour, (int)minute, (int)second);
+		if(ampm)
+		{
+			if (hour < 12)
+			{
+				return string.Format("{0:00}:{1:00}am", (int)hour, (int)minute);
+			}
+			else
+			{
+				return string.Format("{0:00}:{1:00}pm", (int)hour-12, (int)minute);
+			}
+
+		}
+		else
+		{
+			return string.Format("{0:00}:{1:00}:{2:00}", (int)hour, (int)minute, (int)second);
+		}
+        
     }
 }

@@ -6,3 +6,6 @@ https://unity3d.com/learn/tutorials/modules/intermediate/graphics/realtime-gi-da
 
 Fuse Fixer:
 https://forums.adobe.com/thread/2065607
+
+Don't Destroy + DeDupe Code:
+http://answers.unity3d.com/questions/895632/dont-destroy-on-load-return-to-scene-duplicate-mus.html

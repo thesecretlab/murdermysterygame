@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class MapSelection : MonoBehaviour {
@@ -12,15 +13,15 @@ public class MapSelection : MonoBehaviour {
         //to do: scene selection and  maybe game timer?
         if (morgue)
         {
-            Application.LoadLevel(1/*Morgue scene number goes here*/);
+			SceneManager.LoadScene(1/*Morgue scene number goes here*/);
         }
         if (office)
         {
-            Application.LoadLevel(1);
+			SceneManager.LoadScene("detectivesOffice");
         }
         if (murderScene)
         {
-            Application.LoadLevel(1);
+			SceneManager.LoadScene("murderscene");
         }
     }
 }
