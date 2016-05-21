@@ -14,26 +14,32 @@ public class LevelLoadDisplay : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		
+		if(this.GetComponent<UnityEngine.UI.Text>().color.a > 0.0f)
+        {
+            Color textColor = this.GetComponent<UnityEngine.UI.Text>().color;
+            textColor.a -= 0.005f;
+            this.GetComponent<UnityEngine.UI.Text>().color = textColor;
+        }
 	}
 
 	void OnLevelWasLoaded()
 	{
 		string sceneName = SceneManager.GetActiveScene().name;
 		string gameTimeString = GameObject.Find("HUD").GetComponent<GameTime>().getGameTimeString(true);
-
-		switch (sceneName)
+        Color textColor = this.GetComponent<UnityEngine.UI.Text>().color;
+        textColor.a = 1f;
+        
+        switch (sceneName)
 		{
 			case "murderscene":
 				this.GetComponent<UnityEngine.UI.Text>().text = string.Format("Victim's Apartment {0}", gameTimeString);
-				break;
+                break;
 			case "detectivesOffice":
 				this.GetComponent<UnityEngine.UI.Text>().text = string.Format("Detective's Office {0}", gameTimeString);
-				break;
+                break;
 		}
-		Color textColor = this.GetComponent<UnityEngine.UI.Text>().color;
-		textColor.a = 1.0f;
-		this.GetComponent<UnityEngine.UI.Text>().color = textColor;
-		this.GetComponent<UnityEngine.UI.Text>().CrossFadeAlpha(0.0f, 5.0f, false);
-	}
+        this.GetComponent<UnityEngine.UI.Text>().color = textColor;
+    }
+
+
 }
