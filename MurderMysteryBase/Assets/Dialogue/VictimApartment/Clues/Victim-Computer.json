@@ -12,7 +12,7 @@
 	{
 		"title": "Victim-Computer.LoginSuccess",
 		"tags": "",
-		"body": "It logs straight in like they haven't implemented a password minigame or something...\n[[Check emails|Victim-Computer.Emails]] <<if not visited Victim-Computer.Emails>>\n[[Recent files|Victim-Computer.Documents]]<<if not visited Victim-Computer.Documents>>\n[[Internet History|Victim-Computer.Internet]]<<if not visited Victim-Computer.Internet>>",
+		"body": "It logs straight in like they haven't implemented a password minigame or something...\n[[Check emails|Victim-Computer.Emails]] <<if not visited (\"Victim-Computer.Emails\")>>\n[[Recent files|Victim-Computer.Documents]]<<if not visited (\"Victim-Computer.Documents\")>>\n[[Internet History|Victim-Computer.Internet]]<<if not visited (\"Victim-Computer.Internet\")>>",
 		"position": {
 			"x": 1464,
 			"y": 479
