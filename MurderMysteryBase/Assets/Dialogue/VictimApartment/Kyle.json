@@ -2,7 +2,11 @@
 	{
 		"title": "Kyle",
 		"tags": "",
+<<<<<<< HEAD
 		"body": "Hello Kyle.\nI am Detective Awesomesauce. I'm investigating Jacob Wright's death. <<if not visited (\"Kyle.Questions\")>>\nKyle: I see. I am the doorman here, so I see to all the guests and residents coming and going. <<if not visited (\"Kyle.Questions\")>>\nKyle: What do you need, Detective? <<if not visited (\"Kyle.Angry\")>>\nKyle: What do you want? <<if visited (\"Kyle.Angry\")>>\n[[I'd like to ask you some questions|Kyle.Questions]]\n[[Nothing for now|Kyle.Exit]]\n",
+=======
+		"body": "Hello Kyle.\nI am Detective Awesomesauce. I'm investigating Jacob Wright's death. <<if not visited (\"Kyle.Questions\")>>\nKyle: I see. I am the doorman here, so I see to all the guests and residents coming and going. <<if not visited (\"Kyle.Questions\")>>\nKyle: What do you need?\n[[I'd like to ask you some questions|Kyle.Questions]]\n[[Nothing for now|Kyle.Exit]]",
+>>>>>>> origin/dev
 		"position": {
 			"x": 361,
 			"y": 410
@@ -12,7 +16,11 @@
 	{
 		"title": "Kyle.Questions",
 		"tags": "",
+<<<<<<< HEAD
 		"body": "[[I understand you were the one who called the police|Kyle.Call]] <<Not visited (\"Kyle.Call\")>>\n[[What can you tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]] <<Not visited (\"Kyle.KnowVictim\")>>\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]] <<Visited (\"Whisky-Glass1\")>>\n[[Nothing else for now|Kyle.Exit]]",
+=======
+		"body": "[[I understand you were the one who called the police|Kyle.Call]]\n[[What can you tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]]\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]]\n[[Nothing else for now|Kyle.Exit]]\n",
+>>>>>>> origin/dev
 		"position": {
 			"x": 805,
 			"y": 557

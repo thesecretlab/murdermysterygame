@@ -12,7 +12,6 @@ public class HUD : MonoBehaviour {
 	public bool[] slots = new bool[3]; //An array of 4 slots for the inventory
 	public Camera UIcam;
 	public FirstPersonController firstPersonController;
-
 	public Image button1; //A Reference the original button image
 	public Image button2;
 	public Image button3;
@@ -27,7 +26,7 @@ public class HUD : MonoBehaviour {
 	void Start () 
 	{
 		firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //Gets controller for the player and assigns it to a local variable for ease of use
-		inventory.enabled = false; //Set the inventory to false at start of scene
+    	inventory.enabled = false; //Set the inventory to false at start of scene		
 		updateInventory();	
 	}
 	
@@ -41,8 +40,6 @@ public class HUD : MonoBehaviour {
 	 		GameObject myEventSystem = GameObject.Find("EventSystem");
 	 		myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(null);
 			
-
-
 			if(inventory.enabled == false)
 			{
 				firstPersonController.LockControllerReleaseMouse(true); //locks mouse to controller
@@ -54,7 +51,6 @@ public class HUD : MonoBehaviour {
 				inventory.enabled = false;
 				firstPersonController.LockControllerReleaseMouse(false); //releases mouse cursor
 				//firstPersonController.enabled = true;
-
 			}
 		}
 	}
@@ -88,4 +84,3 @@ public class HUD : MonoBehaviour {
 		}
 	}
 }
-

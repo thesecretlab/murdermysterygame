@@ -8,21 +8,42 @@ public class MapSelection : MonoBehaviour {
     public bool office;
     public bool murderScene;
 
+    public GameObject map;
+
+    void Start()
+    {
+        map = GameObject.FindGameObjectWithTag("Map");
+    }
+
+
     void OnMouseUp()
     {
         //to do: scene selection and  maybe game timer?
         if (morgue)
         {
-			SceneManager.LoadScene(1/*Morgue scene number goes here*/);
+            map.GetComponent<MapOpen>().cameraSwitch();
+            if (SceneManager.GetActiveScene().name != "morgue")
+            {
+                SceneManager.LoadScene("morgue"/*Morgue scene name goes here*/);
+            }
         }
         if (office)
         {
-			SceneManager.LoadScene("detectivesOffice");
+            map.GetComponent<MapOpen>().cameraSwitch();
+            if (SceneManager.GetActiveScene().name != "detectivesOffice")
+            {
+                SceneManager.LoadScene("detectivesOffice");
+            }
         }
         if (murderScene)
         {
-			SceneManager.LoadScene("murderscene");
+            map.GetComponent<MapOpen>().cameraSwitch();
+            if (SceneManager.GetActiveScene().name != "murderscene")
+            {
+                SceneManager.LoadScene("murderscene");
+            }
         }
     }
+
 }
 
