@@ -30,7 +30,7 @@ using UnityEngine.Serialization;
 
 namespace Yarn.Unity.Example {
 	public class NPC : MonoBehaviour {
-		
+
 		public string characterName = "";
 
 		[FormerlySerializedAs("startNode")]
@@ -39,19 +39,57 @@ namespace Yarn.Unity.Example {
 		[Header("Optional")]
 		public TextAsset scriptToLoad;
 
-		
-		// Use this for initialization
-		void Start () {
+        public Transform playerPosition;
+
+        public Transform npcPosition;	//Position of the clue object
+
+        public Canvas interaction; //A reference to the Canvas UI Object
+
+        public DialogueUI dialogueUI;
+
+        public float range = 2;
+
+        public bool mouseIsOver = false;
+
+        // Use this for initialization
+        void Start () {
 			if (scriptToLoad != null) {
 				FindObjectOfType<Yarn.Unity.DialogueRunner>().AddScript(scriptToLoad);
 			}
-			
-		}
-		
-		// Update is called once per frame
-		void Update () {
-			
-		}
-	}
+            playerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+            npcPosition = this.GetComponent<Transform>();
+            interaction = GameObject.FindGameObjectWithTag("Interaction").GetComponent<Canvas>();
+            //dialogueUI = GameObject.FindGameObjectWithTag("Dialogue").GetComponent<DialogueUI>();
+            dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
+
+        }
+
+        // Update is called once per frame
+        void Update () {
+            if (dialogueUI.inDialogue)
+            {
+                interaction.enabled = false;
+            }
+            else if (Vector3.Distance(playerPosition.position, npcPosition.position) < range && mouseIsOver)
+            {
+                interaction.enabled = true;
+            }
+            else if (Vector3.Distance(playerPosition.position, npcPosition.position) > range && mouseIsOver)
+            {
+                interaction.enabled = false;
+            }
+        }
+
+        void OnMouseEnter()
+        {
+            mouseIsOver = true;
+        }
+
+        void OnMouseExit()
+        {
+            mouseIsOver = false;
+            interaction.enabled = false;
+        }
+    }
 
 }

@@ -14,9 +14,13 @@ public class clueObjectOutline : MonoBehaviour {
 	public Canvas interaction;
 	public float range = 2;
 
-	void Start()
+    private bool mouseIsOver = false;
+
+    void Start()
 	{
-		interaction.enabled = false;
+        startcolor = GetComponent<Renderer>().material.GetColor("_OutlineColor");
+        interaction = GameObject.FindGameObjectWithTag("Interaction").GetComponent<Canvas>();
+        interaction.enabled = false;
 	}
 
 	void Update()
@@ -27,21 +31,29 @@ public class clueObjectOutline : MonoBehaviour {
 			Player.GetComponent<HUD>().slots[objectNumber] = true;
 			//interaction.enabled = false;
 		}
-	}
+        if (Vector3.Distance(playerPosition.position, cluePosition.position) < range && mouseIsOver)
+        {
+            GetComponent<Renderer>().material.SetColor("_OutlineColor", Color.yellow);
+            GetComponent<Renderer>().material.SetFloat("_Outline width", 1f);
+            interaction.enabled = true;
+        }
+        else if (Vector3.Distance(playerPosition.position, cluePosition.position) > range && mouseIsOver)
+        {
+            GetComponent<Renderer>().material.SetColor("_OutlineColor", startcolor);
+            GetComponent<Renderer>().material.SetFloat("_Outline width", 0.002f);
+            interaction.enabled = false;
+        }
+    }
 
 	void OnMouseEnter()
 	{
-		if(Vector3.Distance(playerPosition.position, cluePosition.position) < range)
-	 	{
-			startcolor = GetComponent<Renderer>().material.GetColor("_OutlineColor");
-			GetComponent<Renderer>().material.SetColor("_OutlineColor", Color.yellow);
-			interaction.enabled = true;
-	 	}
-	}
+        mouseIsOver = true;
+    }
 
 	void OnMouseExit()
 	 {
-		GetComponent<Renderer>().material.SetColor("_OutlineColor", startcolor);
-		interaction.enabled = false;	
-	 }
+        mouseIsOver = false;
+        GetComponent<Renderer>().material.SetColor("_OutlineColor", startcolor);
+        interaction.enabled = false;
+    }
 }
