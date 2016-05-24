@@ -10,9 +10,12 @@ public class MapSelection : MonoBehaviour {
 
     public GameObject map;
 
+	private Color startcolor;	//initial outline color of cube
+
     void Start()
     {
         map = GameObject.FindGameObjectWithTag("Map");
+		startcolor = GetComponent<Renderer>().material.GetColor("_OutlineColor");
     }
 
 
@@ -44,6 +47,18 @@ public class MapSelection : MonoBehaviour {
             }
         }
     }
+
+	void OnMouseEnter()
+	{
+		GetComponent<Renderer>().material.SetColor("_OutlineColor", Color.yellow);
+		GetComponent<Renderer>().material.SetFloat("_Outline width", 1f);
+	}
+
+	void OnMouseExit()
+	{
+		GetComponent<Renderer>().material.SetColor("_OutlineColor", startcolor);
+		GetComponent<Renderer>().material.SetFloat("_Outline width", 0.002f);
+	}
 
 }
 

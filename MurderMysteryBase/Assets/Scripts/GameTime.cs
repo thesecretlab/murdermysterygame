@@ -14,7 +14,9 @@ public class GameTime : MonoBehaviour {
 	public float minute;
 	public float hour;
 
-	private float secondsPerSecond;
+    public bool TimeKeyEnabled = false;
+
+    private float secondsPerSecond;
 
 	private static GameTime _instance;
 
@@ -41,23 +43,23 @@ public class GameTime : MonoBehaviour {
 
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Alpha1))
+		if (Input.GetKeyDown(KeyCode.Alpha1) && TimeKeyEnabled)
 		{
 			secondsPerSecond = 1;
 		}
-		else if (Input.GetKeyDown(KeyCode.Alpha2))
+		else if (Input.GetKeyDown(KeyCode.Alpha2) && TimeKeyEnabled)
 		{
 			secondsPerSecond = 60;
 		}
-		else if (Input.GetKeyDown(KeyCode.Alpha3))
+		else if (Input.GetKeyDown(KeyCode.Alpha3) && TimeKeyEnabled)
 		{
 			secondsPerSecond = 3600;
 		}
-		else if (Input.GetKeyDown(KeyCode.Alpha4))
+		else if (Input.GetKeyDown(KeyCode.Alpha4) && TimeKeyEnabled)
 		{
 			secondsPerSecond = 20000;
 		}
-		else if (Input.GetKeyDown(KeyCode.Alpha5))
+		else if (Input.GetKeyDown(KeyCode.Alpha5) && TimeKeyEnabled)
 		{
 			secondsPerSecond = 86400;
 		}

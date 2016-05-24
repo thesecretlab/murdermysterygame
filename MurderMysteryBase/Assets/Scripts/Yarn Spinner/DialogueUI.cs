@@ -70,7 +70,9 @@ namespace Yarn.Unity.Example {
 
 		public FirstPersonController firstPersonController;
 
-		void Awake ()
+        public bool inDialogue;
+
+        void Awake ()
 		{
 			firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //declare local pointer to the players first person controller object
 
@@ -189,8 +191,9 @@ namespace Yarn.Unity.Example {
 		public override IEnumerator DialogueStarted ()
 		{
 			Debug.Log ("Dialogue starting!");
+            inDialogue = true;
 
-			firstPersonController.LockControllerReleaseMouse(true);
+            firstPersonController.LockControllerReleaseMouse(true);
 
 			// Enable the dialogue controls.
 			if (dialogueContainer != null)
@@ -208,9 +211,9 @@ namespace Yarn.Unity.Example {
 		public override IEnumerator DialogueComplete ()
 		{
 			Debug.Log ("Complete!");
-
-			// Hide the dialogue interface.
-			if (dialogueContainer != null)
+            inDialogue = false;
+            // Hide the dialogue interface.
+            if (dialogueContainer != null)
 				dialogueContainer.SetActive(false);
 
 			// Show the game controls.
