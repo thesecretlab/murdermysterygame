@@ -23,9 +23,9 @@ public class clueObjectOutline : MonoBehaviour {
 	{
 		if(Input.GetKeyDown("e") && Vector3.Distance(playerPosition.position, cluePosition.position) < range ) //if player presses interact hotkey & is in range of clue
 		{
-			clueObject.SetActive(false);
+			//clueObject.SetActive(false);
 			Player.GetComponent<HUD>().slots[objectNumber] = true;
-			interaction.enabled = false;
+			//interaction.enabled = false;
 		}
 	}
 

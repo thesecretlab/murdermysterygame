@@ -1,18 +1,18 @@
 [
 	{
-		"title": "Victim-Computer",
+		"title": "VictimComputer",
 		"tags": "",
-		"body": "The victim's laptop.\n[[Attempt to log on|Victim-Computer.LoginSuccess]]\n[[Step Away]]",
+		"body": "The victim's Computer.\n[[Attempt to log on|VictimComputer.LoginSuccess]]\n[[Step Away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 1440,
+			"x": 1442,
 			"y": 62
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Computer.LoginSuccess",
+		"title": "VictimComputer.LoginSuccess",
 		"tags": "",
-		"body": "It logs straight in like they haven't implemented a password minigame or something...\n[[Check emails|Victim-Computer.Emails]] <<if not visited (\"Victim-Computer.Emails\")>>\n[[Recent files|Victim-Computer.Documents]]<<if not visited (\"Victim-Computer.Documents\")>>\n[[Internet History|Victim-Computer.Internet]]<<if not visited (\"Victim-Computer.Internet\")>>",
+		"body": "It logs straight in like they haven't implemented a password minigame or something...\n<<if visited (\"VictimComputer.Emails\") is false>>\n[[Check emails|VictimComputer.Emails]]\n<<endif>>\n<<if visited (\"VictimComputer.Documents\") is false>>\n[[Recent files|VictimComputer.Documents]]\n<<endif>>\n<<if visited (\"VictimComputer.Internet\") is false>>\n[[Internet History|VictimComputer.Internet]]\n<<endif>>",
 		"position": {
 			"x": 1464,
 			"y": 479
@@ -20,7 +20,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Computer.Emails",
+		"title": "VictimComputer.Emails",
 		"tags": "",
 		"body": "Empty Text",
 		"position": {
@@ -30,7 +30,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Computer.Documents",
+		"title": "VictimComputer.Documents",
 		"tags": "",
 		"body": "Empty Text",
 		"position": {
@@ -40,12 +40,22 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Computer.Internet",
+		"title": "VictimComputer.Internet",
 		"tags": "",
 		"body": "I IMMEDIATELY REGRET THIS DECISION!",
 		"position": {
 			"x": 1903,
 			"y": 849
+		},
+		"colorID": 0
+	},
+	{
+		"title": "VictimComputer.Logoff",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 994,
+			"y": 142
 		},
 		"colorID": 0
 	}

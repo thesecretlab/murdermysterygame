@@ -1,8 +1,8 @@
 [
 	{
-		"title": "Victim-Body",
+		"title": "VictimBody",
 		"tags": "",
-		"body": "Jacob Wright. Looks like his death was pretty brutal\nI should put some gloves on...\n[[Examine Head|Victim-Body.Head]]\n[[Examine Jacket|Victim-Body.Jacket]]\n[[Examine Torso|Victim-Body.Torso]]\n[[Examine Hands|Victim-Body.Hands]]\n[[Examine Legs|Victim-Body.Legs]]\n[[Look around the room some more|Victim-Body.Exit]]",
+		"body": "Jacob Wright. Looks like his death was pretty brutal\nI should put some gloves on...\n[[Examine Head|VictimBody.Head]]\n[[Examine Jacket|VictimBody.Jacket]]\n[[Examine Torso|VictimBody.Torso]]\n[[Examine Hands|VictimBody.Hands]]\n[[Examine Legs|VictimBody.Legs]]\n[[Look around the room some more|VictimBody.Exit]]",
 		"position": {
 			"x": 1325,
 			"y": 332
@@ -10,9 +10,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Head",
+		"title": "VictimBody.Head",
 		"tags": "",
-		"body": "He vomited before he died...\n[[Probably shock|Victim-Body.Conclusion.Shock]]\n[[Maybe he drank too much whisky|Victim-Body.Conclusion.Drunk]]\n[[Hard to say why just yet.|Victim-Body]]",
+		"body": "He vomited before he died...\n[[Probably shock|VictimBody.Conclusion.Shock]]\n[[Maybe he drank too much whisky|VictimBody.Conclusion.Drunk]]\n[[Hard to say why just yet.|VictimBody]]",
 		"position": {
 			"x": 845,
 			"y": 883
@@ -20,9 +20,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Jacket",
+		"title": "VictimBody.Jacket",
 		"tags": "",
-		"body": "There's a fair amount of blood on the jacket.\nI'd better check his pockets...\n[[Outside pocket|Victim-Body.Jacket.OutsidePocket]]\n[[Inside pocket|Victim-Body.Jacket.InsidePocket]]\n[[I'll check later|Victim-Body]]",
+		"body": "There's a fair amount of blood on the jacket.\nI'd better check his pockets...\n[[Outside pocket|VictimBody.Jacket.OutsidePocket]]\n[[Inside pocket|VictimBody.Jacket.InsidePocket]]\n[[I'll check later|VictimBody]]",
 		"position": {
 			"x": 832,
 			"y": 73
@@ -30,9 +30,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Torso",
+		"title": "VictimBody.Torso",
 		"tags": "",
-		"body": "Geez... There's a lot of blood here....\n[[Examine stomach wound|Victim-Body.Torso.Stomach]]\n[[Examine chest|Victim-Body.Torso.Chest]]",
+		"body": "Geez... There's a lot of blood here....\n[[Examine stomach wound|VictimBody.Torso.Stomach]]\n[[Examine chest|VictimBody.Torso.Chest]]",
 		"position": {
 			"x": 1642,
 			"y": 935
@@ -40,9 +40,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Legs",
+		"title": "VictimBody.Legs",
 		"tags": "",
-		"body": "There's a fair amount of blood here.\nNo wounds though.\n[[Check his pockets|Victim-Body.Legs.Pockets]]",
+		"body": "There's a fair amount of blood here.\nNo wounds though.\n[[Check his pockets|VictimBody.Legs.Pockets]]",
 		"position": {
 			"x": 1629,
 			"y": 65
@@ -50,9 +50,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Hands",
+		"title": "VictimBody.Hands",
 		"tags": "",
-		"body": "There's a little bit of blood on his hands.\nHe's dropped a whisky glass on the floor.\n[[Wait, there's another glass on the bench...|Victim-Body.Conclusion.Glass]] <<visited (\"Whiksy-Glass1\")>>\n[[Nothing else worth noting here.|Victim-Body]]",
+		"body": "There's a little bit of blood on his hands.\nHe's dropped a whisky glass on the floor.\n[[Wait, there's another glass on the bench...|VictimBody.Conclusion.Glass]] <<visited (\"Whiksy-Glass1\")>>\n[[Nothing else worth noting here.|VictimBody]]",
 		"position": {
 			"x": 2112,
 			"y": 359
@@ -60,7 +60,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Exit",
+		"title": "VictimBody.Exit",
 		"tags": "",
 		"body": "Don't go anywhere Jacob.\n*Chuckles*",
 		"position": {
@@ -70,9 +70,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Conclusion.Shock",
+		"title": "VictimBody.Conclusion.Shock",
 		"tags": "",
-		"body": "The victim vomited from the shock of his injuries.\n[[Hmm let me rethink this|Victim-Body.Head]]\n[[Sounds good. I'll add this to my report.|Victim-Body.Conclusion.Shock.Confirm]]",
+		"body": "The victim vomited from the shock of his injuries.\n[[Hmm let me rethink this|VictimBody.Head]]\n[[Sounds good. I'll add this to my report.|VictimBody.Conclusion.Shock.Confirm]]",
 		"position": {
 			"x": 686,
 			"y": 1279
@@ -80,9 +80,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Conclusion.Drunk",
+		"title": "VictimBody.Conclusion.Drunk",
 		"tags": "",
-		"body": "The victim was drunk before he died. That's why he vomited.\n[[Hmm let me rethink this|Victim-Body.Head]]\n[[Sounds good. I'll add this to my report.|Victim-Body.Conclusion.Drunk.Confirm]]",
+		"body": "The victim was drunk before he died. That's why he vomited.\n[[Hmm let me rethink this|VictimBody.Head]]\n[[Sounds good. I'll add this to my report.|VictimBody.Conclusion.Drunk.Confirm]]",
 		"position": {
 			"x": 450,
 			"y": 1049
@@ -90,7 +90,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Jacket.InsidePocket",
+		"title": "VictimBody.Jacket.InsidePocket",
 		"tags": "",
 		"body": "His Wallet.\nHmm. Still full of cash.",
 		"position": {
@@ -100,7 +100,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Jacket.OutsidePocket",
+		"title": "VictimBody.Jacket.OutsidePocket",
 		"tags": "",
 		"body": "Lint. Nothing useful here.",
 		"position": {
@@ -110,9 +110,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Torso.Stomach",
+		"title": "VictimBody.Torso.Stomach",
 		"tags": "",
-		"body": "There's a bullet hole in his stomach.\nThe alcohol would have made him bleed out much faster than normal...\n[[Check the entrance wound|Victim-Body.Torso.Stomach.Entrance]]\n[[Check for exit wound|Victim-Body.Torso.Stomach.Exit]]",
+		"body": "There's a bullet hole in his stomach.\nThe alcohol would have made him bleed out much faster than normal...\n[[Check the entrance wound|VictimBody.Torso.Stomach.Entrance]]\n[[Check for exit wound|VictimBody.Torso.Stomach.Exit]]",
 		"position": {
 			"x": 1657,
 			"y": 1213
@@ -120,9 +120,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Torso.Chest",
+		"title": "VictimBody.Torso.Chest",
 		"tags": "",
-		"body": "There's a lot of bruising around the chest...\nHis ribs appear to be broken.\n[[Perhaps it happened when he fell|Victim-Body.Conclusion.Fell]]\n[[[CONTRIVED FOR NOW] He must have been attacked|Victim-Body.Conclusion.Beaten]]",
+		"body": "There's a lot of bruising around the chest...\nHis ribs appear to be broken.\n[[Perhaps it happened when he fell|VictimBody.Conclusion.Fell]]\n[[[CONTRIVED FOR NOW] He must have been attacked|VictimBody.Conclusion.Beaten]]",
 		"position": {
 			"x": 1994,
 			"y": 933
@@ -130,7 +130,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Torso.Stomach.Entrance",
+		"title": "VictimBody.Torso.Stomach.Entrance",
 		"tags": "",
 		"body": "Entrance wound is pretty large.\nLooks like a high-calibre round...",
 		"position": {
@@ -140,7 +140,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Torso.Stomach.Exit",
+		"title": "VictimBody.Torso.Stomach.Exit",
 		"tags": "",
 		"body": "The exit wound is massive.\nA civilian bullet couldn't have left that much of a wound...",
 		"position": {
@@ -150,7 +150,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Conclusion.Fell",
+		"title": "VictimBody.Conclusion.Fell",
 		"tags": "",
 		"body": "Empty Text",
 		"position": {
@@ -160,7 +160,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Conclusion.Beaten",
+		"title": "VictimBody.Conclusion.Beaten",
 		"tags": "",
 		"body": "Empty Text",
 		"position": {
@@ -170,7 +170,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Legs.Pockets",
+		"title": "VictimBody.Legs.Pockets",
 		"tags": "",
 		"body": "Nothing but loose change..",
 		"position": {
@@ -180,7 +180,7 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-body.Conclusion.Glass",
+		"title": "VictimBody.Conclusion.Glass",
 		"tags": "",
 		"body": "",
 		"position": {
@@ -190,9 +190,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Conclusion.Drunk.Confirm",
+		"title": "VictimBody.Conclusion.Drunk.Confirm",
 		"tags": "",
-		"body": "The victim was drunk before he died. That's why he vomited.\n[[Examine Head|Victim-Body.Head]]\n[[Examine Jacket|Victim-Body.Jacket]]\n[[Examine Torso|Victim-Body.Torso]]\n[[Examine Hands|Victim-Body.Hands]]\n[[Examine Legs|Victim-Body.Legs]]\n[[Look around the room some more|Victim-Body.Exit]]",
+		"body": "The victim was drunk before he died. That's why he vomited.\n[[Examine Head|VictimBody.Head]]\n[[Examine Jacket|VictimBody.Jacket]]\n[[Examine Torso|VictimBody.Torso]]\n[[Examine Hands|VictimBody.Hands]]\n[[Examine Legs|VictimBody.Legs]]\n[[Look around the room some more|VictimBody.Exit]]",
 		"position": {
 			"x": 131,
 			"y": 906
@@ -200,9 +200,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Victim-Body.Conclusion.Shock.Confirm",
+		"title": "VictimBody.Conclusion.Shock.Confirm",
 		"tags": "",
-		"body": "The victim went into shock before he died. That's why he vomited.\n[[Examine Head|Victim-Body.Head]]\n[[Examine Jacket|Victim-Body.Jacket]]\n[[Examine Torso|Victim-Body.Torso]]\n[[Examine Hands|Victim-Body.Hands]]\n[[Examine Legs|Victim-Body.Legs]]\n[[Look around the room some more|Victim-Body.Exit]]",
+		"body": "The victim went into shock before he died. That's why he vomited.\n[[Examine Head|VictimBody.Head]]\n[[Examine Jacket|VictimBody.Jacket]]\n[[Examine Torso|VictimBody.Torso]]\n[[Examine Hands|VictimBody.Hands]]\n[[Examine Legs|VictimBody.Legs]]\n[[Look around the room some more|VictimBody.Exit]]",
 		"position": {
 			"x": 833,
 			"y": 1678
