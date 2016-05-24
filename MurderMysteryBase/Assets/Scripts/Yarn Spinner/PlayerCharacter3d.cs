@@ -39,6 +39,7 @@ namespace Yarn.Unity.Example {
         public GameObject map;
         public GameObject Player;
         public GameObject door;
+		public DoorCode doorCode;
         public Transform doorPosition;  //Position of the clue object
         public Transform playerPosition;
         
@@ -47,7 +48,8 @@ namespace Yarn.Unity.Example {
         {
             map = GameObject.FindGameObjectWithTag("Map");
             Player = GameObject.FindGameObjectWithTag("Player");
-            door = GameObject.FindGameObjectWithTag("Door");
+			door = GameObject.FindGameObjectWithTag("Door");
+            doorCode = GameObject.FindObjectOfType<DoorCode>();
             playerPosition = Player.transform;
             doorPosition = door.transform;
         }
@@ -89,9 +91,9 @@ namespace Yarn.Unity.Example {
 
         public void CheckForNearbyDoor()
         {
-           if(Vector3.Distance(playerPosition.position, doorPosition.position) < interactionRadius)
+           if(Vector3.Distance(playerPosition.position, doorPosition.position) < (interactionRadius)&&doorCode.GetComponent<DoorCode>().mouseIsOver)
            {
-                Debug.Log("Open Map");
+                //Debug.Log("Open Map");
                 map.GetComponent<MapOpen>().cameraSwitch();
            }
         }
