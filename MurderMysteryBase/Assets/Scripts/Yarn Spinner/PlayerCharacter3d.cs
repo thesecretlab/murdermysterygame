@@ -82,9 +82,12 @@ namespace Yarn.Unity.Example {
 				.magnitude <= interactionRadius;
 			});
 			if (target != null) {
-				// Kick off the dialogue at this node.
-				FindObjectOfType<DialogueRunner> ().StartDialogue (target.talkToNode);
-				Player.GetComponent<FirstPersonController>().enabled = false;
+                // Kick off the dialogue at this node.
+                if (target.mouseIsOver)
+                {
+                    FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
+                    Player.GetComponent<FirstPersonController>().enabled = false;
+                }
 
 			}
 		}

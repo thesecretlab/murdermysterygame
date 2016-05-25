@@ -2,7 +2,7 @@
 	{
 		"title": "Kyle",
 		"tags": "",
-		"body": "Hello Kyle.\n<<if visited (\"Kyle.Questions\") is false>>\nI am Detective Awesomesauce. I'm investigating Jacob Wright's death.\nKyle: I see. I am the doorman here, so I see to all the guests and residents coming and going.\n<<endif>>\n<<if visited (\"Kyle.Angry\") is false>>\nKyle: What do you need, Detective? \n<<else>>\nKyle: What do you want?\n<<endif>>\n[[I'd like to ask you some questions|Kyle.Questions]]\n[[Nothing for now|Kyle.Exit]]\n",
+		"body": "Hello Kyle.\n<<if visited (\"Kyle.Questions\") is false>>\nI am Detective Schmidt. I'm investigating Jacob Wright's death.\nKyle: I see. I am the doorman here, so I see to all the guests and residents coming and going.\n<<endif>>\n<<if visited (\"Kyle.Angry\") is false>>\nKyle: What do you need, Detective? \n<<else>>\nKyle: What do you want?\n<<endif>>\n[[I'd like to ask you some questions|Kyle.Questions]]\n[[Nothing for now|Kyle.Exit]]\n",
 		"position": {
 			"x": 359,
 			"y": 410

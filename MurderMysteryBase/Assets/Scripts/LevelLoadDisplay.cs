@@ -17,7 +17,7 @@ public class LevelLoadDisplay : MonoBehaviour {
 		if(this.GetComponent<UnityEngine.UI.Text>().color.a > 0.0f)
         {
             Color textColor = this.GetComponent<UnityEngine.UI.Text>().color;
-            textColor.a -= 0.005f;
+            textColor.a -= 0.0025f;
             this.GetComponent<UnityEngine.UI.Text>().color = textColor;
         }
 	}

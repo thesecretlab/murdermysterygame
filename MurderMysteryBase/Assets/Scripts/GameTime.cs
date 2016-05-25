@@ -64,7 +64,13 @@ public class GameTime : MonoBehaviour {
 			secondsPerSecond = 86400;
 		}
 
-		totalGameSeconds += secondsPerSecond * Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+
+        totalGameSeconds += secondsPerSecond * Time.deltaTime;
 
 		seconds = totalGameSeconds;
 		minutes = totalGameSeconds / 60;

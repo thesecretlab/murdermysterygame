@@ -12,6 +12,8 @@ public class MapOpen : MonoBehaviour
 
     private static MapOpen _instance;
 
+    public bool mapKeyEnabled = false;
+
     void Awake()
     {
         //if we don't have an [_instance] set yet
@@ -37,7 +39,7 @@ public class MapOpen : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M)&& mapKeyEnabled)
         {
             cameraSwitch();
         }
