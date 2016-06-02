@@ -1,0 +1,42 @@
+[
+	{
+		"title": "FingerprintsDoor",
+		"tags": "",
+		"body": "The door has been used multiple times.\nI should still check for fingerprints.\n[[Dust for prints on the outside|FingerprintsDoor.DustOut]]\n[[Dust for prints on the inside|FingerprintsDoor.DustIn]]\n[[Maybe Later|FingerprintsDoor.Exit]]",
+		"position": {
+			"x": 405,
+			"y": 129
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FingerprintsDoor.DustOut",
+		"tags": "",
+		"body": "There are so many different prints here..\nI count at least 20 different sets..\n[[Record them all anyway. It might be useful|fingerprintsDoor.Exit]]\n[[A waste of time..|fingerprintsDoor.Exit]]",
+		"position": {
+			"x": 244,
+			"y": 410
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FingerprintsDoor.Dustin",
+		"tags": "",
+		"body": "There are four sets of prints here.\n[[Document them|fingerprintsDoor.Exit]]\n[[Leave them be for now|fingerprintsDoor.Exit]]",
+		"position": {
+			"x": 571,
+			"y": 415
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FingerprintsDoor.Exit",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 845,
+			"y": 173
+		},
+		"colorID": 0
+	}
+]

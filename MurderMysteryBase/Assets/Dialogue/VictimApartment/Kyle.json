@@ -1,0 +1,122 @@
+[
+	{
+		"title": "Kyle",
+		"tags": "",
+		"body": "Hello Kyle.\n<<if visited (\"Kyle.Questions\") is false>>\nI am Detective Schmidt. I'm investigating Jacob Wright's death.\nKyle: I see. I am the doorman here, so I see to all the guests and residents coming and going.\n<<endif>>\n<<if visited (\"Kyle.Angry\") is false>>\nKyle: What do you need, Detective? \n<<else>>\nKyle: What do you want?\n<<endif>>\n[[I'd like to ask you some questions|Kyle.Questions]]\n[[Nothing for now|Kyle.Exit]]\n",
+		"position": {
+			"x": 359,
+			"y": 410
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.Questions",
+		"tags": "",
+		"body": "<<if visited (\"Kyle.Call\") is false>>\n[[I understand you were the one who called the police|Kyle.Call]]\n<<endif>>\n<<if visited (\"Kyle.KnowVictim\") is false>>\n[[What can you tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]]\n<<endif>>\n<<if visited (\"Whisky-Glass1\") is true>>\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]]\n<<endif>>\n[[Nothing else for now|Kyle.Exit]]",
+		"position": {
+			"x": 803,
+			"y": 558
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.Exit",
+		"tags": "",
+		"body": "<<if visited (\"Kyle.Angry\") is false>>\nKyle: Okay, I'll wait here.\n<<else>>\nKyle: Whatever.\n<<endif>>",
+		"position": {
+			"x": 1134,
+			"y": 35
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.KnowVictim",
+		"tags": "",
+		"body": "Kyle: Didn’t know Mr. Wright all that well sorry. Conversation rarely went beyond the usual pleasantries.\r\nKyle: He tipped well when the need arose. He was forever bringing good looking women back, subtlety was never his style.\r\nWas he with one of these women tonight? [[Kyle.WithWoman]]\r\nDo you know anyone that would want to kill Mr. Wright? [[Kyle.MurderSuspects]]\r\n",
+		"position": {
+			"x": 360,
+			"y": 855
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.WithWoman",
+		"tags": "",
+		"body": "Kyle: Not that I saw, if I recall correctly his latest squeeze was Nora Hastings.\nKyle: Some sort of model I think, whatever kind of job that is...\n<<if visited (\"Kyle.Call\") is false>>\n[[I understand you were the one who called the police|Kyle.Call]]\n<<endif>>\n<<if visited (\"Whisky-Glass1\") is true>>\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]]\n<<endif>>\n[[Nothing else for now|Kyle.Exit]]",
+		"position": {
+			"x": 247,
+			"y": 1239
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.MurderSuspects",
+		"tags": "",
+		"body": "Kyle: I’m sorry detective. I just stand here watching those richer than me go through a door.\r\nKyle: The last thing I want to do when I get home is research them.\r\n<<if visited (\"Kyle.Call\") is false>>\r\n[[I understand you were the one who called the police|Kyle.Call]]\r\n<<endif>>\r\n<<if visited (\"Whisky-Glass1\") is true>>\r\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]]\r\n<<endif>>\r\n[[Nothing else for now|Kyle.Exit]]",
+		"position": {
+			"x": 546,
+			"y": 1251
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.Call",
+		"tags": "",
+		"body": "Kyle: That’s right, Lola found Mr. Wright in his apartment then came straight to me. I called the police immediately.\r\n[[Why would Lola come to you first instead of calling the police?|Kyle.Angry]]\r\n<<if visited (\"Kyle.Angry\") is false>>\r\n[[How did Lola seem when she alerted you to the body?|Kyle.Body]]\r\n<<endif>>\r\n[[Thanks Kyle, nothing else for now|Kyle.Exit]]",
+		"position": {
+			"x": 1223,
+			"y": 920
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.Angry",
+		"tags": "",
+		"body": "Kyle: Look, I don’t know what you’re trying to insinuate but Lola’s a good girl.\nKyle: She’s only new here, she didn’t want to get into trouble so she came to me first.\nKyle: Now do you have any more questions, or can I go?\n[[ I’m just doing my job Mr. Gordon. How did Lola seem when she alerted you to the body?|Kyle.Body]]\n<<if visited (\"Kyle.KnowVictim\") is false>>\n[[What can you tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]]\n<<endif>>\n<<if visited (\"Whisky-Glass1\") is true>>\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]]\n<<endif>>\n[[Not just yet. I'll be back with more questions.|Kyle.Exit]]",
+		"position": {
+			"x": 1067,
+			"y": 1257
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.Body",
+		"tags": "",
+		"body": "<<if visited (\"Kyle.Angry\") is true>>\r\nKyle: She seemed scared and close to tears, how do you think the poor girl seemed?\r\n<<endif>>\r\n<<if visited (\"Kyle.Angry\") is true>>\r\nKyle: If you don’t have anymore questions I think I’m about done talking.\r\n<<endif>>\r\n<<if visited (\"Kyle.Angry\") is false>>\r\nKyle: She seemed scared and close to tears. I think it was quite a shock for her. \r\n<<endif>>\r\n<<if visited (\"Kyle.KnowVictim\") is false>>\r\n[[What can you tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]]\r\n<<endif>>\r\n<<if visited (\"Whisky-Glass1\")is true>>\r\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]]\r\n<<endif>>\r\n[[Nothing else for now|Kyle.Exit]]",
+		"position": {
+			"x": 1373,
+			"y": 1261
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.SawRutledge",
+		"tags": "",
+		"body": "Kyle: Hmm... his old business partner Logan Rutledge came around at 5:45pm.\r\nKyle: Left at about 7. Don’t remember anyone else visiting today but I was on break from 6 to 6:30. \r\n[[Does Mr. Rutledge visit often?|Kyle.RutledgeVisit]]\r\n[[How did he seem when you saw him leave?|Kyle.RutledgeMood]]",
+		"position": {
+			"x": 1872,
+			"y": 632
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.RutledgeVisit",
+		"tags": "",
+		"body": "Kyle: He definitely was one of Mr. Wright’s more frequent male visitors.\r\nKyle: He used to come around at least once a week.\r\n<<if visited (\"Kyle.RutledgeMood\") is false>>\r\n[[How did he seem when you saw him leave?|Kyle.RutledgeMood]] \r\n<<endif>>\r\n<<if visited (\"Kyle.Call\") is false>>\r\n[[I understand you were the one who called the police|Kyle.Call]]\r\n<<endif>>\r\n<<if visited (\"Kyle.KnowVictim\") is false>>\r\n[[What can you tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]]\r\n<<endif>>\r\n[[Nothing else for now|Kyle.Exit]]",
+		"position": {
+			"x": 1737,
+			"y": 1094
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Kyle.RutledgeMood",
+		"tags": "",
+		"body": "Kyle: It's hard to say with that man.\nKyle: He was walking like he was in a hurry though...\n<<if visited (\"Kyle.RutledgeVisit\") is false>>\n[[Does Mr. Rutledge visit often?|Kyle.RutledgeVisit]] \n<<endif>>\n<<if visited (\"Kyle.Call\") is false>>\n[[I understand you were the one who called the police|Kyle.Call]]\n<<endif>>\n<<if visited (\"Kyle.KnowVictim\")is false>>\n[[What can you tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]]\n<<endif>>\n[[Nothing else for now|Kyle.Exit]]",
+		"position": {
+			"x": 2052,
+			"y": 1096
+		},
+		"colorID": 0
+	}
+]
