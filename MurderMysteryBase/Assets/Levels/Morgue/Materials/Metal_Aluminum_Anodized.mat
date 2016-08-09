@@ -108,7 +108,7 @@ Material:
       data:
         first:
           name: _Outline
-        second: 0.01
+        second: 0.005
       data:
         first:
           name: _Parallax
