@@ -6626,7 +6626,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &258324095
 GameObject:
   m_ObjectHideFlags: 0
@@ -21154,7 +21154,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10896518, guid: 396625a1afe3b8340b2bf9786f2739f2, type: 2}
       propertyPath: m_Intensity
-      value: 0.7
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 10896518, guid: 396625a1afe3b8340b2bf9786f2739f2, type: 2}
       propertyPath: m_BounceIntensity
@@ -31228,7 +31228,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10896518, guid: 396625a1afe3b8340b2bf9786f2739f2, type: 2}
       propertyPath: m_BounceIntensity
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 496526, guid: 396625a1afe3b8340b2bf9786f2739f2, type: 2}
       propertyPath: m_LocalPosition.x
@@ -31541,6 +31541,48 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1337281706}
   m_Mesh: {fileID: 4300818, guid: 17daed2a2b998a945a698b3d6f03f67b, type: 3}
+--- !u!1001 &1338274736
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414624, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -53.971
+      objectReference: {fileID: 0}
+    - target: {fileID: 414624, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 87.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 414624, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -59.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 414624, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414624, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 414624, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414624, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000016292068
+      objectReference: {fileID: 0}
+    - target: {fileID: 414624, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 66c955f66d7552045877781f5245d090, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1338494842
 GameObject:
   m_ObjectHideFlags: 0
@@ -35620,7 +35662,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10896518, guid: 396625a1afe3b8340b2bf9786f2739f2, type: 2}
       propertyPath: m_BounceIntensity
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 496526, guid: 396625a1afe3b8340b2bf9786f2739f2, type: 2}
       propertyPath: m_LocalPosition.x
@@ -45117,7 +45159,7 @@ Transform:
   - {fileID: 1392263372}
   - {fileID: 2137037053}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &1878278502
 GameObject:
   m_ObjectHideFlags: 0
@@ -45657,7 +45699,7 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 0.99215686, g: 0.9137255, b: 0.7490196, a: 1}
-  m_Intensity: 0.4
+  m_Intensity: 2
   m_Range: 4.5676537
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -45691,7 +45733,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &1918127860
 GameObject:
   m_ObjectHideFlags: 0
@@ -47851,7 +47893,7 @@ Light:
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 0.99215686, g: 0.9137255, b: 0.7490196, a: 1}
-  m_Intensity: 0.4
+  m_Intensity: 2
   m_Range: 4.5676537
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -47885,7 +47927,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &1993639931
 GameObject:
   m_ObjectHideFlags: 0

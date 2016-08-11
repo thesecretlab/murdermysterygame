@@ -48,6 +48,12 @@ namespace Yarn.Unity.Example {
 		// This object will be enabled when conversation starts, and
 		// disabled when it ends.
 		public GameObject dialogueContainer;
+
+
+		public Image textBackground;
+		
+	
+	
 		
 		// The UI element that displays lines
 		public Text lineText;
@@ -75,10 +81,17 @@ namespace Yarn.Unity.Example {
         void Awake ()
 		{
 			firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //declare local pointer to the players first person controller object
+			
+			Color temp = textBackground.color;
+			temp.a=0.4f;
+			textBackground.color=temp;
 
 			// Start by hiding the container, line and option buttons
 			if (dialogueContainer != null)
 				dialogueContainer.SetActive(false);
+				textBackground.enabled = false;
+				
+				
 			
 			lineText.gameObject.SetActive (false);
 			
@@ -198,6 +211,9 @@ namespace Yarn.Unity.Example {
 			// Enable the dialogue controls.
 			if (dialogueContainer != null)
 				dialogueContainer.SetActive(true);
+				textBackground.enabled = true;
+
+
 
 			// Hide the game controls.
 			if (gameControlsContainer != null) {
@@ -215,6 +231,8 @@ namespace Yarn.Unity.Example {
             // Hide the dialogue interface.
             if (dialogueContainer != null)
 				dialogueContainer.SetActive(false);
+				textBackground.enabled = false;
+
 
 			// Show the game controls.
 			if (gameControlsContainer != null) {
