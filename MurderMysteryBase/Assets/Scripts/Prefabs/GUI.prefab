@@ -273,11 +273,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 22433298}
+  - 225: {fileID: 22560632}
   - 222: {fileID: 22208292}
   - 114: {fileID: 11482348}
   m_Layer: 5
   m_Name: Reticle
-  m_TagString: Untagged
+  m_TagString: Reticle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1055,6 +1056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapKeyEnabled: 1
+  ignoreLocation: 0
   Player: {fileID: 0}
   MapObject: {fileID: 0}
 --- !u!114 &11499184
@@ -1516,6 +1518,17 @@ CanvasGroup:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121638}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 1
+--- !u!225 &22560632
+CanvasGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183726}
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1

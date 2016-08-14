@@ -11,6 +11,7 @@ TagManager:
   - Dialogue
   - Inventory
   - GUI
+  - Reticle
   layers:
   - Default
   - TransparentFX

@@ -3217,6 +3217,10 @@ Prefab:
       propertyPath: ignoreLocation
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 22560632, guid: 7227ec274623ee44dbad64e44b0482bd, type: 2}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7227ec274623ee44dbad64e44b0482bd, type: 2}
   m_IsPrefabParent: 0

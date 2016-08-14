@@ -50,6 +50,8 @@ namespace Yarn.Unity.Example {
 
         public GameObject inventory;
 
+        public GameObject reticle;
+
         public DialogueUI dialogueUI;
 
         public float range = 2;
@@ -77,6 +79,8 @@ namespace Yarn.Unity.Example {
 
             inventory = GameObject.FindGameObjectWithTag("Inventory");
 
+            reticle = GameObject.FindGameObjectWithTag("Reticle");
+
             //dialogueUI = GameObject.FindGameObjectWithTag("Dialogue").GetComponent<DialogueUI>();
             dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
 
@@ -92,6 +96,7 @@ namespace Yarn.Unity.Example {
                 }
                 //interactionButton.SetActive(false);
                 interactionButton.GetComponent<CanvasGroup>().alpha = 0;
+                reticle.GetComponent<CanvasGroup>().alpha = 1;
             }
             else if (Vector3.Distance(playerPosition.position, npcPosition.position) < range && mouseIsOver)
             {
@@ -102,6 +107,7 @@ namespace Yarn.Unity.Example {
                 }
                 //interactionButton.SetActive(true);
                 interactionButton.GetComponent<CanvasGroup>().alpha = 1;
+                reticle.GetComponent<CanvasGroup>().alpha = 0;
             }
             else if (Vector3.Distance(playerPosition.position, npcPosition.position) > range && mouseIsOver)
             {
@@ -112,6 +118,7 @@ namespace Yarn.Unity.Example {
                 }
                 //interactionButton.SetActive(false);
                 interactionButton.GetComponent<CanvasGroup>().alpha = 0;
+                reticle.GetComponent<CanvasGroup>().alpha = 1;
             }
         }
 
@@ -129,6 +136,7 @@ namespace Yarn.Unity.Example {
             }
             //interactionButton.SetActive(false);
             interactionButton.GetComponent<CanvasGroup>().alpha = 0;
+            reticle.GetComponent<CanvasGroup>().alpha = 1;
         }
     }
 
