@@ -7,8 +7,10 @@ TagManager:
   - Map
   - MapCamera
   - Door
-  - Interaction
+  - InteractionButton
   - Dialogue
+  - Inventory
+  - GUI
   layers:
   - Default
   - TransparentFX

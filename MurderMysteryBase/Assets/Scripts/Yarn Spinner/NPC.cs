@@ -30,6 +30,7 @@ using UnityEngine.Serialization;
 
 namespace Yarn.Unity.Example {
 	public class NPC : MonoBehaviour {
+        public int objectNumber; 	//the slot number of clue in inventory
 
 		public string characterName = "";
 
@@ -39,11 +40,15 @@ namespace Yarn.Unity.Example {
 		[Header("Optional")]
 		public TextAsset scriptToLoad;
 
+        public GameObject player;
+
         public Transform playerPosition;
 
         public Transform npcPosition;	//Position of the clue object
 
-        public Canvas interaction; //A reference to the Canvas UI Object
+        public GameObject interactionButton;
+
+        public GameObject inventory;
 
         public DialogueUI dialogueUI;
 
@@ -51,14 +56,27 @@ namespace Yarn.Unity.Example {
 
         public bool mouseIsOver = false;
 
+        public bool isClueObject = false;
+
+        private Color startcolor;	//initial outline color of cube
+
         // Use this for initialization
         void Start () {
+            if (isClueObject) {
+                startcolor = GetComponent<Renderer>().material.GetColor("_OutlineColor");
+            }
 			if (scriptToLoad != null) {
 				FindObjectOfType<Yarn.Unity.DialogueRunner>().AddScript(scriptToLoad);
 			}
-            playerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+            player = GameObject.FindGameObjectWithTag("Player");
+            playerPosition = player.GetComponent<Transform>();
+            
             npcPosition = this.GetComponent<Transform>();
-            interaction = GameObject.FindGameObjectWithTag("Interaction").GetComponent<Canvas>();
+
+            interactionButton = GameObject.FindGameObjectWithTag("InteractionButton");
+
+            inventory = GameObject.FindGameObjectWithTag("Inventory");
+
             //dialogueUI = GameObject.FindGameObjectWithTag("Dialogue").GetComponent<DialogueUI>();
             dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
 
@@ -68,15 +86,32 @@ namespace Yarn.Unity.Example {
         void Update () {
             if (dialogueUI.inDialogue)
             {
-                interaction.enabled = false;
+                if (isClueObject)
+                {
+                    inventory.GetComponent<HUD>().slots[objectNumber] = true;
+                }
+                //interactionButton.SetActive(false);
+                interactionButton.GetComponent<CanvasGroup>().alpha = 0;
             }
             else if (Vector3.Distance(playerPosition.position, npcPosition.position) < range && mouseIsOver)
             {
-                interaction.enabled = true;
+                if (isClueObject)
+                {
+                    GetComponent<Renderer>().material.SetColor("_OutlineColor", Color.yellow);
+                    GetComponent<Renderer>().material.SetFloat("_Outline width", 1f);
+                }
+                //interactionButton.SetActive(true);
+                interactionButton.GetComponent<CanvasGroup>().alpha = 1;
             }
             else if (Vector3.Distance(playerPosition.position, npcPosition.position) > range && mouseIsOver)
             {
-                interaction.enabled = false;
+                if (isClueObject)
+                {
+                    GetComponent<Renderer>().material.SetColor("_OutlineColor", startcolor);
+                    GetComponent<Renderer>().material.SetFloat("_Outline width", 0.002f);
+                }
+                //interactionButton.SetActive(false);
+                interactionButton.GetComponent<CanvasGroup>().alpha = 0;
             }
         }
 
@@ -88,7 +123,12 @@ namespace Yarn.Unity.Example {
         void OnMouseExit()
         {
             mouseIsOver = false;
-            interaction.enabled = false;
+            if (isClueObject)
+            {
+                GetComponent<Renderer>().material.SetColor("_OutlineColor", startcolor);
+            }
+            //interactionButton.SetActive(false);
+            interactionButton.GetComponent<CanvasGroup>().alpha = 0;
         }
     }
 

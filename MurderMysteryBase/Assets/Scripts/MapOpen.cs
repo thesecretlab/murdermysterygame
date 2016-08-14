@@ -2,38 +2,24 @@
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.Characters.FirstPerson;
 using System.Collections;
+using Yarn.Unity;
 
 public class MapOpen : MonoBehaviour
 {
-    public Camera FPSCamera;
-    public Camera MapCamera;
 
-    public FirstPersonController firstPersonController;
+    public bool mapKeyEnabled = true;
 
-    private static MapOpen _instance;
+    public bool ignoreLocation = false;
 
-    public bool mapKeyEnabled = false;
+    public GameObject Player;
 
-    void Awake()
-    {
-        //if we don't have an [_instance] set yet
-        if (!_instance)
-            _instance = this;
-        //otherwise, if we do, kill this thing
-        else
-            Destroy(this.gameObject);
+    public GameObject MapObject;
 
-
-        DontDestroyOnLoad(this.gameObject);
-    }
 
     void Start()
     {
-        firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //declare local pointer to the players first person controller object
-        FPSCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-        MapCamera = GameObject.FindGameObjectWithTag("MapCamera").GetComponent<Camera>();
-        FPSCamera.enabled = true;
-        MapCamera.enabled = false;
+        Player = GameObject.FindGameObjectWithTag("Player");
+        MapObject = GameObject.FindGameObjectWithTag("Map");
     }
 
 
@@ -41,24 +27,46 @@ public class MapOpen : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.M)&& mapKeyEnabled)
         {
-            cameraSwitch();
+            FindObjectOfType<DialogueRunner>().StartDialogue("MapDialogue");
+            Player.GetComponent<FirstPersonController>().enabled = false;
         }
     }
 
-    public void cameraSwitch()
+    [YarnCommand("loadLevel")]
+    public void loadlLevel(string levelName)
     {
-        FPSCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-        MapCamera = GameObject.FindGameObjectWithTag("MapCamera").GetComponent<Camera>();
-        FPSCamera.enabled = !FPSCamera.enabled;
-        MapCamera.enabled = !MapCamera.enabled;
-        firstPersonController.LockControllerReleaseMouse(MapCamera.enabled);
+        Debug.Log("Loading level");
+        Debug.Log(levelName);
+        if (levelName == "morgue")
+        {
+            if (SceneManager.GetActiveScene().name != "morgue"||ignoreLocation==true)
+            {
+                SceneManager.LoadScene("morgue"/*Morgue scene name goes here*/);
+            }
+        }
+        if (levelName == "office")
+        {
+            if (SceneManager.GetActiveScene().name != "detectivesOffice" || ignoreLocation == true)
+            {
+                SceneManager.LoadScene("detectivesOffice");
+            }
+        }
+        if (levelName == "murderscene")
+        {
+            if (SceneManager.GetActiveScene().name != "murderscene" || ignoreLocation == true)
+            {
+                SceneManager.LoadScene("murderscene");
+            }
+        }
+        if (levelName == "testscene")
+        {
+            if (SceneManager.GetActiveScene().name != "Character Test Chamber" || ignoreLocation == true)
+            {
+                SceneManager.LoadScene("Character Test Chamber");
+            }
+        }
     }
+    
 
-    void OnLevelWasLoaded(int level)
-    {
-        firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //declare local pointer to the players first person controller object
-        FPSCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-        MapCamera = GameObject.FindGameObjectWithTag("MapCamera").GetComponent<Camera>();
-    }
 }
 

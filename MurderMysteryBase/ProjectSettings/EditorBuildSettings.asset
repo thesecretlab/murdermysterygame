@@ -11,3 +11,5 @@ EditorBuildSettings:
     path: Assets/Levels/DetectivesOffice/detectivesOffice.unity
   - enabled: 1
     path: Assets/Levels/murderscene/murderscene.unity
+  - enabled: 1
+    path: Assets/Levels/TestLevels/Character Test Chamber/Character Test Chamber.unity
