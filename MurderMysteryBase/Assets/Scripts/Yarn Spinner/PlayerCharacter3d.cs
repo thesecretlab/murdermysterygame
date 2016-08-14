@@ -51,7 +51,10 @@ namespace Yarn.Unity.Example {
 			door = GameObject.FindGameObjectWithTag("Door");
             doorCode = GameObject.FindObjectOfType<DoorCode>();
             playerPosition = Player.transform;
-            doorPosition = door.transform;
+            if (door != null)
+            {
+                doorPosition = door.transform;
+            }
         }
 
         // Update is called once per frame
@@ -66,7 +69,10 @@ namespace Yarn.Unity.Example {
 			if (Input.GetKeyDown(KeyCode.E)) {
 
 				CheckForNearbyNPC();
-                CheckForNearbyDoor();
+                if (door != null)
+                {
+                    CheckForNearbyDoor();
+                }
                 //transform.position = playerController.transform.position;
             }
 		}
@@ -97,7 +103,10 @@ namespace Yarn.Unity.Example {
            if(Vector3.Distance(playerPosition.position, doorPosition.position) < (interactionRadius)&&doorCode.GetComponent<DoorCode>().mouseIsOver)
            {
                 //Debug.Log("Open Map");
-                map.GetComponent<MapOpen>().cameraSwitch();
+                if (map != null)
+                {
+                    map.GetComponent<MapOpen>().cameraSwitch();
+                }
            }
         }
     }
