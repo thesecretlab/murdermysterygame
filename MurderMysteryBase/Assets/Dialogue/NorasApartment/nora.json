@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Nora",
+		"tags": "",
+		"body": "<<if visited (\"Nora\") is false>>\nHello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n<<else>>\nYes, Detective?\n<<endif>>\n",
+		"position": {
+			"x": 270,
+			"y": -335
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nora.Greet.Avoiding",
+		"tags": "",
+		"body": "Hello Detective.\nI'm sorry, but I'm very busy right now. Can this wait?\n[[I'm sorry, but this is urgent. It's about Jacob Wright|Nora.Greet.Jacob]]\n[[I'm running out of patience, Miss Hastings. Open the door|Nora.Greet.Scared]]",
+		"position": {
+			"x": 45,
+			"y": -59
+		},
+		"colorID": 4
+	},
+	{
+		"title": "Nora.Greet.Cautious",
+		"tags": "",
+		"body": "...\nAlright then, let me unlock the door.",
+		"position": {
+			"x": 313,
+			"y": -66
+		},
+		"colorID": 2
+	},
+	{
+		"title": "Nora.Greet.Scared",
+		"tags": "",
+		"body": "Alright! Fine. Sheesh...",
+		"position": {
+			"x": 306,
+			"y": 200
+		},
+		"colorID": 2
+	},
+	{
+		"title": "Nora.Greet.Jacob",
+		"tags": "",
+		"body": "I'll save you some time. He's a bastard, and we're not seeing each other anymore.\nHe can rot in hell for all I care.\n[[Funny you should say that. I'm investigating Jacob's death|Nora.Greet.Avoid2]]\n[[Please Miss Hastings, I'd rather not have this conversation through a door|Nora.Greet.Willing]]",
+		"position": {
+			"x": 40,
+			"y": 193
+		},
+		"colorID": 4
+	},
+	{
+		"title": "Nora.Greet.Willing",
+		"tags": "",
+		"body": "Ugh. Fine. But make it quick.",
+		"position": {
+			"x": 308,
+			"y": 459
+		},
+		"colorID": 2
+	},
+	{
+		"title": "Nora.Greet.Avoid2",
+		"tags": "",
+		"body": "Listen, I've told you everything I know.\nJust leave me alone.\n[[I've had about enough of this. Open the door!|Nora.Greet.Scared]]",
+		"position": {
+			"x": 39,
+			"y": 461
+		},
+		"colorID": 4
+	}
+]
