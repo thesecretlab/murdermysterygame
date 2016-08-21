@@ -2,30 +2,30 @@
 	{
 		"title": "Nora",
 		"tags": "",
-		"body": "<<if visited (\"Nora\") is false>>\nHello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n<<else>>\nYes, Detective?\n<<endif>>\n",
+		"body": "<<if visited (\"Nora\") is false>>\nHello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n<<else>>\nYes, Detective?\n[[I'd like to some questions|Nora.Questions]]\n<<endif>>\n",
 		"position": {
-			"x": 270,
-			"y": -335
+			"x": -427,
+			"y": 212
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "Nora.Greet.Avoiding",
 		"tags": "",
 		"body": "Hello Detective.\nI'm sorry, but I'm very busy right now. Can this wait?\n[[I'm sorry, but this is urgent. It's about Jacob Wright|Nora.Greet.Jacob]]\n[[I'm running out of patience, Miss Hastings. Open the door|Nora.Greet.Scared]]",
 		"position": {
-			"x": 45,
-			"y": -59
+			"x": -652,
+			"y": 488
 		},
 		"colorID": 4
 	},
 	{
 		"title": "Nora.Greet.Cautious",
 		"tags": "",
-		"body": "...\nAlright then, let me unlock the door.",
+		"body": "...\nAlright then, let me unlock the door.\n",
 		"position": {
-			"x": 313,
-			"y": -66
+			"x": -384,
+			"y": 481
 		},
 		"colorID": 2
 	},
@@ -34,8 +34,8 @@
 		"tags": "",
 		"body": "Alright! Fine. Sheesh...",
 		"position": {
-			"x": 306,
-			"y": 200
+			"x": -391,
+			"y": 747
 		},
 		"colorID": 2
 	},
@@ -44,8 +44,8 @@
 		"tags": "",
 		"body": "I'll save you some time. He's a bastard, and we're not seeing each other anymore.\nHe can rot in hell for all I care.\n[[Funny you should say that. I'm investigating Jacob's death|Nora.Greet.Avoid2]]\n[[Please Miss Hastings, I'd rather not have this conversation through a door|Nora.Greet.Willing]]",
 		"position": {
-			"x": 40,
-			"y": 193
+			"x": -657,
+			"y": 740
 		},
 		"colorID": 4
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "Ugh. Fine. But make it quick.",
 		"position": {
-			"x": 308,
-			"y": 459
+			"x": -389,
+			"y": 1006
 		},
 		"colorID": 2
 	},
@@ -64,9 +64,69 @@
 		"tags": "",
 		"body": "Listen, I've told you everything I know.\nJust leave me alone.\n[[I've had about enough of this. Open the door!|Nora.Greet.Scared]]",
 		"position": {
-			"x": 39,
-			"y": 461
+			"x": -658,
+			"y": 1008
 		},
 		"colorID": 4
+	},
+	{
+		"title": "Nora.Questions",
+		"tags": "",
+		"body": "[[What can you tell me about Jacob?|Nora.Question.Jacob]]\n[[Where were you last night?|Nora.Question.LastNight]]\n[[What do you do, exactly, Nora? |Nora.Question.Self]]",
+		"position": {
+			"x": 141,
+			"y": 331
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Nora.Question.Jacob",
+		"tags": "",
+		"body": "We were lovers for the last month.\nI thought things were getting pretty serious, but clearly that wasn't the case.\nThree days ago he told me we were finished. No warning, no explaination, he just decided we were done.\n[[I'm sorry to hear that. I have more questions.|Nora.Questions]]\n[[Sounds like motive to me!|Nora.Accuse]]\n[[I'm sorry to hear that. I have no more questions|Nora.Exit]]",
+		"position": {
+			"x": 130,
+			"y": 793
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Nora.Question.LastNight",
+		"tags": "",
+		"body": "I was at home, finialising my leave.\n[[Can anyone verify that?|Nora.Question.LastNight.Confirm]]\n[[I think you're lying!|Nora.Accuse]]\n[[Thanks, I have more questions|Nora.Questions]]\n[[Thanks, no more questions for now|Nora.Exit]]",
+		"position": {
+			"x": 660,
+			"y": 791
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Nora.Accuse",
+		"tags": "",
+		"body": "Do you have any proof to back up that accusation?\nI didn't think so. Get the hell out of my house!",
+		"position": {
+			"x": 499,
+			"y": -141
+		},
+		"colorID": 3
+	},
+	{
+		"title": "Nora.Question.Self",
+		"tags": "",
+		"body": "I'm a nurse at the hospital downtown.\nI started working there a year ago after I finished my degree.\n[[Thanks. I have more questions.|Nora.Questions]]\n[[Thanks. Nothing else for now.|Nora.Exit]]",
+		"position": {
+			"x": 401,
+			"y": 786
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Nora.Exit",
+		"tags": "",
+		"body": "Try not to make a mess.",
+		"position": {
+			"x": -55,
+			"y": -144
+		},
+		"colorID": 6
 	}
 ]
