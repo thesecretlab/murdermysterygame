@@ -1,0 +1,12 @@
+[
+	{
+		"title": "MapDialogue",
+		"tags": "",
+		"body": "Time to head out.\n->Head to the Office.\n    <<loadLevel MapObject office>>\n->Head to the Murder Scene.\n    <<loadLevel MapObject murderscene>>\n->Head to the Test Scene.\n    <<loadLevel MapObject testscene>>",
+		"position": {
+			"x": -18,
+			"y": 134
+		},
+		"colorID": 0
+	}
+]

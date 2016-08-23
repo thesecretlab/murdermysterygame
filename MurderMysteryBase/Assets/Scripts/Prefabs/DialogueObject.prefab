@@ -755,6 +755,7 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 17dfcc6e103a79a4fb8faa00f1740007, type: 3}
   - {fileID: 4900000, guid: 9b7422c21665d2a478684088d0adba0f, type: 3}
   - {fileID: 4900000, guid: e54859b2445fc4e4289fb90159cf2a5e, type: 3}
+  - {fileID: 4900000, guid: b1232bb80f035b24fba746ed1d0183ee, type: 3}
   variableStorage: {fileID: 11472596}
   dialogueUI: {fileID: 11449258}
   startNode: 

@@ -25,7 +25,7 @@ public class LevelLoadDisplay : MonoBehaviour {
 	void OnLevelWasLoaded()
 	{
 		string sceneName = SceneManager.GetActiveScene().name;
-		string gameTimeString = GameObject.Find("HUD").GetComponent<GameTime>().getGameTimeString(true);
+		string gameTimeString = GameObject.Find("GUI").GetComponent<GameTime>().getGameTimeString(true);
         Color textColor = this.GetComponent<UnityEngine.UI.Text>().color;
         textColor.a = 1f;
         

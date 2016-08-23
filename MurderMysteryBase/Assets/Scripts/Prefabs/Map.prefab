@@ -237,7 +237,6 @@ GameObject:
   - 33: {fileID: 3332422}
   - 65: {fileID: 6548424}
   - 23: {fileID: 2368212}
-  - 114: {fileID: 11457412}
   m_Layer: 0
   m_Name: DetectivesOffice
   m_TagString: Untagged
@@ -1433,21 +1432,6 @@ MonoBehaviour:
   office: 0
   murderScene: 1
   map: {fileID: 0}
---- !u!114 &11457412
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 680141193bca42d448347113df3e952f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  morgue: 0
-  office: 1
-  murderScene: 0
-  map: {fileID: 0}
 --- !u!114 &11464342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1459,9 +1443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6672e1f4a66974c981ebb075dcdb73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FPSCamera: {fileID: 0}
-  MapCamera: {fileID: 0}
-  firstPersonController: {fileID: 0}
+  mapKeyEnabled: 1
 --- !u!124 &12476392
 Behaviour:
   m_ObjectHideFlags: 1
