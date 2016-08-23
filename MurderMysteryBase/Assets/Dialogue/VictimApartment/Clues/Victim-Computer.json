@@ -4,48 +4,28 @@
 		"tags": "",
 		"body": "The victim's Computer.\n[[Attempt to log on|VictimComputer.LoginSuccess]]\n[[Step Away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 1442,
-			"y": 62
+			"x": 2683,
+			"y": 476
 		},
 		"colorID": 0
 	},
 	{
 		"title": "VictimComputer.LoginSuccess",
 		"tags": "",
-		"body": "It logs straight in like they haven't implemented a password minigame or something...\n<<if visited (\"VictimComputer.Emails\") is false>>\n[[Check emails|VictimComputer.Emails]]\n<<endif>>\n<<if visited (\"VictimComputer.Documents\") is false>>\n[[Recent files|VictimComputer.Documents]]\n<<endif>>\n<<if visited (\"VictimComputer.Internet\") is false>>\n[[Internet History|VictimComputer.Internet]]\n<<endif>>",
+		"body": "[[Check emails|VictimComputer.Emails]]\n[[Step Away|Victim.Computer.Logoff]]",
 		"position": {
-			"x": 1464,
-			"y": 479
+			"x": 2685,
+			"y": 720
 		},
 		"colorID": 0
 	},
 	{
 		"title": "VictimComputer.Emails",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "Lets see. What should I check?\n[[Inbox|VictimComputer.Emails.Inbox]]\n[[Sent|VictimComputer.Emails.Sent]]\n[[Deleted|VictimComputer.Emails.Deleted]]\n[[Junk|VictimComputer.Emails.Junk]]\n[[Step away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 1011,
-			"y": 855
-		},
-		"colorID": 0
-	},
-	{
-		"title": "VictimComputer.Documents",
-		"tags": "",
-		"body": "Empty Text",
-		"position": {
-			"x": 1461,
-			"y": 873
-		},
-		"colorID": 0
-	},
-	{
-		"title": "VictimComputer.Internet",
-		"tags": "",
-		"body": "I IMMEDIATELY REGRET THIS DECISION!",
-		"position": {
-			"x": 1903,
-			"y": 849
+			"x": 2273,
+			"y": 976
 		},
 		"colorID": 0
 	},
@@ -54,9 +34,69 @@
 		"tags": "",
 		"body": "",
 		"position": {
-			"x": 994,
-			"y": 142
+			"x": 2235,
+			"y": 556
 		},
 		"colorID": 0
+	},
+	{
+		"title": "VictimComputer.Emails.Inbox",
+		"tags": "",
+		"body": "[[From: Freeman's Highrise Ptd Ltd; Subject: This month's bond|VictimComputer.Emails.Inbox.Bond]]\n[[From: Rachael Baxter; Subject: Last Chance|VictimComputer.Emails.Threat]]\n[[BACK|VictimComputer.Emails]]",
+		"position": {
+			"x": 1932,
+			"y": 965
+		},
+		"colorID": 4
+	},
+	{
+		"title": "VictimComputer.Emails.Sent",
+		"tags": "",
+		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
+		"position": {
+			"x": 1934,
+			"y": 1224
+		},
+		"colorID": 4
+	},
+	{
+		"title": "VictimComputer.Emails.Junk",
+		"tags": "",
+		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
+		"position": {
+			"x": 1934,
+			"y": 1455
+		},
+		"colorID": 4
+	},
+	{
+		"title": "VictimComputer.Emails.Deleted",
+		"tags": "",
+		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
+		"position": {
+			"x": 1929,
+			"y": 1683
+		},
+		"colorID": 4
+	},
+	{
+		"title": "VictimComputer.Emails.Inbox.Bond",
+		"tags": "",
+		"body": "\"Thank you Mr Wright for your 6 month advance on your rates.. blah blah blah\"\nNothing useful here.\n[[BACK|VictimComputer.Emails.Inbox]]",
+		"position": {
+			"x": 1618,
+			"y": 762
+		},
+		"colorID": 5
+	},
+	{
+		"title": "VictimComputer.Emails.Inbox.Threat",
+		"tags": "",
+		"body": "\"Jacob, I'm warning you. Your announcment has not been recieved well by the board of directors.\nPlease reconsider your decision before it puts you in danger.\nRegards, Rachael\"\nInteresting...\n[[BACK|VictimComputer.Emails.Inbox]]",
+		"position": {
+			"x": 1618,
+			"y": 1001
+		},
+		"colorID": 1
 	}
 ]
