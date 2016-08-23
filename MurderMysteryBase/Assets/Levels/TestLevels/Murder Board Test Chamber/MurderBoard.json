@@ -1,0 +1,12 @@
+[
+	{
+		"title": "MurderBoardTest",
+		"tags": "",
+		"body": "->Add clue\n    ->Add clue 0\n        <<addClue MurderBoard zero>>\n    ->Add clue 1\n        <<addClue MurderBoard one>>\n    ->Add clue 2\n        <<addClue MurderBoard two>>\n    ->Add clue 3\n        <<addClue MurderBoard three>>\n->Add suspect\n    ->Add suspect Bill\n        <<addSuspect MurderBoard bill>>\n    ->Add suspect Elvis\n        <<addSuspect MurderBoard elvis>>\n    ->Add suspect Lego\n        <<addSuspect MurderBoard lego>>\n    ->Add suspect Zodiac\n        <<addSuspect MurderBoard zodiac>>\n->Connect clue to suspect\n    ->Add clue 0...\n        ->...to suspect Bill \n            <<moveClueToSuspect MurderBoard zero bill>>\n        ->...to suspect Elvis\n            <<moveClueToSuspect MurderBoard zero elvis>>\n        ->...to suspect Lego\n            <<moveClueToSuspect MurderBoard zero lego>>\n        ->...to suspect Zodiac\n            <<moveClueToSuspect MurderBoard zero zodiac>>\n    ->Add clue 1...\n        ->...to suspect Bill \n            <<moveClueToSuspect MurderBoard one bill>>\n        ->...to suspect Elvis\n            <<moveClueToSuspect MurderBoard one elvis>>\n        ->...to suspect Lego\n            <<moveClueToSuspect MurderBoard one lego>>\n        ->...to suspect Zodiac\n            <<moveClueToSuspect MurderBoard one zodiac>>\n    ->Add clue 2...\n        ->...to suspect Bill \n            <<moveClueToSuspect MurderBoard two bill>>\n        ->...to suspect Elvis\n            <<moveClueToSuspect MurderBoard two elvis>>\n        ->...to suspect Lego\n            <<moveClueToSuspect MurderBoard two lego>>\n        ->...to suspect Zodiac\n            <<moveClueToSuspect MurderBoard two zodiac>>\n    ->Add clue 3...\n        ->...to suspect Bill \n            <<moveClueToSuspect MurderBoard three bill>>\n        ->...to suspect Elvis\n            <<moveClueToSuspect MurderBoard three elvis>>\n        ->...to suspect Lego\n            <<moveClueToSuspect MurderBoard three lego>>\n        ->...to suspect Zodiac\n            <<moveClueToSuspect MurderBoard three zodiac>>\n",
+		"position": {
+			"x": -320,
+			"y": 92
+		},
+		"colorID": 2
+	}
+]
