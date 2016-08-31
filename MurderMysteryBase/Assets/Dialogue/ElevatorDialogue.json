@@ -1,0 +1,12 @@
+[
+	{
+		"title": "ElevatorDialogue",
+		"tags": "",
+		"body": "I should head up to the victims apartment.\n->Take elevator up.\n    <<loadLevel MapObject murderscene>>",
+		"position": {
+			"x": -17,
+			"y": 134
+		},
+		"colorID": 0
+	}
+]

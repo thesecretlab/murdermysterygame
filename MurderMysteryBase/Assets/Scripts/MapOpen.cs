@@ -53,9 +53,13 @@ public class MapOpen : MonoBehaviour
         }
         if (levelName == "murderscene")
         {
-            if (SceneManager.GetActiveScene().name != "murderscene" || ignoreLocation == true)
+            if (SceneManager.GetActiveScene().name != "murderscene"&&SceneManager.GetActiveScene().name == "lobby" )
             {
                 SceneManager.LoadScene("murderscene");
+            }
+            if ((SceneManager.GetActiveScene().name != "murderscene"&&SceneManager.GetActiveScene().name != "lobby" ) || ignoreLocation == true)
+            {
+                SceneManager.LoadScene("lobby");
             }
         }
         if (levelName == "testscene")
