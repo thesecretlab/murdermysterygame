@@ -763,6 +763,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
 --- !u!136 &735113049
@@ -1308,6 +1309,7 @@ GameObject:
   - 33: {fileID: 1907744614}
   - 23: {fileID: 1907744613}
   - 64: {fileID: 1907744612}
+  - 82: {fileID: 1907744615}
   m_Layer: 0
   m_Name: Mesh2
   m_TagString: Untagged
@@ -1379,6 +1381,80 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1907744610}
   m_Mesh: {fileID: 4300002, guid: 93fd8d0449574ce45a15646575598a30, type: 3}
+--- !u!82 &1907744615
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1907744610}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cf952470eb60920469463f348508600d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.009
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!4 &1977421157 stripped
 Transform:
   m_PrefabParentObject: {fileID: 406758, guid: b4daafedae168774cb44fed34f550190, type: 2}
