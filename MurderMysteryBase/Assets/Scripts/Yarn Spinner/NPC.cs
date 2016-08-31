@@ -56,8 +56,6 @@ namespace Yarn.Unity.Example {
 
         public float range = 2;
 
-        public float currentRange = 0;
-
         public bool mouseIsOver = false;
 
         public bool isClueObject = false;
@@ -90,7 +88,6 @@ namespace Yarn.Unity.Example {
 
         // Update is called once per frame
         void Update () {
-            currentRange = Vector3.Distance(playerPosition.position, npcPosition.position);
             if (dialogueUI.inDialogue)
             {
                 if (isClueObject)
@@ -127,18 +124,11 @@ namespace Yarn.Unity.Example {
 
         void OnMouseEnter()
         {
-            Debug.Log("Mouse Enter");
-            mouseIsOver = true;
-        }
-
-        void OnMouseOver()
-        {
             mouseIsOver = true;
         }
 
         void OnMouseExit()
         {
-            Debug.Log("Mouse Exit");
             mouseIsOver = false;
             if (isClueObject)
             {

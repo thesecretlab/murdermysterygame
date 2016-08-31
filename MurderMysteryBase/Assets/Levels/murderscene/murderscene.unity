@@ -3457,7 +3457,7 @@ Transform:
   m_LocalScale: {x: 0.23379996, y: 0.22128473, z: 0.22437492}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!114 &117919700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3481,7 +3481,6 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
-  currentRange: 0
   mouseIsOver: 0
   isClueObject: 1
 --- !u!1 &121073718
@@ -3645,7 +3644,6 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
-  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
 --- !u!1 &121658878
@@ -5030,7 +5028,6 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
-  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
 --- !u!1 &180991203
@@ -7633,7 +7630,7 @@ Transform:
   - {fileID: 827107662}
   - {fileID: 1013791374}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &291412983
 GameObject:
   m_ObjectHideFlags: 0
@@ -11727,10 +11724,6 @@ Prefab:
     - target: {fileID: 438858, guid: e3aec3f60732d13459972cb2c4775316, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 13675414, guid: e3aec3f60732d13459972cb2c4775316, type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aec3f60732d13459972cb2c4775316, type: 2}
@@ -16175,7 +16168,6 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
-  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
 --- !u!1 &634501162
@@ -22119,7 +22111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1 &894704785
 GameObject:
   m_ObjectHideFlags: 0
@@ -25379,7 +25371,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 13630174, guid: e93b1cca9f7593b48bdb90bd1a59f3c4, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 479806, guid: e93b1cca9f7593b48bdb90bd1a59f3c4, type: 2}
       propertyPath: m_LocalScale.x
@@ -25392,10 +25384,6 @@ Prefab:
     - target: {fileID: 479806, guid: e93b1cca9f7593b48bdb90bd1a59f3c4, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 13630174, guid: e93b1cca9f7593b48bdb90bd1a59f3c4, type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e93b1cca9f7593b48bdb90bd1a59f3c4, type: 2}
@@ -33793,7 +33781,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!114 &1398287731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33817,7 +33805,6 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
-  currentRange: 0
   mouseIsOver: 0
   isClueObject: 1
 --- !u!1 &1403095172
@@ -35616,7 +35603,7 @@ Transform:
   - {fileID: 1582374764}
   - {fileID: 803794165}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &1482571209
 GameObject:
   m_ObjectHideFlags: 0
@@ -36870,7 +36857,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!114 &1538805511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36894,7 +36881,6 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
-  currentRange: 0
   mouseIsOver: 0
   isClueObject: 1
 --- !u!1 &1541787552
@@ -41118,7 +41104,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 021d52ca3d4bdb04b92a2a2ee2dd8f18, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 021d52ca3d4bdb04b92a2a2ee2dd8f18, type: 3}
@@ -41149,22 +41135,9 @@ MonoBehaviour:
   inventory: {fileID: 0}
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
-  range: 4
-  currentRange: 0
+  range: 2
   mouseIsOver: 0
   isClueObject: 0
---- !u!65 &1699546108
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1699546105}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.07500005, y: 0.087, z: 0.07499993}
-  m_Center: {x: -1.8239679, y: 0.0435, z: -1.8691401}
 --- !u!1 &1700610188
 GameObject:
   m_ObjectHideFlags: 0
@@ -42920,7 +42893,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &1776890313
 GameObject:
   m_ObjectHideFlags: 0
@@ -45645,7 +45618,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1897163044}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -45668,7 +45641,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!114 &1897163050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45692,7 +45665,6 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
-  currentRange: 0
   mouseIsOver: 0
   isClueObject: 1
 --- !u!1 &1898714790
@@ -46437,10 +46409,6 @@ Prefab:
     - target: {fileID: 22466906, guid: 7227ec274623ee44dbad64e44b0482bd, type: 2}
       propertyPath: m_SizeDelta.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22560632, guid: 7227ec274623ee44dbad64e44b0482bd, type: 2}
-      propertyPath: m_Alpha
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7227ec274623ee44dbad64e44b0482bd, type: 2}
@@ -49612,7 +49580,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &2066932857
 GameObject:
   m_ObjectHideFlags: 0
