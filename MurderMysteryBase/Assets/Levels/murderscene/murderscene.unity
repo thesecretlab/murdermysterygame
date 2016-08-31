@@ -3481,6 +3481,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 1
 --- !u!1 &121073718
@@ -3644,6 +3645,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
 --- !u!1 &121658878
@@ -5028,6 +5030,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
 --- !u!1 &180991203
@@ -12429,7 +12432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1839b5575a6534db49b6fcd0d3a3ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionRadius: 2
+  interactionRadius: 4
   Player: {fileID: 0}
 --- !u!1 &474072902
 GameObject:
@@ -16168,6 +16171,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
 --- !u!1 &634501162
@@ -33805,6 +33809,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 1
 --- !u!1 &1403095172
@@ -36881,6 +36886,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 1
 --- !u!1 &1541787552
@@ -41135,9 +41141,22 @@ MonoBehaviour:
   inventory: {fileID: 0}
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
-  range: 2
+  range: 4
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
+--- !u!65 &1699546110
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699546105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07500005, y: 0.087, z: 0.07499993}
+  m_Center: {x: -1.8239679, y: 0.0435, z: -1.8691401}
 --- !u!1 &1700610188
 GameObject:
   m_ObjectHideFlags: 0
@@ -45665,6 +45684,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 1
 --- !u!1 &1898714790

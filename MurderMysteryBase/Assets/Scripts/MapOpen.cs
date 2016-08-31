@@ -25,11 +25,16 @@ public class MapOpen : MonoBehaviour
 
     void Update()
     {
+        if (Player == null)
+        {
+            Player = GameObject.FindGameObjectWithTag("Player");
+        }
         if (Input.GetKeyDown(KeyCode.M)&& mapKeyEnabled)
         {
             FindObjectOfType<DialogueRunner>().StartDialogue("MapDialogue");
             Player.GetComponent<FirstPersonController>().enabled = false;
         }
+        
     }
 
     [YarnCommand("loadLevel")]
