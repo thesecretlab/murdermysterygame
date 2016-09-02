@@ -1413,6 +1413,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   range: 2
+  currentRange: 0
   mouseIsOver: 0
   isClueObject: 0
 --- !u!1 &338688335
@@ -3503,7 +3504,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 492584, guid: 48aa851f0cd5cb84f95ede884b2ad1ae, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -113.611
+      value: -113.5424
       objectReference: {fileID: 0}
     - target: {fileID: 492584, guid: 48aa851f0cd5cb84f95ede884b2ad1ae, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9383,7 +9384,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 492584, guid: 48aa851f0cd5cb84f95ede884b2ad1ae, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -44.2
+      value: -44.246
       objectReference: {fileID: 0}
     - target: {fileID: 492584, guid: 48aa851f0cd5cb84f95ede884b2ad1ae, type: 2}
       propertyPath: m_LocalPosition.z
