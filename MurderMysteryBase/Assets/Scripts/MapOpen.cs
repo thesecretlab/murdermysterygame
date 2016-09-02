@@ -11,28 +11,28 @@ public class MapOpen : MonoBehaviour
 
     public bool ignoreLocation = false;
 
-    public GameObject Player;
+    public GameObject player;
 
     public GameObject MapObject;
 
 
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
         MapObject = GameObject.FindGameObjectWithTag("Map");
     }
 
 
     void Update()
     {
-        if (Player == null)
+        if (player == null)
         {
-            Player = GameObject.FindGameObjectWithTag("Player");
+            player = GameObject.FindGameObjectWithTag("Player");
         }
         if (Input.GetKeyDown(KeyCode.M)&& mapKeyEnabled)
         {
             FindObjectOfType<DialogueRunner>().StartDialogue("MapDialogue");
-            Player.GetComponent<FirstPersonController>().enabled = false;
+            player.GetComponent<FirstPersonController>().enabled = false;
         }
         
     }
@@ -42,37 +42,9 @@ public class MapOpen : MonoBehaviour
     {
         Debug.Log("Loading level");
         Debug.Log(levelName);
-        if (levelName == "morgue")
+        if (SceneManager.GetActiveScene().name != levelName || ignoreLocation == true)
         {
-            if (SceneManager.GetActiveScene().name != "morgue"||ignoreLocation==true)
-            {
-                SceneManager.LoadScene("morgue"/*Morgue scene name goes here*/);
-            }
-        }
-        if (levelName == "office")
-        {
-            if (SceneManager.GetActiveScene().name != "detectivesOffice" || ignoreLocation == true)
-            {
-                SceneManager.LoadScene("detectivesOffice");
-            }
-        }
-        if (levelName == "murderscene")
-        {
-            if (SceneManager.GetActiveScene().name != "murderscene"&&SceneManager.GetActiveScene().name == "lobby" )
-            {
-                SceneManager.LoadScene("murderscene");
-            }
-            if ((SceneManager.GetActiveScene().name != "murderscene"&&SceneManager.GetActiveScene().name != "lobby" ) || ignoreLocation == true)
-            {
-                SceneManager.LoadScene("lobby");
-            }
-        }
-        if (levelName == "testscene")
-        {
-            if (SceneManager.GetActiveScene().name != "Character Test Chamber" || ignoreLocation == true)
-            {
-                SceneManager.LoadScene("Character Test Chamber");
-            }
+            SceneManager.LoadScene(levelName);
         }
     }
     
