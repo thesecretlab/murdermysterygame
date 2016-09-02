@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 using Yarn.Unity;
 
 public class MurderBoardScript : MonoBehaviour
 {
-
     public GameObject[] Suspects = new GameObject[4];
     
     public GameObject[] SuspectAClues = new GameObject[4];
@@ -99,6 +99,10 @@ public class MurderBoardScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (SceneManager.GetActiveScene().name != "detectivesOffice")
+        {
+            this.gameObject.transform.localScale = new Vector3(0, 0, 0);
+        }
         for (int i = 0; i < CluesFound; i++)
         {
             Clues[i].SetActive(true);

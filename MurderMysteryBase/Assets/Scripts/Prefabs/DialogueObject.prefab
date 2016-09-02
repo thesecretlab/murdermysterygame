@@ -913,6 +913,12 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 9b7422c21665d2a478684088d0adba0f, type: 3}
   - {fileID: 4900000, guid: e54859b2445fc4e4289fb90159cf2a5e, type: 3}
   - {fileID: 4900000, guid: 8b23ed155670e22439744c344b910c71, type: 3}
+  - {fileID: 4900000, guid: 846094ee9cdd2714699e4f98f3fe47a4, type: 3}
+  - {fileID: 4900000, guid: 230fd080985fccb47b93d52eadb221bd, type: 3}
+  - {fileID: 4900000, guid: 3e61b60cf1700aa45b87d36da3e67bb6, type: 3}
+  - {fileID: 4900000, guid: e1614cd125a57be4fb2726bec8f4447e, type: 3}
+  - {fileID: 4900000, guid: d4d743e6462eb8d41999091b391334f1, type: 3}
+  - {fileID: 4900000, guid: 8884dd86da863d144b3e8d87135ce54a, type: 3}
   variableStorage: {fileID: 11442140}
   dialogueUI: {fileID: 11417822}
   startNode: 
@@ -1258,7 +1264,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1608,7 +1614,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

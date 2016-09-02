@@ -1056,8 +1056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapKeyEnabled: 1
-  ignoreLocation: 1
-  Player: {fileID: 0}
+  ignoreLocation: 0
+  player: {fileID: 0}
   MapObject: {fileID: 0}
 --- !u!114 &11499184
 MonoBehaviour:
