@@ -90,6 +90,10 @@ namespace Yarn.Unity.Example {
 
         // Update is called once per frame
         void Update () {
+            if (player == null)
+            {
+                player = GameObject.FindGameObjectWithTag("Player");
+            }
             currentRange = Vector3.Distance(playerPosition.position, npcPosition.position);
             if (dialogueUI.inDialogue)
             {
