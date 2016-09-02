@@ -5760,7 +5760,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 52eb5d07455d3bd47bd040667c3b72ef, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -9.565736
+      value: -9.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52eb5d07455d3bd47bd040667c3b72ef, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5789,6 +5789,14 @@ Prefab:
     - target: {fileID: 400000, guid: 52eb5d07455d3bd47bd040667c3b72ef, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 52eb5d07455d3bd47bd040667c3b72ef, type: 2}
+      propertyPath: m_Range
+      value: 6.0128727
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 52eb5d07455d3bd47bd040667c3b72ef, type: 2}
+      propertyPath: m_Intensity
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52eb5d07455d3bd47bd040667c3b72ef, type: 2}
@@ -20804,6 +20812,14 @@ Prefab:
       propertyPath: m_Name
       value: PRE_LAM_Table_lamp_02_15 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 15b5c7f586093e64693a90d3e70cbf0d, type: 2}
+      propertyPath: m_Range
+      value: 3.2826328
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 15b5c7f586093e64693a90d3e70cbf0d, type: 2}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15b5c7f586093e64693a90d3e70cbf0d, type: 2}
   m_IsPrefabParent: 0
@@ -24525,7 +24541,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 437452, guid: 375839443f7c4ef40b4a1c76bb3032da, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -9.563319
+      value: -9.468
       objectReference: {fileID: 0}
     - target: {fileID: 437452, guid: 375839443f7c4ef40b4a1c76bb3032da, type: 2}
       propertyPath: m_LocalPosition.y
@@ -26749,6 +26765,7 @@ GameObject:
   - 33: {fileID: 1371465070}
   - 23: {fileID: 1371465069}
   - 64: {fileID: 1371465068}
+  - 114: {fileID: 1371465071}
   m_Layer: 0
   m_Name: Mesh1237
   m_TagString: Untagged
@@ -26817,6 +26834,32 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1371465066}
   m_Mesh: {fileID: 4302472, guid: de28c8f545ee14c41a8dc82b3f2526d8, type: 3}
+--- !u!114 &1371465071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371465066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectNumber: 0
+  characterName: 
+  talkToNode: 
+  scriptToLoad: {fileID: 4900000, guid: 8884dd86da863d144b3e8d87135ce54a, type: 3}
+  player: {fileID: 0}
+  playerPosition: {fileID: 0}
+  npcPosition: {fileID: 0}
+  interactionButton: {fileID: 0}
+  inventory: {fileID: 0}
+  reticle: {fileID: 0}
+  dialogueUI: {fileID: 0}
+  range: 2
+  currentRange: 0
+  mouseIsOver: 0
+  isClueObject: 0
 --- !u!1 &1373577284
 GameObject:
   m_ObjectHideFlags: 0
