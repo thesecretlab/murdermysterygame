@@ -52,7 +52,7 @@
 	{
 		"title": "Jonas.Mystery",
 		"tags": "",
-		"body": "Well it's strange.\nThe bullet wound was fatal, but not immediately.\nA wound like that would have taken a few days to die from.\nLikewise, the punch to the face was heavy, but definately not lethal.\nEven together, the two wounds wouldn't have caused death as quickly as these wounds have.\nI'm still waiting on the blood toxicology to come back. Maybe that will tell me more.\n[[Tell me more about the bullet wound.|Jonas.Gunshot]]\n[[Give me details about the facial injuries|Jonas.FaceInjuries]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]",
+		"body": "Well it's strange.\nThe bullet wound was fatal, but not immediately.\nA wound like that would have taken a few days to die from.\nLikewise, the punch to the face was heavy, but definitely not lethal.\nEven together, the two wounds wouldn't have caused death as quickly as these wounds have.\nI'm still waiting on the blood toxicology to come back. Maybe that will tell me more.\n[[Tell me more about the bullet wound.|Jonas.Gunshot]]\n[[Give me details about the facial injuries|Jonas.FaceInjuries]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]",
 		"position": {
 			"x": 438,
 			"y": -132
