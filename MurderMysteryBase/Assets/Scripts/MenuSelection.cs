@@ -15,7 +15,7 @@ public class MenuSelection : MonoBehaviour
         if (newGame)
         {
 			Debug.Log("Button: New Game");
-			SceneManager.LoadScene("detectivesOffice");
+            StartCoroutine(LoadNewGame());
         }
        
         if (options)
@@ -29,5 +29,12 @@ public class MenuSelection : MonoBehaviour
 			Debug.Log("Button: Quit");
             Application.Quit();
         }
+    }
+
+    IEnumerator LoadNewGame()
+    {
+        float fadeTime = GameObject.Find("FadeController").GetComponent<FadeBetweenScreens>().BeginFade(1);
+        yield return new WaitForSeconds(fadeTime);
+        SceneManager.LoadScene("detectivesOffice");
     }
 }

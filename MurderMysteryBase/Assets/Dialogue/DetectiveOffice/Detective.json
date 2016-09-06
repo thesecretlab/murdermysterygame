@@ -1,8 +1,8 @@
 [
 	{
-		"title": "DetectiveMonologue",
+		"title": "Detective.Intro.Monologue",
 		"tags": "",
-		"body": "... Damn it, I fell asleep at my desk again.\nThat last case was a doozie.\n",
+		"body": "...\nDamn it, I fell asleep at my desk again.\n->I really shouldn't work so late.\n    That last case was a hard one.\n    <<startPhoneRing IntroEventSystem>>\n    Great. What now?\n->I shouldn't drink so much.\n    <<startPhoneRing IntroEventSystem>>\n    OH GOD MY HEAD!\n    Damn it, who's calling me?\n->Well, it's better than staying at home.\n    <<startPhoneRing IntroEventSystem>>\n    Hopefully that's not them calling...",
 		"position": {
 			"x": 540,
 			"y": 260
