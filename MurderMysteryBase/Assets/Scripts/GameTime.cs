@@ -160,4 +160,33 @@ public class GameTime : MonoBehaviour {
             countTime = true;
         }
     }
+
+    [YarnCommand("addTime")]
+    public void addTime(string addTime, string timeUnit)
+    {
+        int parsedTime = 0;
+        if (int.TryParse(addTime, out parsedTime))
+        {
+            switch (timeUnit)
+            {
+                case "seconds":
+                    addGameTime(parsedTime);
+                    break;
+                case "minutes":
+                    addGameTime(0,parsedTime);
+                    break;
+                case "hours":
+                    addGameTime(0, 0, parsedTime);
+                    break;
+                default:
+                    Debug.Log("Invalid Units");
+                    break;
+            }
+        }
+        else
+        {
+            Debug.Log("Invalid Time");
+        }
+        
+    }
 }

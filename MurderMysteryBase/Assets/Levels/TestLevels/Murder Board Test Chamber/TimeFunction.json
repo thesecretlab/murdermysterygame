@@ -1,0 +1,12 @@
+[
+	{
+		"title": "TimeFunctionTest",
+		"tags": "",
+		"body": "->Add 10 seconds\n    <<addTime GUI 10 seconds>>\n->Add 10 minutes\n    <<addTime GUI 10 minutes>>\n->Add 10 hours\n    <<addTime GUI 10 hours>>",
+		"position": {
+			"x": -320,
+			"y": 92
+		},
+		"colorID": 2
+	}
+]
