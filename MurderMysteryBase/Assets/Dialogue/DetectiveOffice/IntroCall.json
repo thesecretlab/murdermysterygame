@@ -2,7 +2,7 @@
 	{
 		"title": "IntroCall",
 		"tags": "",
-		"body": "<<stopPhoneRing IntroEventSystem>>\nChief Simmons: Good, you're still in your office.\n->You know me. Always working.\n    Chief Simmons: Uh huh.\n->Yeah I fell asleep at my desk.\n    Chief Simmons: Again? We've talked about this.\n->Yeah, just finishing up that last case.\n    Chief Simmons: Well that can wait for now.\nChief Simmons: There's been a death in the business district.\nChief Simmons: I need you to head down there and investigate. Work out whether it's suspicious or not.\n->I'll head down now.\n    Good. I'll send you the address. Head over there as soon as possible.\n<<UnlockPlayer IntroEventSystem>>",
+		"body": "<<freezeTime GUI true>>\n<<stopPhoneRing IntroEventSystem>>\nChief Simmons: Good, you're still in your office.\n->You know me. Always working.\n    Chief Simmons: Uh huh.\n->Yeah I fell asleep at my desk.\n    Chief Simmons: Again? We've talked about this.\n->Yeah, just finishing up that last case.\n    Chief Simmons: Well that can wait for now.\nChief Simmons: There's been a death in the business district.\nChief Simmons: I need you to head down there and investigate. Work out whether it's suspicious or not.\n->I'll head down now.\n    Good. I'll send you the address. Head over there as soon as possible.\n<<UnlockPlayer IntroEventSystem>>\n<<freezeTime GUI false>>",
 		"position": {
 			"x": 538,
 			"y": 261

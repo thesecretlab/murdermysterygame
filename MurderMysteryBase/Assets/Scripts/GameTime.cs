@@ -19,9 +19,7 @@ public class GameTime : MonoBehaviour {
 
     public bool TimeKeyEnabled = false;
 
-    public bool FreezeTime = false;
-
-    public DialogueUI dialogueUI;
+    public bool countTime = true;
 
     private float secondsPerSecond;
 
@@ -42,8 +40,6 @@ public class GameTime : MonoBehaviour {
 
 	void Start()
 	{
-        dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
-
 		secondsPerSecond = 1;
         totalGameSeconds = (8 * 60 * 60);
 		totalGameSeconds += secondsPerSecond * Time.deltaTime;
@@ -78,9 +74,8 @@ public class GameTime : MonoBehaviour {
             Application.Quit();
         }
 
-        if (!FreezeTime || dialogueUI.inDialogue)
+        if (countTime)
         {
-            Debug.Log("freezing");
             totalGameSeconds += secondsPerSecond * Time.deltaTime;
         }
         
@@ -150,5 +145,19 @@ public class GameTime : MonoBehaviour {
 			return string.Format("{0:00}:{1:00}:{2:00}", (int)hour, (int)minute, (int)second);
 		}
         
+    }
+
+    [YarnCommand("freezeTime")]
+    public void freezeTime(string freeze)
+    {
+        Debug.Log("Freezing");
+        if(freeze=="true")
+        {
+            countTime = false;
+        }
+        else
+        {
+            countTime = true;
+        }
     }
 }

@@ -221,7 +221,9 @@ GameObject:
   m_Component:
   - 224: {fileID: 22427590}
   - 222: {fileID: 22247004}
+  - 225: {fileID: 22532388}
   - 114: {fileID: 11429450}
+  - 114: {fileID: 11402834}
   m_Layer: 5
   m_Name: PlayerPrompt
   m_TagString: Untagged
@@ -344,6 +346,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 22419620}
   m_RootOrder: 0
+--- !u!114 &11402834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1129ab97c88bcd40b98129c1ef36301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameTime: {fileID: 0}
 --- !u!114 &11405646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -405,6 +419,7 @@ MonoBehaviour:
   minute: 0
   hour: 0
   TimeKeyEnabled: 0
+  countTime: 1
 --- !u!114 &11410074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1581,6 +1596,17 @@ CanvasGroup:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135820}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 1
+--- !u!225 &22532388
+CanvasGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165258}
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1

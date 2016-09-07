@@ -39,7 +39,6 @@ namespace Yarn.Unity.Example {
         public GameObject Player;
 
         public GameObject reticle;
-        
 
         void Start()
         {

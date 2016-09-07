@@ -226,7 +226,6 @@ namespace Yarn.Unity.Example {
 			}
             reticle.GetComponent<CanvasGroup>().alpha = 1;
 			firstPersonController.LockControllerReleaseMouse(false);
-
 			yield break;
 		}
 		
