@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using Yarn.Unity;
+using Yarn.Unity.Example;
 
 public class GameTime : MonoBehaviour {
 
@@ -15,6 +18,10 @@ public class GameTime : MonoBehaviour {
 	public float hour;
 
     public bool TimeKeyEnabled = false;
+
+    public bool FreezeTime = false;
+
+    public DialogueUI dialogueUI;
 
     private float secondsPerSecond;
 
@@ -35,6 +42,8 @@ public class GameTime : MonoBehaviour {
 
 	void Start()
 	{
+        dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
+
 		secondsPerSecond = 1;
         totalGameSeconds = (8 * 60 * 60);
 		totalGameSeconds += secondsPerSecond * Time.deltaTime;
@@ -69,8 +78,12 @@ public class GameTime : MonoBehaviour {
             Application.Quit();
         }
 
-
-        totalGameSeconds += secondsPerSecond * Time.deltaTime;
+        if (!FreezeTime || dialogueUI.inDialogue)
+        {
+            Debug.Log("freezing");
+            totalGameSeconds += secondsPerSecond * Time.deltaTime;
+        }
+        
 
 		seconds = totalGameSeconds;
 		minutes = totalGameSeconds / 60;

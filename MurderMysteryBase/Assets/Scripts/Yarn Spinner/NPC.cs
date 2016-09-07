@@ -27,6 +27,7 @@ SOFTWARE.
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Serialization;
+using UnityStandardAssets.Characters.FirstPerson;
 
 namespace Yarn.Unity.Example {
 	public class NPC : MonoBehaviour {
@@ -53,6 +54,8 @@ namespace Yarn.Unity.Example {
         public GameObject reticle;
 
         public DialogueUI dialogueUI;
+
+        public GameTime gameTime;
 
         public float range = 2;
 
@@ -83,7 +86,6 @@ namespace Yarn.Unity.Example {
 
             reticle = GameObject.FindGameObjectWithTag("Reticle");
 
-            //dialogueUI = GameObject.FindGameObjectWithTag("Dialogue").GetComponent<DialogueUI>();
             dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
 
         }
@@ -101,9 +103,8 @@ namespace Yarn.Unity.Example {
                 {
                     inventory.GetComponent<HUD>().slots[objectNumber] = true;
                 }
-                //interactionButton.SetActive(false);
                 interactionButton.GetComponent<CanvasGroup>().alpha = 0;
-                reticle.GetComponent<CanvasGroup>().alpha = 1;
+                reticle.GetComponent<CanvasGroup>().alpha = 0;
             }
             else if (Vector3.Distance(playerPosition.position, npcPosition.position) < range && mouseIsOver)
             {
@@ -112,7 +113,6 @@ namespace Yarn.Unity.Example {
                     GetComponent<Renderer>().material.SetColor("_OutlineColor", Color.yellow);
                     GetComponent<Renderer>().material.SetFloat("_Outline width", 1f);
                 }
-                //interactionButton.SetActive(true);
                 interactionButton.GetComponent<CanvasGroup>().alpha = 1;
                 reticle.GetComponent<CanvasGroup>().alpha = 0;
             }
@@ -123,7 +123,6 @@ namespace Yarn.Unity.Example {
                     GetComponent<Renderer>().material.SetColor("_OutlineColor", startcolor);
                     GetComponent<Renderer>().material.SetFloat("_Outline width", 0.002f);
                 }
-                //interactionButton.SetActive(false);
                 interactionButton.GetComponent<CanvasGroup>().alpha = 0;
                 reticle.GetComponent<CanvasGroup>().alpha = 1;
             }
@@ -148,10 +147,13 @@ namespace Yarn.Unity.Example {
             {
                 GetComponent<Renderer>().material.SetColor("_OutlineColor", startcolor);
             }
-            //interactionButton.SetActive(false);
             interactionButton.GetComponent<CanvasGroup>().alpha = 0;
-            reticle.GetComponent<CanvasGroup>().alpha = 1;
+            if (!dialogueUI.inDialogue)
+            {
+                reticle.GetComponent<CanvasGroup>().alpha = 1;
+            }
         }
+
     }
 
 }

@@ -70,11 +70,15 @@ namespace Yarn.Unity.Example {
 
 		public FirstPersonController firstPersonController;
 
+        public GameObject reticle;
+
         public bool inDialogue;
 
         void Awake ()
 		{
 			firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //declare local pointer to the players first person controller object
+
+            reticle = GameObject.FindGameObjectWithTag("Reticle");
 
 			// Start by hiding the container, line and option buttons
 			if (dialogueContainer != null)
@@ -220,7 +224,7 @@ namespace Yarn.Unity.Example {
 			if (gameControlsContainer != null) {
 				gameControlsContainer.gameObject.SetActive(true);
 			}
-			//GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>().enabled = true;
+            reticle.GetComponent<CanvasGroup>().alpha = 1;
 			firstPersonController.LockControllerReleaseMouse(false);
 
 			yield break;

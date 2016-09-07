@@ -35,7 +35,7 @@ public class IntroSceneSetup : MonoBehaviour
         playerController = playerObject.GetComponent<CharacterController>();
         phoneFlash = phoneLight.GetComponent<LightFlash>();
         phoneDialogue = phoneDialogueObj.GetComponent<NPC>();
-        fadeController = GameObject.Find("Fade Controller").GetComponent<FadeBetweenScreens>();
+        fadeController = GameObject.Find("FadeController").GetComponent<FadeBetweenScreens>();
         thisObj = this.gameObject;
     }
 

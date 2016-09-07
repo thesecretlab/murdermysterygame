@@ -37,11 +37,14 @@ namespace Yarn.Unity.Example {
 		public float interactionRadius = 2.0f;
 
         public GameObject Player;
+
+        public GameObject reticle;
         
 
         void Start()
         {
             Player = GameObject.FindGameObjectWithTag("Player");
+            reticle = GameObject.FindGameObjectWithTag("Reticle");
         }
 
         // Update is called once per frame
@@ -76,7 +79,7 @@ namespace Yarn.Unity.Example {
                 if (target.mouseIsOver)
                 {
                     FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
-                    Player.GetComponent<FirstPersonController>().enabled = false;
+                    Player.GetComponent<FirstPersonController>().LockControllerReleaseMouse(true);
                 }
 
 			}

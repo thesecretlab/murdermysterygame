@@ -17,4 +17,5 @@ public class DialogueObjectCode : MonoBehaviour {
 
         DontDestroyOnLoad(this.gameObject);
     }
+
 }
