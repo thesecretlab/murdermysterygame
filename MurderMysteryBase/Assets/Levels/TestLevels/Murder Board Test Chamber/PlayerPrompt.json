@@ -1,0 +1,12 @@
+[
+	{
+		"title": "PlayerPromptTest",
+		"tags": "",
+		"body": "->Prompt test 1\n    <<promptPlayer PlayerPrompt message1 3 1>>\n->Prompt test 2\n    <<promptPlayer PlayerPrompt message2 1 3>>",
+		"position": {
+			"x": -320,
+			"y": 92
+		},
+		"colorID": 2
+	}
+]
