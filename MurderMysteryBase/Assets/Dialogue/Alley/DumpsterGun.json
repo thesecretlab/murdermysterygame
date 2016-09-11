@@ -1,0 +1,52 @@
+[
+	{
+		"title": "DumpsterGun",
+		"tags": "",
+		"body": "The dumpster seems to be filled with an assortment of documents associated with TempestTech.\nThere is also other, smellier, things.\n[[Rummage through the bin some more|DumpsterGun.Rummage]]\n[[Jump in for a more thorough, dirtier search|DumpsterGun.Search]]\n[[It's probably nothing. Walk away.|DumpsterGun.Exit]]",
+		"position": {
+			"x": 643,
+			"y": 197
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DumpsterGun.Rummage",
+		"tags": "",
+		"body": "You start moving some of the documents and rubbish around, you find a half eaten pizza.\nWhy would anyone throw this away?\n[[Eat a slice of the pizza|DumpsterGun.Pizza]]\n[[Jump in the dumpster|DumpsterGun.Search]]\n[[Leave, there's nothing worthwhile here|DumpsterGun.Exit]]",
+		"position": {
+			"x": 397,
+			"y": 489
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DumpsterGun.Search",
+		"tags": "",
+		"body": "You jump into the dumpster.\nYou feel around the contents with your hands and legs.\nYou kick something hard, reaching in you pull out a rifle.\n",
+		"position": {
+			"x": 1051,
+			"y": 491
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DumpsterGun.Exit",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 1199,
+			"y": 190
+		},
+		"colorID": 0
+	},
+	{
+		"title": "DumpsterGun.Pizza",
+		"tags": "",
+		"body": "You eat the slice of pizza. It has anchovies, gross.\n[[Jump in the dumpster|DumpsterGun.Search]]\n[[Leave, there's nothing worthwhile here|DumpsterGun.Exit]]",
+		"position": {
+			"x": 388,
+			"y": 768
+		},
+		"colorID": 0
+	}
+]
