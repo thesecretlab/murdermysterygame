@@ -69,32 +69,19 @@ namespace Yarn.Unity.Example {
 			// those that have a Yarn start node and are in range; 
 			// then start a conversation with the first one
 			var allParticipants = new List<NPC> (FindObjectsOfType<NPC> ());
-            /*var target = allParticipants.Find(delegate(NPC p)
+            var target = allParticipants.Find(delegate(NPC p)
             {
                 return string.IsNullOrEmpty(p.talkToNode) == false && // has a conversation node?
                 (p.transform.position - this.transform.position)// is in range?
-                .magnitude <= interactionRadius;
-            });*/
-            foreach (var p in allParticipants)
-            {
-                if (string.IsNullOrEmpty(p.talkToNode) == false && p.range <= interactionRadius && p.mouseIsOver)
-                {
-                    Debug.Log("Starting NPC/Clue Dialogue");
-                    FindObjectOfType<DialogueRunner>().StartDialogue(p.talkToNode);
-                    Player.GetComponent<FirstPersonController>().LockControllerReleaseMouse(true);
-                }
-            }
-			/*if (target != null) {
+                .magnitude <= interactionRadius && p.mouseIsOver;
+            });
+			if (target != null) {
                 // Kick off the dialogue at this node.
-                Debug.Log("Found NPC/Clue: "+target.name);
-                if (target.mouseIsOver)
-                {
-                    Debug.Log("Starting NPC/Clue Dialogue");
-                    FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
-                    Player.GetComponent<FirstPersonController>().LockControllerReleaseMouse(true);
-                }
-
-			}*/
+                Debug.Log("Found NPC/Clue: " + target.name);
+                Debug.Log("Starting NPC/Clue Dialogue");
+                FindObjectOfType<DialogueRunner>().StartDialogue(target.talkToNode);
+                Player.GetComponent<FirstPersonController>().LockControllerReleaseMouse(true);
+			}
 		}
     }
 
