@@ -12,17 +12,17 @@
 	{
 		"title": "DumpsterGun.Rummage",
 		"tags": "",
-		"body": "You start moving some of the documents and rubbish around, you find a half eaten pizza.\nWhy would anyone throw this away?\n[[Eat a slice of the pizza|DumpsterGun.Pizza]]\n[[Jump in the dumpster|DumpsterGun.Search]]\n[[Leave, there's nothing worthwhile here|DumpsterGun.Exit]]",
+		"body": "You start moving some of the documents and rubbish around, you find a half eaten pizza.\n<<thinkingFont Dialogue>>\nWhy would anyone throw this away?\n<<endThinkingFont Dialogue>>\n[[Eat a slice of the pizza|DumpsterGun.Pizza]]\n[[Jump in the dumpster|DumpsterGun.Search]]\n[[Leave, there's nothing worthwhile here|DumpsterGun.Exit]]",
 		"position": {
-			"x": 397,
-			"y": 489
+			"x": 398,
+			"y": 490
 		},
 		"colorID": 0
 	},
 	{
 		"title": "DumpsterGun.Search",
 		"tags": "",
-		"body": "You jump into the dumpster.\nYou feel around the contents with your hands and legs.\nYou kick something hard, reaching in you pull out a rifle.\n",
+		"body": "You jump into the dumpster.\nYou feel around the contents with your hands and legs.\nYou kick something hard, reaching in you pull out a rifle.",
 		"position": {
 			"x": 1051,
 			"y": 491

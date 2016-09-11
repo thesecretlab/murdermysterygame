@@ -2,7 +2,7 @@
 	{
 		"title": "VictimBody",
 		"tags": "",
-		"body": "<<if visited (\"VictimBody\") is false>>\nJacob Wright. Looks like his death was pretty brutal\nI should put some gloves on...\n<<endif>>\n[[Examine Head|VictimBody.Head]]\n[[Examine Jacket|VictimBody.Jacket]]\n[[Examine Torso|VictimBody.Torso]]\n[[Examine Hands|VictimBody.Hands]]\n[[Examine Legs|VictimBody.Legs]]\n[[Look around the room some more|VictimBody.Exit]]",
+		"body": "<<if visited (\"VictimBody\") is false>>\n<<thinkingFont Dialogue>>\nJacob Wright. Looks like his death was pretty brutal\nI should put some gloves on...\n<<endif>>\n[[Examine Head|VictimBody.Head]]\n[[Examine Jacket|VictimBody.Jacket]]\n[[Examine Torso|VictimBody.Torso]]\n[[Examine Hands|VictimBody.Hands]]\n[[Examine Legs|VictimBody.Legs]]\n[[Look around the room some more|VictimBody.Exit]]",
 		"position": {
 			"x": 260,
 			"y": -154
@@ -62,7 +62,7 @@
 	{
 		"title": "VictimBody.Exit",
 		"tags": "",
-		"body": "Don't go anywhere Jacob.\n*Chuckles*",
+		"body": "Don't go anywhere Jacob.\n*Chuckles*\n<<endThinkingFont Dialogue>>",
 		"position": {
 			"x": 258,
 			"y": 113

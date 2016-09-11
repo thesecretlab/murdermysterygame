@@ -2,9 +2,9 @@
 	{
 		"title": "Detective.Intro.Monologue",
 		"tags": "",
-		"body": "<<freezeTime GUI true>>\n...\nDamn it, I fell asleep at my desk again.\n->I really shouldn't work so late.\n    That last case was a hard one.\n    <<startPhoneRing IntroEventSystem>>\n    Great. What now?\n->I shouldn't drink so much.\n    <<startPhoneRing IntroEventSystem>>\n    OH GOD MY HEAD!\n    Damn it, who's calling me?\n->Well, it's better than staying at home.\n    <<startPhoneRing IntroEventSystem>>\n    Hopefully that's not them calling...\n<<freezeTime GUI false>>",
+		"body": "<<freezeTime GUI true>>\n...\n<<thinkingFont Dialogue>>\nDamn it, I fell asleep at my desk again.\n->I really shouldn't work so late.\n    That last case was a hard one.\n    <<startPhoneRing IntroEventSystem>>\n    Great. What now?\n->I shouldn't drink so much.\n    <<startPhoneRing IntroEventSystem>>\n    OH GOD MY HEAD!\n    Damn it, who's calling me?\n->Well, it's better than staying at home.\n    <<startPhoneRing IntroEventSystem>>\n    Hopefully that's not them calling...\n<<endThinkingFont Dialogue>>\n<<freezeTime GUI false>>",
 		"position": {
-			"x": 540,
+			"x": 541,
 			"y": 260
 		},
 		"colorID": 0

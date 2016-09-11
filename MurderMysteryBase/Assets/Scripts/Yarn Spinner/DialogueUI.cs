@@ -74,6 +74,8 @@ namespace Yarn.Unity.Example {
 
         public bool inDialogue;
 
+        public bool thinkingFont;
+
         void Awake ()
 		{
 			firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>(); //declare local pointer to the players first person controller object
@@ -99,13 +101,30 @@ namespace Yarn.Unity.Example {
         {
             firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();
         }
-		
+
+        [YarnCommand("thinkingFont")]
+        public void thinking()
+        {
+            thinkingFont = true;
+        }
+
+        [YarnCommand("endThinkingFont")]
+        public void endThinking()
+        {
+            thinkingFont = false;
+        }		
 		
 		// Show a line of dialogue, gradually
 		public override IEnumerator RunLine (Yarn.Line line)
 		{
 			// Show the text
 			lineText.gameObject.SetActive (true);
+            Debug.Log("Thinking "+thinkingFont);
+            if (thinkingFont)
+            {
+                
+                lineText.fontStyle = FontStyle.Italic;
+            }
 			
 			if (textSpeed > 0.0f) {
 				// Display the line one character at a time
@@ -228,6 +247,8 @@ namespace Yarn.Unity.Example {
 			firstPersonController.LockControllerReleaseMouse(false);
 			yield break;
 		}
+
+        
 		
 	}
 

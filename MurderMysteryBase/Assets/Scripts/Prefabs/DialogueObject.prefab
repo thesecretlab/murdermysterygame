@@ -658,7 +658,9 @@ MonoBehaviour:
   - {fileID: 11443488}
   gameControlsContainer: {fileID: 22411962}
   firstPersonController: {fileID: 0}
+  reticle: {fileID: 0}
   inDialogue: 0
+  thinkingFont: 0
 --- !u!114 &11419042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -919,6 +921,7 @@ MonoBehaviour:
   - {fileID: 4900000, guid: e1614cd125a57be4fb2726bec8f4447e, type: 3}
   - {fileID: 4900000, guid: d4d743e6462eb8d41999091b391334f1, type: 3}
   - {fileID: 4900000, guid: 8884dd86da863d144b3e8d87135ce54a, type: 3}
+  - {fileID: 4900000, guid: b7a71ec8d68e75747bdb255fcc7939b1, type: 3}
   variableStorage: {fileID: 11442140}
   dialogueUI: {fileID: 11417822}
   startNode: 

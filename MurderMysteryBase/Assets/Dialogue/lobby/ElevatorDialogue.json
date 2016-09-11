@@ -2,9 +2,9 @@
 	{
 		"title": "ElevatorDialogue",
 		"tags": "",
-		"body": "I should head up to the victims apartment.\n->Take elevator up.\n    <<loadLevel MapObject murderscene>>",
+		"body": "<<thinkingFont Dialogue>>\nI should head up to the victims apartment.\n<<endThinkingFont Dialogue>>\n->Take elevator up.\n    <<loadLevel MapObject murderscene>>\n->Wait here.\n    <<loadLevel MapObject murderscene>>",
 		"position": {
-			"x": -16,
+			"x": -14,
 			"y": 134
 		},
 		"colorID": 0

@@ -2,7 +2,7 @@
 	{
 		"title": "MapDialogue",
 		"tags": "",
-		"body": "Time to head out.\n->Head to the Office.\n    <<loadLevel MapObject detectivesOffice>>\n->Head to the Murder Scene.\n    <<loadLevel MapObject lobby>>\n->Head to the Alleyway.\n    <<loadLevel MapObject alleyway>>\n->Head to the Bar.\n    <<loadLevel MapObject BarLevel>>\n->Head to the Morgue.\n    <<loadLevel MapObject Morgue>>\n->Head to Logan's Apartment.\n    <<loadLevel MapObject LogansApartment>>\n->Head to Nora's Apartment.\n    <<loadLevel MapObject NoraApartment>>\n->Head to the InterviewRoom.\n    <<loadLevel MapObject InterviewRoom>>",
+		"body": "<<thinkingFont Dialogue>>\nTime to head out.\n<<endThinkingFont Dialogue>>\n->Head to the Office.\n    <<loadLevel MapObject detectivesOffice>>\n->Head to the Murder Scene.\n    <<loadLevel MapObject lobby>>\n->Head to the Alleyway.\n    <<loadLevel MapObject alleyway>>\n->Head to the Bar.\n    <<loadLevel MapObject BarLevel>>\n->Head to the Morgue.\n    <<loadLevel MapObject Morgue>>\n->Head to Logan's Apartment.\n    <<loadLevel MapObject LogansApartment>>\n->Head to Nora's Apartment.\n    <<loadLevel MapObject NoraApartment>>\n->Head to the InterviewRoom.\n    <<loadLevel MapObject InterviewRoom>>",
 		"position": {
 			"x": -18,
 			"y": 134
