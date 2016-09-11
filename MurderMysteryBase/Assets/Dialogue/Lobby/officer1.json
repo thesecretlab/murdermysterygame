@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Officer1.Intro",
+		"tags": "",
+		"body": "<<SetAnimParameterBool SceneHandler Officer_Uniformed_2 IsTalking 1>>\nGood to see you Detective\n->Hey how're the kids?\n    I don't have children.\n    ->The wife?\n        Not married.\n        ->Dog?\n            Nope.\n            ->Drinking problem?\n                4 years sober.\n                ->Well. This is awkward.\n                    Yup.\n->What have we got here?\nThe body is upstairs in his apartment. We've kept anyone from entering it.\n...The apartment I mean.\nTwo witnesses are down here. The door-man, named Kyle Gordon, and a cleaning lady called Lola Austin.\nWe're detaining them until you're done here.\n<<SetAnimParameterBool SceneHandler Officer_Uniformed_2 IsTalking 0>>",
+		"position": {
+			"x": 540,
+			"y": 260
+		},
+		"colorID": 0
+	}
+]
