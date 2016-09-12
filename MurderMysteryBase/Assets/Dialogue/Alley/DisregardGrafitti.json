@@ -2,9 +2,9 @@
 	{
 		"title": "DisregardGrafitti",
 		"tags": "",
-		"body": "It looks like a well educated and polite person is upset with law enforcement.",
+		"body": "<<thinkingFont Dialogue>>\nIt looks like a well educated and polite person is upset with law enforcement.\n<<endThinkingFont Dialogue>>",
 		"position": {
-			"x": 540,
+			"x": 541,
 			"y": 260
 		},
 		"colorID": 0

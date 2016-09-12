@@ -24,10 +24,10 @@ public class LobbySceneHandler : MonoBehaviour {
     {
         while (true)
         {
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(.5f);
             if (sceneStart)
             {
-                officer1.GetComponent<Animator>().SetBool("isTalking", true);
+                officer1.GetComponent<Animator>().SetBool("IsTalking", true);
                 dialogueRunner.StartDialogue("Officer1.Intro");
                 sceneStart = false;
             }

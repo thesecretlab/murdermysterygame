@@ -2,10 +2,10 @@
 	{
 		"title": "CirculatoryDiagram",
 		"tags": "",
-		"body": "Ah yes, I know some of these words.",
+		"body": "<<thinkingFont Dialogue>>\nAh yes, I know some of these words.\n<<endThinkingFont Dialogue>>",
 		"position": {
-			"x": 540,
-			"y": 260
+			"x": 266,
+			"y": 213
 		},
 		"colorID": 0
 	}

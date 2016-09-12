@@ -2,7 +2,7 @@
 	{
 		"title": "NerveDiagram",
 		"tags": "",
-		"body": "Looking at this makes me nervous.\n",
+		"body": "<<thinkingFont Dialogue>>\nLooking at this makes me nervous.\n<<endThinkingFont Dialogue>>",
 		"position": {
 			"x": 488,
 			"y": 261

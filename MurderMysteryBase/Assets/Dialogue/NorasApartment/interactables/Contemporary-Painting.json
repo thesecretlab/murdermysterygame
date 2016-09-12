@@ -2,10 +2,10 @@
 	{
 		"title": "Contemporary-Painting",
 		"tags": "",
-		"body": "A contemporary piece of art. Not really my style..",
+		"body": "<<thinkingFont Dialogue>>\nA contemporary piece of art. Not really my style..\n<<endThinkingFont Dialogue>>",
 		"position": {
 			"x": 516,
-			"y": 715
+			"y": 717
 		},
 		"colorID": 0
 	}

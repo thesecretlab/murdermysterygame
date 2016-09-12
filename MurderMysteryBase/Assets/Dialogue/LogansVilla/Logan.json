@@ -2,7 +2,7 @@
 	{
 		"title": "Logan",
 		"tags": "",
-		"body": "<<if visited (\"Logan\") is false>>\nHello. Can I help you?\n-> Hello Mr. Rutledge. I'm Detective Schmidt. May I come in?\n    Yes of course.\n-> Hello Mr. Rutledge. I'm with the police. Can I come in?\n    Umm. Okay then.\nWhat is this about?\n-> Mr Rutledge, last night Jacob Wright was murdered.\n    ... I see.\n-> Last night Jacob Wright was killed. I'm investigating.\n    Oh... oh God. \nWhy have you come to see me, officer?\n<<else>>\nIs there anything else, officer?\n<<endif>>\n<<if visited(\"Logan.LastNight\") is false>>\n[[I understand you were in Jacob Wright's apartment last night|Logan.LastNight]]\n[[I think you have something to do with it Mr Rutledge|Logan.Accuse]]\n<<else>>\n[[I have more questions about last night|Logan.LastNight]]\n[[Nothing yet. I'm going to look around|Logan.Exit]]\n<<endif>>\n",
+		"body": "<<if visited (\"Logan\") is false>>\nLogan: Hello. Can I help you?\n-> Hello Mr. Rutledge. I'm Detective Schmidt. May I come in?\n    Logan: Yes of course.\n-> Hello Mr. Rutledge. I'm with the police. Can I come in?\n    Logan: Umm. Okay then.\nLogan: What is this about?\n-> Mr Rutledge, last night Jacob Wright was murdered.\n    Logan: ... I see.\n-> Last night Jacob Wright was killed. I'm investigating.\n    Logan: Oh... oh God. \nLogan: Why have you come to see me, officer?\n<<else>>\nLogan: Is there anything else, officer?\n<<endif>>\n<<if visited(\"Logan.LastNight\") is false>>\n[[I understand you were in Jacob Wright's apartment last night|Logan.LastNight]]\n[[I think you have something to do with it Mr Rutledge|Logan.Accuse]]\n<<else>>\n[[I have more questions about last night|Logan.LastNight]]\n[[Nothing yet. I'm going to look around|Logan.Exit]]\n<<endif>>\n",
 		"position": {
 			"x": -24,
 			"y": -517
@@ -12,7 +12,7 @@
 	{
 		"title": "Logan.LastNight",
 		"tags": "",
-		"body": "We often shared a drink in his apartment.\nLast night was no different.\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
+		"body": "Logan: We often shared a drink in his apartment.\nLogan: Last night was no different.\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
 		"position": {
 			"x": -319,
 			"y": -242
@@ -22,9 +22,9 @@
 	{
 		"title": "Logan.Argument",
 		"tags": "",
-		"body": "We argued over Jacob's business. He was putting himself at great risk with the deals he was making.\nI tried to convince him to change course before something went wrong.\nThe argument got a little... heated. I didn't kill him though!\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "Logan: We argued over Jacob's business. He was putting himself at great risk with the deals he was making.\nLogan: I tried to convince him to change course before something went wrong.\nLogan: The argument got a little... heated. I didn't kill him though!\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
-			"x": -719,
+			"x": -718,
 			"y": 183
 		},
 		"colorID": 0
@@ -32,7 +32,7 @@
 	{
 		"title": "Logan.Accuse",
 		"tags": "",
-		"body": "I certainly hope you have some evidence to back that up!\nI think you've overstayed your welcome here officer. I need to speak to my lawyer.\n[[I'm not done asking questions, Mr Rutledge|Logan.LastNight]]\n[[Fine. Goodbye Mr Rutledge|Logan.Exit]]",
+		"body": "Logan: I certainly hope you have some evidence to back that up!\nLogan: I think you've overstayed your welcome here officer. I need to speak to my lawyer.\n[[I'm not done asking questions, Mr Rutledge|Logan.LastNight]]\n[[Fine. Goodbye Mr Rutledge|Logan.Exit]]",
 		"position": {
 			"x": 632,
 			"y": -109
@@ -42,9 +42,9 @@
 	{
 		"title": "Logan.Exit",
 		"tags": "",
-		"body": "<<if visited (\"Logan.Exit\") is false>>\n<<if visited (\"Logan.Accuse\")is false>>\nFine, but please don't break anything.\n<<else>>\nCome back with a warrant!\n<<endif>>\n<<else>>\n<<if visited (\"Logan.Accuse\") is false>>\nGo on then.\n<<else>>\nGet the hell out if you have nothing else to ask!\n<<endif>>\n<<endif>>\n",
+		"body": "<<if visited (\"Logan.Exit\") is false>>\n<<if visited (\"Logan.Accuse\")is false>>\nLogan: Fine, but please don't break anything.\n<<else>>\nLogan: Come back with a warrant!\n<<endif>>\n<<else>>\n<<if visited (\"Logan.Accuse\") is false>>\nLogan: Go on then.\n<<else>>\nLogan: Get the hell out if you have nothing else to ask!\n<<endif>>\n<<endif>>\n",
 		"position": {
-			"x": 386,
+			"x": 384,
 			"y": -414
 		},
 		"colorID": 0
@@ -52,7 +52,7 @@
 	{
 		"title": "Logan.Punched",
 		"tags": "",
-		"body": "That... That was me.\nHe was so stubborn about his business, and I lost my temper.\nI hit him in the face and left him to drink alone.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "Logan: That... That was me.\nLogan: He was so stubborn about his business, and I lost my temper.\nLogan: I hit him in the face and left him to drink alone.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
 			"x": -446,
 			"y": 284
@@ -62,7 +62,7 @@
 	{
 		"title": "Logan.Gunshot",
 		"tags": "",
-		"body": "He was shot?\nI abhor guns. I certainly did not shoot him.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "Logan: He was shot?\nLogan: I abhor guns. I certainly did not shoot him.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
 			"x": -199,
 			"y": 297
@@ -72,10 +72,10 @@
 	{
 		"title": "Logan.Night",
 		"tags": "",
-		"body": "We discussed business. I used to be on the board of his company.\nI left at around half-past six.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I don't believe you. There must be more to it than that.|Logan.Argument]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "Logan: We discussed business. I used to be on the board of his company.\nLogan: I left at around half-past six.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I don't believe you. There must be more to it than that.|Logan.Argument]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
 			"x": -887,
-			"y": -332
+			"y": -331
 		},
 		"colorID": 0
 	}
