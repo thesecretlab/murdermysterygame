@@ -20,9 +20,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "FingerprintsDoor.Dustin",
+		"title": "FingerprintsDoor.DustIn",
 		"tags": "",
-		"body": "There are four sets of prints here.\n[[Document them|fingerprintsDoor.Exit]]\n[[Leave them be for now|fingerprintsDoor.Exit]]",
+		"body": "There are four sets of prints here.\n[[Document them|fingerprintsDoor.Exit]]",
 		"position": {
 			"x": 571,
 			"y": 415

@@ -27,11 +27,13 @@ public class IntroSceneSetup : MonoBehaviour
     private int tick = 0;
     private DialogueRunner dialogueRunner;
     private FadeBetweenScreens fadeController;
+    private VariableStorage yarnVars;
 
 
     void Start()
     {
         dialogueRunner = GameObject.Find("DialogueObject").GetComponentInChildren<DialogueRunner>();
+        yarnVars = GameObject.Find("DialogueObject").GetComponentInChildren<VariableStorage>();
         playerController = playerObject.GetComponent<CharacterController>();
         phoneFlash = phoneLight.GetComponent<LightFlash>();
         phoneDialogue = phoneDialogueObj.GetComponent<NPC>();
@@ -41,20 +43,24 @@ public class IntroSceneSetup : MonoBehaviour
 
     void Update()
     {
-        MakePhoneRing();
-        if (isGameStart)
+        if (!(yarnVars.GetValue("NewGameIntroDone").AsBool))
         {
-            MovePlayerToChair();
-            phoneDialogue.enabled = false;
-            isGameStart = false;
-            isInChair = true;
-            dialogueRunner.StartDialogue("Detective.Intro.Monologue");
-        }
-        if (isSceneDone)
-        {
-            isInChair = false;
-            playerController.enabled = true;
-            fadeController.fadeSpeed = 0.25f;
+            MakePhoneRing();
+            if (isGameStart)
+            {
+                MovePlayerToChair();
+                phoneDialogue.enabled = false;
+                isGameStart = false;
+                isInChair = true;
+                dialogueRunner.StartDialogue("Detective.Intro.Monologue");
+            }
+            if (isSceneDone)
+            {
+                isInChair = false;
+                playerController.enabled = true;
+                fadeController.fadeSpeed = 0.25f;
+                
+            }
         }
     }
 
