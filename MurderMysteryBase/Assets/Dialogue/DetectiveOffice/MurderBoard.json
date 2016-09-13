@@ -12,6 +12,7 @@
 	{
 		"title": "MurderBoard",
 		"tags": "",
+		"body": "<<thinkingFont Dialogue>>\nI should start mapping out the investigation.\n->Place discovered clues on the board\n    <<if visited(\"Lola\")is true>>\n    Lola\n    <<else>>\n    No Lola\n    <<endif>>\n<<endThinkingFont Dialogue>>",
 		"position": {
 			"x": -369,
 			"y": 42
