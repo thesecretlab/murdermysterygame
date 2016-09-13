@@ -24,7 +24,6 @@ public class IntroSceneSetup : MonoBehaviour
     private CharacterController playerController;
     private LightFlash phoneFlash;
     private NPC phoneDialogue;
-    private int tick = 0;
     private DialogueRunner dialogueRunner;
     private FadeBetweenScreens fadeController;
     private VariableStorage yarnVars;

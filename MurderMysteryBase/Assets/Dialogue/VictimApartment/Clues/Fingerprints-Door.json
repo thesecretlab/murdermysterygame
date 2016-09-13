@@ -22,7 +22,7 @@
 	{
 		"title": "FingerprintsDoor.DustIn",
 		"tags": "",
-		"body": "There are four sets of prints here.\n<<set $fingerprintsFound to true>>\n<<set $foundClues to true>>",
+		"body": "There are four sets of prints here.\n<<set $fingerprintsFound to true>>\n<<set $foundClues to true>>\n\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>",
 		"position": {
 			"x": 571,
 			"y": 415

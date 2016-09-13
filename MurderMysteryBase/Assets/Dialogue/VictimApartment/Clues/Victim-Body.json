@@ -114,7 +114,7 @@
 		"tags": "",
 		"body": "[[He must have poured another one and forgotten about it.|VictimBody.Conclusions.Glass.Wrong]]\n[[There must have been a visitor that the victim knew.|VictimBody.Conclusions.Glass.Right]]\n<<if visited (\"Kyle.SawRutledge\") is true>>\n[[It must have been poured for Logan Rutledge. I wonder why he left it unfinished...|VictimBody.Conlusions.Glass.LoganRutledge]]\n<<endif>>\n[[I don't have enough information to draw a conclusion yet.|VictimBody]]",
 		"position": {
-			"x": 2505,
+			"x": 2506,
 			"y": 622
 		},
 		"colorID": 0
@@ -122,7 +122,7 @@
 	{
 		"title": "VictimBody.Conlusions.Glass.LoganRutledge",
 		"tags": "",
-		"body": "Logan Rutledge was definately in the apartment before the victim died.\nWhat his involvment in Mr Wright's death was, remains to be seen.\n<<set $foundCluesConnectToSuspects to true>>\n<<set $whiskeyglassConnectsTologan to true>>\n[[Examine Head|VictimBody.Head]]\n[[Examine Jacket|VictimBody.Jacket]]\n[[Examine Torso|VictimBody.Torso]]\n[[Examine Hands|VictimBody.Hands]]\n[[Examine Legs|VictimBody.Legs]]\n[[Look around the room some more|VictimBody.Exit]]",
+		"body": "Logan Rutledge was definately in the apartment before the victim died.\nWhat his involvment in Mr Wright's death was, remains to be seen.\n<<set $foundCluesConnectToSuspects to true>>\n<<set $whiskeyglassConnectsTologan to true>>\n\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n\n[[Examine Head|VictimBody.Head]]\n[[Examine Jacket|VictimBody.Jacket]]\n[[Examine Torso|VictimBody.Torso]]\n[[Examine Hands|VictimBody.Hands]]\n[[Examine Legs|VictimBody.Legs]]\n[[Look around the room some more|VictimBody.Exit]]",
 		"position": {
 			"x": 2929,
 			"y": 557

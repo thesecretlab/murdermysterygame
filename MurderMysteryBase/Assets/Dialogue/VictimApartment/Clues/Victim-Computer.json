@@ -32,7 +32,7 @@
 	{
 		"title": "VictimComputer.Logoff",
 		"tags": "",
-		"body": "",
+		"body": "<<endThinkingFont Dialogue>>",
 		"position": {
 			"x": 2250,
 			"y": 395
@@ -42,10 +42,10 @@
 	{
 		"title": "VictimComputer.Emails.Inbox",
 		"tags": "",
-		"body": "[[From: Freeman's Highrise Ptd Ltd; Subject: This month's bond|VictimComputer.Emails.Inbox.Bond]]\n[[From: Rachael Baxter; Subject: Last Chance|VictimComputer.Emails.Threat]]\n[[BACK|VictimComputer.Emails]]",
+		"body": "[[From: Freeman's Highrise Ptd Ltd; Subject: This month's bond|VictimComputer.Emails.Inbox.Bond]]\n[[From: Rachael Baxter; Subject: Last Chance|VictimComputer.Emails.Inbox.Threat]]\n[[BACK|VictimComputer.Emails]]",
 		"position": {
 			"x": 1947,
-			"y": 804
+			"y": 805
 		},
 		"colorID": 4
 	},
@@ -82,7 +82,7 @@
 	{
 		"title": "VictimComputer.Emails.Inbox.Bond",
 		"tags": "",
-		"body": "<<endThinkingFont Dialogue>>\n\"Thank you Mr Wright for your 6 month advance on your rates.. blah blah blah\"\n<<thinkingFont Dialogue>>\nNothing useful here.\n[[BACK|VictimComputer.Emails.Inbox]]",
+		"body": "<<endThinkingFont Dialogue>>\n\"Thank you Mr Wright for your 6 month advance on your rates.. blah blah blah\"\n<<thinkingFont Dialogue>>\nNothing useful here.\n<<endThinkingFont Dialogue>>\n[[BACK|VictimComputer.Emails.Inbox]]",
 		"position": {
 			"x": 1633,
 			"y": 601
@@ -92,7 +92,7 @@
 	{
 		"title": "VictimComputer.Emails.Inbox.Threat",
 		"tags": "",
-		"body": "\"Jacob, I'm warning you. Your announcment has not been recieved well by the board of directors.\nPlease reconsider your decision before it puts you in danger.\nRegards, Rachael\"\nInteresting...\n[[BACK|VictimComputer.Emails.Inbox]]",
+		"body": "<<endThinkingFont Dialogue>>\n\"Jacob, I'm warning you. Your announcment has not been recieved well by the board of directors.\nPlease reconsider your decision before it puts you in danger.\nRegards, Rachael\"\n<<thinkingFont Dialogue>>\nInteresting...\n<<endThinkingFont Dialogue>>\n<<set $rachaelIsSuspect to true>>\n<<set $foundSuspects to true>>\n\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n[[BACK|VictimComputer.Emails.Inbox]]",
 		"position": {
 			"x": 1633,
 			"y": 840
