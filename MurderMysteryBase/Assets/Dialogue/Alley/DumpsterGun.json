@@ -22,7 +22,7 @@
 	{
 		"title": "DumpsterGun.Search",
 		"tags": "",
-		"body": "You jump into the dumpster.\nYou feel around the contents with your hands and legs.\nYou kick something hard, reaching in you pull out a rifle.",
+		"body": "You jump into the dumpster.\nYou feel around the contents with your hands and legs.\nYou kick something hard, reaching in you pull out a rifle.\n<<$rifleFound = 1>>",
 		"position": {
 			"x": 1051,
 			"y": 491
