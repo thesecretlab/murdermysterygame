@@ -2,10 +2,10 @@
 	{
 		"title": "VictimComputer",
 		"tags": "",
-		"body": "The victim's Computer.\n[[Attempt to log on|VictimComputer.LoginSuccess]]\n[[Step Away|VictimComputer.Logoff]]",
+		"body": "<<thinkingFont Dialogue>>\nThe victim's Computer.\n[[Attempt to log on|VictimComputer.LoginSuccess]]\n[[Step Away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 2683,
-			"y": 476
+			"x": 2698,
+			"y": 315
 		},
 		"colorID": 0
 	},
@@ -14,8 +14,8 @@
 		"tags": "",
 		"body": "[[Check emails|VictimComputer.Emails]]\n[[Step Away|Victim.Computer.Logoff]]",
 		"position": {
-			"x": 2685,
-			"y": 720
+			"x": 2700,
+			"y": 559
 		},
 		"colorID": 0
 	},
@@ -24,8 +24,8 @@
 		"tags": "",
 		"body": "Lets see. What should I check?\n[[Inbox|VictimComputer.Emails.Inbox]]\n[[Sent|VictimComputer.Emails.Sent]]\n[[Deleted|VictimComputer.Emails.Deleted]]\n[[Junk|VictimComputer.Emails.Junk]]\n[[Step away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 2273,
-			"y": 976
+			"x": 2288,
+			"y": 815
 		},
 		"colorID": 0
 	},
@@ -34,8 +34,8 @@
 		"tags": "",
 		"body": "",
 		"position": {
-			"x": 2235,
-			"y": 556
+			"x": 2250,
+			"y": 395
 		},
 		"colorID": 0
 	},
@@ -44,8 +44,8 @@
 		"tags": "",
 		"body": "[[From: Freeman's Highrise Ptd Ltd; Subject: This month's bond|VictimComputer.Emails.Inbox.Bond]]\n[[From: Rachael Baxter; Subject: Last Chance|VictimComputer.Emails.Threat]]\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 1932,
-			"y": 965
+			"x": 1947,
+			"y": 804
 		},
 		"colorID": 4
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 1934,
-			"y": 1224
+			"x": 1949,
+			"y": 1063
 		},
 		"colorID": 4
 	},
@@ -64,8 +64,8 @@
 		"tags": "",
 		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 1934,
-			"y": 1455
+			"x": 1949,
+			"y": 1294
 		},
 		"colorID": 4
 	},
@@ -74,18 +74,18 @@
 		"tags": "",
 		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 1929,
-			"y": 1683
+			"x": 1944,
+			"y": 1522
 		},
 		"colorID": 4
 	},
 	{
 		"title": "VictimComputer.Emails.Inbox.Bond",
 		"tags": "",
-		"body": "\"Thank you Mr Wright for your 6 month advance on your rates.. blah blah blah\"\nNothing useful here.\n[[BACK|VictimComputer.Emails.Inbox]]",
+		"body": "<<endThinkingFont Dialogue>>\n\"Thank you Mr Wright for your 6 month advance on your rates.. blah blah blah\"\n<<thinkingFont Dialogue>>\nNothing useful here.\n[[BACK|VictimComputer.Emails.Inbox]]",
 		"position": {
-			"x": 1618,
-			"y": 762
+			"x": 1633,
+			"y": 601
 		},
 		"colorID": 5
 	},
@@ -94,8 +94,8 @@
 		"tags": "",
 		"body": "\"Jacob, I'm warning you. Your announcment has not been recieved well by the board of directors.\nPlease reconsider your decision before it puts you in danger.\nRegards, Rachael\"\nInteresting...\n[[BACK|VictimComputer.Emails.Inbox]]",
 		"position": {
-			"x": 1618,
-			"y": 1001
+			"x": 1633,
+			"y": 840
 		},
 		"colorID": 1
 	}

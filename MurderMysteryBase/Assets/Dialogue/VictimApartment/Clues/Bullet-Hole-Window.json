@@ -2,7 +2,7 @@
 	{
 		"title": "Bullet-Hole-Window",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nThere's a crack in the window here.\nHmm. Looks like it was caused by a bullet...\n<<endThinkingFont Dialogue>>",
+		"body": "<<thinkingFont Dialogue>>\nThere's a crack in the window here.\nHmm. Looks like it was caused by a bullet...\n<<set $foundClues to true>>\n<<set $bulletholeFound to true>>\n<<endThinkingFont Dialogue>>",
 		"position": {
 			"x": 1094,
 			"y": 359

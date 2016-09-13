@@ -2,9 +2,9 @@
 	{
 		"title": "FingerprintsDoor",
 		"tags": "",
-		"body": "The door has been used multiple times.\nI should still check for fingerprints.\n[[Dust for prints on the outside|FingerprintsDoor.DustOut]]\n[[Dust for prints on the inside|FingerprintsDoor.DustIn]]\n[[Maybe Later|FingerprintsDoor.Exit]]",
+		"body": "<<thinkingFont Dialogue>>\nThe door has been used multiple times.\nI should still check for fingerprints.\n[[Dust for prints on the outside|FingerprintsDoor.DustOut]]\n[[Dust for prints on the inside|FingerprintsDoor.DustIn]]\n[[Actually, I want to go back downstairs|FingerprintsDoor.Leave]]\n[[Maybe Later|FingerprintsDoor.Exit]]",
 		"position": {
-			"x": 405,
+			"x": 402,
 			"y": 129
 		},
 		"colorID": 0
@@ -22,7 +22,7 @@
 	{
 		"title": "FingerprintsDoor.DustIn",
 		"tags": "",
-		"body": "There are four sets of prints here.\n[[Document them|fingerprintsDoor.Exit]]",
+		"body": "There are four sets of prints here.\n<<set $fingerprintsFound to true>>\n<<set $foundClues to true>>",
 		"position": {
 			"x": 571,
 			"y": 415
@@ -32,10 +32,20 @@
 	{
 		"title": "FingerprintsDoor.Exit",
 		"tags": "",
-		"body": "",
+		"body": "<<endThinkingFont Dialogue>>",
 		"position": {
-			"x": 845,
-			"y": 173
+			"x": 815,
+			"y": 72
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FingerprintsDoor.Leave",
+		"tags": "",
+		"body": "<<loadLevel MapObject lobby>>",
+		"position": {
+			"x": 561,
+			"y": -214
 		},
 		"colorID": 0
 	}
