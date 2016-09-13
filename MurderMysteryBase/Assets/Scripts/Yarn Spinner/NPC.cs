@@ -95,6 +95,7 @@ namespace Yarn.Unity.Example {
             if (player == null)
             {
                 player = GameObject.FindGameObjectWithTag("Player");
+                playerPosition = player.GetComponent<Transform>();
             }
             currentRange = Vector3.Distance(playerPosition.position, npcPosition.position);
             if (dialogueUI.inDialogue)

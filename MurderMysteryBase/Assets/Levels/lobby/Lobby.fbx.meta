@@ -2390,6 +2390,12 @@ ModelImporter:
     104764: Component_24_2
     104766: Mesh1094
     104768: Mesh1095
+    104770: Mesh345_MeshPart0
+    104772: Mesh345_MeshPart1
+    104774: Mesh531_MeshPart0
+    104776: Mesh531_MeshPart1
+    104778: Mesh716_MeshPart0
+    104780: Mesh716_MeshPart1
     400000: Aurora_HorizontalHallLantern1
     400002: Aurora_HorizontalHallLantern2
     400004: Aurora_IntermediateHallStation1
@@ -4775,6 +4781,12 @@ ModelImporter:
     404764: Component_24_2
     404766: Mesh1094
     404768: Mesh1095
+    404770: Mesh345_MeshPart0
+    404772: Mesh345_MeshPart1
+    404774: Mesh531_MeshPart0
+    404776: Mesh531_MeshPart1
+    404778: Mesh716_MeshPart0
+    404780: Mesh716_MeshPart1
     2300000: Mesh1
     2300002: Mesh10
     2300004: Mesh100
@@ -5870,6 +5882,12 @@ ModelImporter:
     2302184: Mesh1093
     2302186: Mesh1094
     2302188: Mesh1095
+    2302190: Mesh345_MeshPart0
+    2302192: Mesh345_MeshPart1
+    2302194: Mesh531_MeshPart0
+    2302196: Mesh531_MeshPart1
+    2302198: Mesh716_MeshPart0
+    2302200: Mesh716_MeshPart1
     3300000: Mesh1
     3300002: Mesh10
     3300004: Mesh100
@@ -6965,6 +6983,12 @@ ModelImporter:
     3302184: Mesh1093
     3302186: Mesh1094
     3302188: Mesh1095
+    3302190: Mesh345_MeshPart0
+    3302192: Mesh345_MeshPart1
+    3302194: Mesh531_MeshPart0
+    3302196: Mesh531_MeshPart1
+    3302198: Mesh716_MeshPart0
+    3302200: Mesh716_MeshPart1
     4300000: Mesh1
     4300002: Mesh2
     4300004: Mesh3
@@ -8060,6 +8084,12 @@ ModelImporter:
     4302184: Mesh1093
     4302186: Mesh1094
     4302188: Mesh1095
+    4302190: Mesh345_MeshPart0
+    4302192: Mesh345_MeshPart1
+    4302194: Mesh531_MeshPart0
+    4302196: Mesh531_MeshPart1
+    4302198: Mesh716_MeshPart0
+    4302200: Mesh716_MeshPart1
     6400000: Mesh1
     6400002: Mesh10
     6400004: Mesh100
@@ -9184,7 +9214,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
