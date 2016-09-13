@@ -122,8 +122,11 @@ namespace Yarn.Unity.Example {
             Debug.Log("Thinking "+thinkingFont);
             if (thinkingFont)
             {
-                
                 lineText.fontStyle = FontStyle.Italic;
+            }
+            else
+            {
+                lineText.fontStyle = FontStyle.Normal;
             }
 			
 			if (textSpeed > 0.0f) {
