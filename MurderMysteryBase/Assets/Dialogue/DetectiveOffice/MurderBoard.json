@@ -12,10 +12,10 @@
 	{
 		"title": "MurderBoard",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nI should start mapping out the investigation.\n->Place discovered clues on the board\n    <<if visited(\"Lola\")is true>>\n    Lola\n    <<else>>\n    No Lola\n    <<endif>>\n<<endThinkingFont Dialogue>>",
+		"body": "<<thinkingFont Dialogue>>\nI should start mapping out the investigation.\n->Place discovered clues on the board\n    <<if visited(\"Lola\")is true>>\n    ->Lola was in the apartment that night. I should add her as a suspect\n    <<endif>>\n<<endThinkingFont Dialogue>>",
 		"position": {
-			"x": -369,
-			"y": 42
+			"x": -488,
+			"y": -134
 		},
 		"colorID": 0
 	}

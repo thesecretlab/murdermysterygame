@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Yarn.Unity;
 using Yarn.Unity.Example;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class LobbySceneHandler : MonoBehaviour {
 
@@ -22,15 +23,13 @@ public class LobbySceneHandler : MonoBehaviour {
 
     IEnumerator dialogueCheck()
     {
-        while (true)
+        player.GetComponent<FirstPersonController>().LockControllerReleaseMouse(true);
+        yield return new WaitForSeconds(.5f);
+        if (sceneStart)
         {
-            yield return new WaitForSeconds(.5f);
-            if (sceneStart)
-            {
-                officer1.GetComponent<Animator>().SetBool("IsTalking", true);
-                dialogueRunner.StartDialogue("Officer1.Intro");
-                sceneStart = false;
-            }
+            officer1.GetComponent<Animator>().SetBool("IsTalking", true);
+            dialogueRunner.StartDialogue("Officer1.Intro");
+            sceneStart = false;
         }
     }
 

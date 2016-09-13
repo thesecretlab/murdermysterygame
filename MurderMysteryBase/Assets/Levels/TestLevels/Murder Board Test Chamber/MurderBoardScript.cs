@@ -49,6 +49,8 @@ public class MurderBoardScript : MonoBehaviour
 
     private static MurderBoardScript _instance;
 
+    private Vector3 murderBoardPosition;
+
     void Awake()
     {
         //if we don't have an [_instance] set yet
@@ -94,6 +96,7 @@ public class MurderBoardScript : MonoBehaviour
         {
             suspect.SetActive(false);
         }
+        murderBoardPosition = this.gameObject.transform.position;
     }
 
     // Update is called once per frame
@@ -101,7 +104,13 @@ public class MurderBoardScript : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name != "detectivesOffice")
         {
+            this.gameObject.transform.position = new Vector3(0, -100, 0);
             this.gameObject.transform.localScale = new Vector3(0, 0, 0);
+        }
+        else
+        {
+            this.gameObject.transform.position = murderBoardPosition;
+            this.gameObject.transform.localScale = new Vector3(1, 1, 1);
         }
         for (int i = 0; i < CluesFound; i++)
         {
