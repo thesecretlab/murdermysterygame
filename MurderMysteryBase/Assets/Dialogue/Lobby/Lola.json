@@ -22,7 +22,7 @@
 	{
 		"title": "Lola.EveningBrief",
 		"tags": "",
-		"body": "Lola: I was cleaning the hallways like I always do.\nLola: When I went past Mr Wright's apartment, I heard some raised voices.\nLola: I came past later on, and the door was ajar...\nLola: So I poked my head in to see if everything was alright\nLola: and I saw Mr Wright's body on the floor!\nLola: So I ran downstairs to tell Kyle to ring the police.\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n[[Detective: Wait here please. I may have more questions.|Lola.Goodbye]]",
+		"body": "Lola: I was cleaning the hallways like I always do.\nLola: When I went past Mr Wright's apartment, I heard some raised voices.\nLola: I came past later on, and the door was ajar...\nLola: So I poked my head in to see if everything was alright\nLola: and I saw Mr Wright's body on the floor!\nLola: So I ran downstairs to tell Kyle to ring the police.\n<<$lolaAtScene = true>>\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n[[Detective: Wait here please. I may have more questions.|Lola.Goodbye]]",
 		"position": {
 			"x": 275,
 			"y": 416

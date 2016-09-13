@@ -4,7 +4,7 @@
 		"tags": "",
 		"body": "<<if visited (\"Logan\") is false>>\nLogan: Hello. Can I help you?\n-> Hello Mr. Rutledge. I'm Detective Schmidt. May I come in?\n    Logan: Yes of course.\n-> Hello Mr. Rutledge. I'm with the police. Can I come in?\n    Logan: Umm. Okay then.\nLogan: What is this about?\n-> Mr Rutledge, last night Jacob Wright was murdered.\n    Logan: ... I see.\n-> Last night Jacob Wright was killed. I'm investigating.\n    Logan: Oh... oh God. \nLogan: Why have you come to see me, officer?\n<<else>>\nLogan: Is there anything else, officer?\n<<endif>>\n<<if visited(\"Logan.LastNight\") is false>>\n[[I understand you were in Jacob Wright's apartment last night|Logan.LastNight]]\n[[I think you have something to do with it Mr Rutledge|Logan.Accuse]]\n<<else>>\n[[I have more questions about last night|Logan.LastNight]]\n[[Nothing yet. I'm going to look around|Logan.Exit]]\n<<endif>>\n",
 		"position": {
-			"x": -24,
+			"x": -26,
 			"y": -517
 		},
 		"colorID": 0
@@ -12,7 +12,7 @@
 	{
 		"title": "Logan.LastNight",
 		"tags": "",
-		"body": "Logan: We often shared a drink in his apartment.\nLogan: Last night was no different.\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
+		"body": "Logan: We often shared a drink in his apartment.\nLogan: Last night was no different.\n<<$loganIsSuspect = true>>\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
 		"position": {
 			"x": -319,
 			"y": -242

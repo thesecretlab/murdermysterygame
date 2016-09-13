@@ -4,7 +4,7 @@
 		"tags": "",
 		"body": "<<if visited (\"Nora\") is false>>\nNora: Hello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n<<else>>\nNora: Yes, Detective?\n[[I'd like to some questions|Nora.Questions]]\n<<endif>>\n",
 		"position": {
-			"x": -427,
+			"x": -426,
 			"y": 212
 		},
 		"colorID": 6
@@ -64,7 +64,7 @@
 		"tags": "",
 		"body": "Nora: Listen, I've told you everything I know.\nNora: Just leave me alone.\n[[I've had about enough of this. Open the door!|Nora.Greet.Scared]]",
 		"position": {
-			"x": -658,
+			"x": -659,
 			"y": 1008
 		},
 		"colorID": 4
@@ -75,14 +75,14 @@
 		"body": "[[What can you tell me about Jacob?|Nora.Question.Jacob]]\n[[Where were you last night?|Nora.Question.LastNight]]\n[[What do you do, exactly, Nora? |Nora.Question.Self]]",
 		"position": {
 			"x": 141,
-			"y": 331
+			"y": 332
 		},
 		"colorID": 1
 	},
 	{
 		"title": "Nora.Question.Jacob",
 		"tags": "",
-		"body": "Nora: We were lovers for the last month.\nNora: I thought things were getting pretty serious, but clearly that wasn't the case.\nNora: Three days ago he told me we were finished. No warning, no explaination, he just decided we were done.\n[[I'm sorry to hear that. I have more questions.|Nora.Questions]]\n[[Sounds like motive to me!|Nora.Accuse]]\n[[I'm sorry to hear that. I have no more questions|Nora.Exit]]",
+		"body": "Nora: We were lovers for the last month.\nNora: I thought things were getting pretty serious, but clearly that wasn't the case.\nNora: Three days ago he told me we were finished. No warning, no explaination, he just decided we were done.\n<<$noraIsSuspect = true>>\n[[I'm sorry to hear that. I have more questions.|Nora.Questions]]\n[[Sounds like motive to me!|Nora.Accuse]]\n[[I'm sorry to hear that. I have no more questions|Nora.Exit]]",
 		"position": {
 			"x": 130,
 			"y": 793

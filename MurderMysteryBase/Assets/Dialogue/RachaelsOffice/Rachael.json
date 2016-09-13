@@ -14,7 +14,7 @@
 		"tags": "",
 		"body": "Rachael: Let's see. I finished work here at 5:00. Ask my staff.\nRachael: From there, I went to my favourite bar for a drink.\nRachael: I left there at around 8, and went home.\n->Do you have anyone who can back that up?\n    Rachael: My staff and the bartender at BARNAME.\n    ->Thanks.\n        Rachael: Anything else?\n    ->Can anyone vouch for you at home?\n        Rachael: I live on my own, so no.\n->Thanks. I'll add that to my notes\nRachael: I'm not a suspect am I?\n->Everyone is a suspect at this stage.\n->I'm just following all the leads.\nRachael: I see.\n[[What can you tell me about Jacob's announcement?|Rachael.Jacob]]\n[[Just a moment, let me consult my notes|Rachael.Exit]]",
 		"position": {
-			"x": 243,
+			"x": 244,
 			"y": 336
 		},
 		"colorID": 0
@@ -25,7 +25,7 @@
 		"body": "Rachael: Well, I suppose most people don't know what we do here.\n->Give me details.\n    Rachael: Our company produces microprocessors. Very high quality technology.\n    Rachael: Currently we make a lot of components for the military.\n    Rachael: Things like stabilizers on Tanks, or targeting systems for missiles.\n->Just cliff-notes if you don't mind.\n    Rachael: Okay then. Short of it is we make military hardware.\n\nRachael: Recently Jacob had a change of heart about our business.\nRachael: He decided that if we want to be an ethical company, we need to stop feeding war with our technology.\nRachael: Needless to say, this didn't go down especially well with the shareholders.\n\nRachael: I tried to talk him out of it, but he's stubborn. Convinced his way is the only way.\n\n[[What were your movements last night?|Rachael.LastNight]]\n[[Just a moment, let me consult my notes|Rachael.Exit]]",
 		"position": {
 			"x": 554,
-			"y": 361
+			"y": 359
 		},
 		"colorID": 0
 	},
