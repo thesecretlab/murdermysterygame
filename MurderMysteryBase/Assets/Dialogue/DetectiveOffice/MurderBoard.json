@@ -2,20 +2,70 @@
 	{
 		"title": "MurderBoardTest",
 		"tags": "",
-		"body": "->Add clue\n    ->Add clue Bullet Hole\n        <<addClue MurderBoard bullethole>>\n    ->Add clue Fingerprints\n        <<addClue MurderBoard fingerprints>>\n    ->Add clue Whiskey Glass\n        <<addClue MurderBoard whiskeyglass>>\n    ->Add clue 3\n        <<addClue MurderBoard three>>\n->Add suspect\n    ->Add suspect Kyle\n        <<addSuspect MurderBoard kyle>>\n    ->Add suspect Logan\n        <<addSuspect MurderBoard logan>>\n    ->Add suspect Lola\n        <<addSuspect MurderBoard lola>>\n    ->Add suspect Nora\n        <<addSuspect MurderBoard nora>>\n->Connect clue to suspect\n    ->Add clue 0...\n        ->...to suspect Bill \n            <<moveClueToSuspect MurderBoard zero bill>>\n        ->...to suspect Elvis\n            <<moveClueToSuspect MurderBoard zero elvis>>\n        ->...to suspect Lego\n            <<moveClueToSuspect MurderBoard zero lego>>\n        ->...to suspect Zodiac\n            <<moveClueToSuspect MurderBoard zero zodiac>>\n    ->Add clue 1...\n        ->...to suspect Bill \n            <<moveClueToSuspect MurderBoard one bill>>\n        ->...to suspect Elvis\n            <<moveClueToSuspect MurderBoard one elvis>>\n        ->...to suspect Lego\n            <<moveClueToSuspect MurderBoard one lego>>\n        ->...to suspect Zodiac\n            <<moveClueToSuspect MurderBoard one zodiac>>\n    ->Add clue 2...\n        ->...to suspect Bill \n            <<moveClueToSuspect MurderBoard two bill>>\n        ->...to suspect Elvis\n            <<moveClueToSuspect MurderBoard two elvis>>\n        ->...to suspect Lego\n            <<moveClueToSuspect MurderBoard two lego>>\n        ->...to suspect Zodiac\n            <<moveClueToSuspect MurderBoard two zodiac>>\n    ->Add clue 3...\n        ->...to suspect Bill \n            <<moveClueToSuspect MurderBoard three bill>>\n        ->...to suspect Elvis\n            <<moveClueToSuspect MurderBoard three elvis>>\n        ->...to suspect Lego\n            <<moveClueToSuspect MurderBoard three lego>>\n        ->...to suspect Zodiac\n            <<moveClueToSuspect MurderBoard three zodiac>>\n",
+		"body": "->Set clue as found\n    ->Set Bullet Hole as found\n        <<set $foundClues to true>>\n        <<set $bulletholeFound to true>>\n    ->Set Fingerprints as found\n        <<set $foundClues to true>>\n        <<set $fingerprintsFound to true>>\n    ->Set Whiskey Glass as found\n        <<set $foundClues to true>>\n        <<set $whiskeyglassFound to true>>\n    ->Set Syringe as found\n        <<set $foundClues to true>>\n        <<set $syringeFound to true>>\n->Set as suspect\n    ->Set Lola as suspect\n        <<set $foundSuspects to true>>\n        <<set $lolaIsSuspect to true>>\n    ->Set Logan as suspect\n        <<set $foundSuspects to true>>\n        <<set $loganIsSuspect to true>>\n    ->Set Nora as suspect\n        <<set $foundSuspects to true>>\n        <<set $noraIsSuspect to true>>\n    ->Set Rachael as suspect\n        <<set $foundSuspects to true>>\n        <<set $rachaelIsSuspect to true>>\n->Connect clue to suspect\n    ->Set Whiskey Glass connects to Logan\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $whiskeyglassConnectsTologan to true>>\n    ->Set FingerPrints connects to Logan\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $fingerprintsConnectsTologan to true>>\n    ->Set BulletHole connects to Rachael\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $bulletholeConnectsTorachael to true>>\n    ->Set Syringe connects to Nora\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $syringeConnectsTonora to true>>\n->All the things\n    <<set $foundClues to true>>\n    <<set $bulletholeFound to true>>\n    <<set $fingerprintsFound to true>>\n    <<set $whiskeyglassFound to true>>\n    <<set $syringeFound to true>>\n    <<set $foundSuspects to true>>\n    <<set $lolaIsSuspect to true>>\n    <<set $loganIsSuspect to true>>\n    <<set $noraIsSuspect to true>>\n    <<set $rachaelIsSuspect to true>>\n    <<set $foundCluesConnectToSuspects to true>>\n    <<set $whiskeyglassConnectsTologan to true>>\n    <<set $fingerprintsConnectsTologan to true>>\n    <<set $bulletholeConnectsTorachael to true>>\n    <<set $syringeConnectsTonora to true>>",
 		"position": {
-			"x": -783,
-			"y": -126
+			"x": -1318,
+			"y": -169
 		},
 		"colorID": 2
 	},
 	{
+		"title": "MurderBoard.Add",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>\n<<if $foundClues == true>>\n[[Place discovered clues on the board|MurderBoard.AddClues]]\n<<endif>>\n<<if $foundSuspects == true>>\n[[Place known suspects on the board|MurderBoard.AddSuspects]]\n<<endif>>\n<<if $foundClues == true and $foundSuspects == true>>\n[[I should try to tie some of these clues to a suspect|MurderBoard.AddCluesToSuspects]]\n<<endif>>\n[[Leave the board|MurderBoard.Exit]]",
+		"position": {
+			"x": -495,
+			"y": -129
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MurderBoard.AddClues",
+		"tags": "",
+		"body": "<<if $foundClues == true>>\n<<if $bulletholeFound == true>>\nI should add the bullet hole to the board.\n<<addClue MurderBoard bullethole>>\n<<endif>>\n<<if $fingerprintsFound == true>>\nI should add the fingerprints to the board.\n<<addClue MurderBoard fingerprints>>\n<<endif>>\n<<if $whiskeyglassFound == true>>\nI should add the whiskey glass to the board.\n<<addClue MurderBoard whiskeyglass>>\n<<endif>>\n<<if $syringeFound == true>>\nI should add the syringe to the board.\n<<addClue MurderBoard syringe>>\n<<endif>>\n<<else>>\nI haven't found any clues yet.\n<<endif>>\n[[MurderBoard.Add]]",
+		"position": {
+			"x": -17,
+			"y": -52
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MurderBoard.AddSuspects",
+		"tags": "",
+		"body": "<<if $foundClues == true>>\n<<if $lolaIsSuspect == true>>\nI should add Lola as a suspect.\n<<addSuspect MurderBoard lola>>\n<<endif>>\n<<if $noraIsSuspect == true>>\nI should add Nora as a suspect.\n<<addSuspect MurderBoard nora>>\n<<endif>>\n<<if $loganIsSuspect == true>>\nI should add Logan as a suspect.\n<<addSuspect MurderBoard logan>>\n<<endif>>\n<<if $rachaelIsSuspect == true>>\nI should add Rachael as a suspect.\n<<addSuspect MurderBoard rachael>>\n<<endif>>\n<<else>>\nI haven't found any suspects yet.\n<<endif>>\n[[MurderBoard.Add]]",
+		"position": {
+			"x": -265,
+			"y": 324
+		},
+		"colorID": 0
+	},
+	{
 		"title": "MurderBoard",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nI should start mapping out the investigation.\n->Place discovered clues on the board\n->Place known suspects on the board\n    <<if $lolaIsSuspect == true>>\n    ->I should Lola as a suspect.\n    <<endif>>\n    <<if $noraIsSuspect == true>>\n    ->I should Nora as a suspect.\n    <<endif>>\n    <<if $loganIsSuspect == true>>\n    ->I should Logan as a suspect.\n    <<endif>>\n    <<if $rachaelIsSuspect == true>>\n    ->I should Rachael as a suspect.\n    <<endif>>\n<<endThinkingFont Dialogue>>",
+		"body": "<<thinkingFont Dialogue>>\nI should start mapping out the investigation.\n<<endThinkingFont Dialogue>>\n[[MurderBoard.Add]]",
 		"position": {
-			"x": -487,
-			"y": -134
+			"x": -938,
+			"y": -224
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MurderBoard.AddCluesToSuspects",
+		"tags": "",
+		"body": "<<if $foundCluesConnectToSuspects == true>>\n<<if $whiskeyglassConnectsTologan == true>>\nI can connect the Whiskey Glass to Logan\n<<moveClueToSuspect MurderBoard whiskeyglass logan>>\n<<endif>>\n<<if $fingerprintsConnectsTologan == true>>\nI can connect the Fingerprints to Logan\n<<moveClueToSuspect MurderBoard fingerprints logan>>\n<<endif>>\n<<if $bulletholeConnectsTorachael == true>>\nI can connect the Bullet Hole to Rachael\n<<moveClueToSuspect MurderBoard bullethole rachael>>\n<<endif>>\n<<if $syringeConnectsTonora == true>>\nI can connect the Syringe to Nora\n<<moveClueToSuspect MurderBoard syringe nora>>\n<<endif>>\n<<else>>\nI can't connect any of these clues to a suspect.\n<<endif>>\n[[MurderBoard.Add]]",
+		"position": {
+			"x": -951,
+			"y": 282
+		},
+		"colorID": 0
+	},
+	{
+		"title": "MurderBoard.Exit",
+		"tags": "",
+		"body": "<<endThinkingFont Dialogue>>",
+		"position": {
+			"x": -572,
+			"y": 344
 		},
 		"colorID": 0
 	}

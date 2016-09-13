@@ -12,7 +12,7 @@
 	{
 		"title": "Logan.LastNight",
 		"tags": "",
-		"body": "Logan: We often shared a drink in his apartment.\nLogan: Last night was no different.\n<<$loganIsSuspect = true>>\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
+		"body": "Logan: We often shared a drink in his apartment.\nLogan: Last night was no different.\n<<set $loganIsSuspect to true>>\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
 		"position": {
 			"x": -319,
 			"y": -242

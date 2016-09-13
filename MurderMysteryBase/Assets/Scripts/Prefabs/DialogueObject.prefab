@@ -170,6 +170,7 @@ GameObject:
   - 224: {fileID: 22430400}
   - 222: {fileID: 22239488}
   - 114: {fileID: 11431218}
+  - 114: {fileID: 11402102}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -419,6 +420,20 @@ Transform:
   - {fileID: 22449494}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11402102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &11402600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -745,6 +760,7 @@ MonoBehaviour:
   - {fileID: 4900000, guid: bfdf122756ad2a4478c253050b1d529d, type: 3}
   - {fileID: 4900000, guid: f5060749f92db75429f778a0d591bbdc, type: 3}
   - {fileID: 4900000, guid: 650d6a4733fd3a84f80d94a2774defa5, type: 3}
+  - {fileID: 4900000, guid: 3f2731cbba9f3a94ba21d9c684051675, type: 3}
   variableStorage: {fileID: 11442140}
   dialogueUI: {fileID: 11417822}
   startNode: 
