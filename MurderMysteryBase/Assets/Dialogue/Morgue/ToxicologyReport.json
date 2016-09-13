@@ -1,0 +1,12 @@
+[
+	{
+		"title": "ToxicologyReport",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>\nJonas's toxicology report. \nJacob seems to have been poisoned by something prior to his death.\n<<endThinkingFont Dialogue>>",
+		"position": {
+			"x": 540,
+			"y": 260
+		},
+		"colorID": 0
+	}
+]
