@@ -66,8 +66,7 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 112000365, guid: c6ffe5a0f19c46c49a74cc11841b21df,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
 NavMeshSettings:
@@ -7375,7 +7374,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10842420, guid: 8505518221a89a344b5a0737f0d0e5b5, type: 2}
       propertyPath: m_Lightmapping
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 142420, guid: 8505518221a89a344b5a0737f0d0e5b5, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -7395,7 +7394,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10842420, guid: 8505518221a89a344b5a0737f0d0e5b5, type: 2}
       propertyPath: m_Intensity
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 10842420, guid: 8505518221a89a344b5a0737f0d0e5b5, type: 2}
       propertyPath: m_Range
@@ -18395,7 +18394,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 8d96f90ac4e6c094398e224ae71fe0b2, type: 2}
   SuspectCluesFound: 00000000000000000000000000000000
   SuspectIndexLookup:
-  - kyle
+  - rachael
   - logan
   - lola
   - nora
@@ -18403,7 +18402,7 @@ MonoBehaviour:
   - bullethole
   - fingerprints
   - whiskeyglass
-  - three
+  - syringe
   - 
   - 
   - 
@@ -19747,7 +19746,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   gameTime: {fileID: 0}
-  range: 2
+  range: 4
   currentRange: 0
   mouseIsOver: 0
   isClueObject: 0

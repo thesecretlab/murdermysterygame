@@ -380,7 +380,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_BounceIntensity: 0.1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -550,7 +550,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_BounceIntensity: 0.1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -5609,7 +5609,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_BounceIntensity: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6013,6 +6013,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 10821284, guid: e3aec3f60732d13459972cb2c4775316, type: 2}
+      propertyPath: m_Lightmapping
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3aec3f60732d13459972cb2c4775316, type: 2}
   m_IsPrefabParent: 0
@@ -6121,7 +6125,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_BounceIntensity: 0.1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -7456,7 +7460,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_BounceIntensity: 0.1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -8133,7 +8137,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_BounceIntensity: 0.1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -8296,7 +8300,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_BounceIntensity: 0.1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
