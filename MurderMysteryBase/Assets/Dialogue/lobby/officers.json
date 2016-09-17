@@ -2,10 +2,10 @@
 	{
 		"title": "Officer1.Intro",
 		"tags": "",
-		"body": "<<SetAnimParameterBool SceneHandler Officer_Uniformed_2 IsTalking 1>>\n<<if visited(\"Officer1.Intro\")>>\n    <<set $CanTravel to false>>\n    Officer: Good to see you Detective\n    ->Hey how're the kids?\n        Officer: I don't have children.\n        ->The wife?\n            Officer: Not married.\n            ->Dog?\n                Officer: Nope.\n                ->Drinking problem?\n                    Officer: 4 years sober.\n                    ->Well. This is awkward.\n                        Officer: Yup.\n    ->What have we got here?\n    Officer: The body is upstairs in his apartment. We've kept anyone from entering it.\n    Officer: ...The apartment I mean.\n    Officer: Two witnesses are down here. The door-man, named Kyle Gordon, and a cleaning lady called Lola Austin.\n    Officer: We're detaining them until you're done here.\n<<else>>\n    Officer: Just head up in the elevator when you're finished down here.\n<<endif>>\n<<SetAnimParameterBool SceneHandler Officer_Uniformed_2 IsTalking 0>>",
+		"body": "<<SetAnimParameterBool SceneHandler Officer_Uniformed_2 IsTalking 1>>\n<<if !visited(\"Officer1.Intro\")>>\n    <<set $CanTravel to false>>\n    Officer: Good to see you Detective\n    ->Hey how're the kids?\n        Officer: I don't have children.\n        ->The wife?\n            Officer: Not married.\n            ->Dog?\n                Officer: Nope.\n                ->Drinking problem?\n                    Officer: 4 years sober.\n                    ->Well. This is awkward.\n                        Officer: Yup.\n    ->What have we got here?\n    Officer: The body is upstairs in his apartment. We've kept anyone from entering it.\n    Officer: ...The apartment I mean.\n    Officer: Two witnesses are down here. The door-man, named Kyle Gordon, and a cleaning lady called Lola Austin.\n    Officer: We're detaining them until you're done here.\n<<else>>\n    Officer: Just head up in the elevator when you're finished down here.\n<<endif>>\n<<SetAnimParameterBool SceneHandler Officer_Uniformed_2 IsTalking 0>>",
 		"position": {
 			"x": 325,
-			"y": 122
+			"y": 123
 		},
 		"colorID": 0
 	}
