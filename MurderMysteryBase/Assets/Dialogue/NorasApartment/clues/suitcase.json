@@ -1,0 +1,12 @@
+[
+	{
+		"title": "suitcase",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>\nShe has been packing her bags to leave somewhere.\nWhere could she be going this time of night?\n<<endThinkingFont Dialogue>>\n\n",
+		"position": {
+			"x": 453,
+			"y": 197
+		},
+		"colorID": 6
+	}
+]

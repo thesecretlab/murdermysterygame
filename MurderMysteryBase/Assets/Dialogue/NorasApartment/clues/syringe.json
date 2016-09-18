@@ -1,0 +1,32 @@
+[
+	{
+		"title": "syringe",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>\nA used syringe.\nLooks like there is still some of the substance left inside.\nMaybe I should get this sent off to the lab for testing.\n<<endThinkingFont Dialogue>>\n[[Send to the lab for testing.|syringe.GetTested]]\n[[Don't send to the lab for testing.|syringe.exit]]\n",
+		"position": {
+			"x": 306,
+			"y": 216
+		},
+		"colorID": 0
+	},
+	{
+		"title": "syringe.Exit",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 652,
+			"y": 372
+		},
+		"colorID": 0
+	},
+	{
+		"title": "syringe.GetTested",
+		"tags": "",
+		"body": "<<$syringeFound = true>>",
+		"position": {
+			"x": 634,
+			"y": 115
+		},
+		"colorID": 0
+	}
+]
