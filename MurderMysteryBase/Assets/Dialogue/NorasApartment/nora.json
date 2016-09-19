@@ -132,7 +132,7 @@
 	{
 		"title": "Nora.Intro",
 		"tags": "",
-		"body": "Nora: Hello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n",
+		"body": "<<set $morgueCall to true>>\nNora: Hello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n",
 		"position": {
 			"x": -705,
 			"y": 155

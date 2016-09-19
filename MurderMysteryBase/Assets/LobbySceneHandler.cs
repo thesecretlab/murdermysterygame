@@ -11,12 +11,14 @@ public class LobbySceneHandler : MonoBehaviour {
     public bool sceneStart;
 
     private GameObject player;
+    private GameObject playerCamera;
     private GameObject officer1;
     private DialogueRunner dialogueRunner;
 
 	void Start () {
         dialogueRunner = GameObject.Find("DialogueObject").GetComponentInChildren<DialogueRunner>();
         player = GameObject.Find("FPSController");
+        playerCamera = GameObject.Find("FirstPersonCharacter");
         officer1 = GameObject.Find("Officer_Uniformed_2");
         StartCoroutine(dialogueCheck());
     }
@@ -28,6 +30,8 @@ public class LobbySceneHandler : MonoBehaviour {
         if (sceneStart)
         {
             officer1.GetComponent<Animator>().SetBool("IsTalking", true);
+            player.transform.rotation = new Quaternion(0, 180, 0, 0);
+            playerCamera.transform.rotation = new Quaternion(0, 0, 0, 0);
             dialogueRunner.StartDialogue("Officer1.Intro");
             sceneStart = false;
         }
@@ -48,4 +52,5 @@ public class LobbySceneHandler : MonoBehaviour {
         }
         Character.GetComponent<Animator>().SetBool(param, trufalse);
     }
+
 }
