@@ -20,6 +20,8 @@ public class MapOpen : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         MapObject = GameObject.FindGameObjectWithTag("Map");
+
+	
     }
 
 
