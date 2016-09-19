@@ -42,10 +42,10 @@
 	{
 		"title": "MurderBoard",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nI should start mapping out the investigation.\n<<endThinkingFont Dialogue>>\n[[MurderBoard.Add]]",
+		"body": "<<thinkingFont Dialogue>>\n<<if $foundClues == true or $foundSuspects == true>>\n    I should start mapping out the investigation.\n    [[MurderBoard.Add]]\n<<else>>\n    Once I have some clues or suspects, I can map them out on the board here.\n    [[MurderBoard.Exit]]\n<<endif>>\n<<endThinkingFont Dialogue>>\n",
 		"position": {
 			"x": -938,
-			"y": -224
+			"y": -223
 		},
 		"colorID": 0
 	},

@@ -178,6 +178,8 @@ namespace Yarn.Unity.Example {
 				optionButtons [i].GetComponentInChildren<Text> ().text = optionString;
 				i++;
 			}
+            dialogueContainer.GetComponent<CanvasGroup>().alpha = 1;
+            
 			
 			// Record that we're using it
 			SetSelectedOption = optionChooser;
@@ -191,6 +193,7 @@ namespace Yarn.Unity.Example {
 			foreach (var button in optionButtons) {
 				button.gameObject.SetActive (false);
 			}
+            dialogueContainer.GetComponent<CanvasGroup>().alpha = 0;
 		}
 		
 		// Called by buttons to make a selection.

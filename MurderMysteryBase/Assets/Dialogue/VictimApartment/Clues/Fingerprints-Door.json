@@ -22,19 +22,19 @@
 	{
 		"title": "FingerprintsDoor.DustIn",
 		"tags": "",
-		"body": "There are four sets of prints here.\n<<set $fingerprintsFound to true>>\n<<set $foundClues to true>>\n\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>",
+		"body": "There are four sets of prints here.\n<<set $fingerprintsFound to true>>\n<<set $foundClues to true>>\n[[fingerprintsDoor.Exit]]\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>",
 		"position": {
-			"x": 571,
-			"y": 415
+			"x": 572,
+			"y": 413
 		},
 		"colorID": 0
 	},
 	{
 		"title": "FingerprintsDoor.Exit",
 		"tags": "",
-		"body": "<<endThinkingFont Dialogue>>",
+		"body": "",
 		"position": {
-			"x": 815,
+			"x": 816,
 			"y": 72
 		},
 		"colorID": 0
@@ -42,7 +42,7 @@
 	{
 		"title": "FingerprintsDoor.Leave",
 		"tags": "",
-		"body": "<<loadLevel MapObject lobby>>",
+		"body": "<<endThinkingFont Dialogue>>\n<<loadLevel MapObject lobby>>",
 		"position": {
 			"x": 561,
 			"y": -214

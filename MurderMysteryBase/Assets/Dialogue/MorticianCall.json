@@ -2,7 +2,7 @@
 	{
 		"title": "MorticianCall.Call",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nHuh? My phone...\n<<endThinkingFont Dialogue>>\n->Answer\nHi Detective, it's Jonas down at the morgue.\nI've got the victim on the slab here if you want to get my reports.\n->Okay I'll head down right away\n    <<loadLevel MapObject Morgue>>\n->I've got some things to clear up. I'll head down later.",
+		"body": "<<set $morgueUnlocked to true>>\n<<thinkingFont Dialogue>>\nHuh? My phone...\n<<endThinkingFont Dialogue>>\n->Answer\nHi Detective, it's Jonas down at the morgue.\nI've got the victim on the slab here if you want to get my reports.\n->Okay I'll head down right away\n    <<loadLevel MapObject Morgue>>\n->I've got some things to clear up. I'll head down later.",
 		"position": {
 			"x": 541,
 			"y": 260
