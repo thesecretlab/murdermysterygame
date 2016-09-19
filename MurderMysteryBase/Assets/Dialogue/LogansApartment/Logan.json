@@ -14,18 +14,18 @@
 		"tags": "",
 		"body": "Logan: We often shared a drink in his apartment.\nLogan: Last night was no different.\n<<set $loganIsSuspect to true>>\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
 		"position": {
-			"x": -321,
-			"y": -235
+			"x": -323,
+			"y": -213
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Logan.Argument",
 		"tags": "",
-		"body": "Logan: We argued over Jacob's business. He was putting himself at great risk with the deals he was making.\nLogan: I tried to convince him to change course before something went wrong.\nLogan: The argument got a little... heated. I didn't kill him though!\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "Logan: We argued over Jacob's business. He was putting himself at great risk with the deals he was making.\nLogan: I tried to convince him to change course before something went wrong.\nLogan: The argument got a little... heated. I didn't kill him though!\n<<if visited (\"Bandages\") is true>>\n[[I found some recently used bandages in your bathroom, what can you tell me about those?|Logan.Hand]]\n<<endif>>\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
-			"x": -718,
-			"y": 183
+			"x": -918,
+			"y": -19
 		},
 		"colorID": 0
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "Logan: That... That was me.\nLogan: He was so stubborn about his business, and I lost my temper.\nLogan: I hit him in the face and left him to drink alone.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
-			"x": -446,
-			"y": 284
+			"x": -398,
+			"y": 133
 		},
 		"colorID": 0
 	},
@@ -64,8 +64,8 @@
 		"tags": "",
 		"body": "Logan: He was shot?\nLogan: I abhor guns. I certainly did not shoot him.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
-			"x": -199,
-			"y": 297
+			"x": -148,
+			"y": 136
 		},
 		"colorID": 0
 	},
@@ -86,6 +86,16 @@
 		"position": {
 			"x": -369,
 			"y": -500
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Logan.Hand",
+		"tags": "",
+		"body": "Logan: I.. I punched Jacob and injured my hand, as I said tempers were high. \n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[You did more than punch him Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"position": {
+			"x": -617,
+			"y": 129
 		},
 		"colorID": 0
 	}
