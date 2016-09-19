@@ -22,7 +22,7 @@
 	{
 		"title": "Jonas.CauseOfDeath",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject talking Jonas>>\nJonas: The exact cause of death is unclear at this stage.\nJonas: What I can say for sure, is that the victim was attacked by multiple assailants.\nJonas: There are multiple injuries to the face, possibly inflicted by bare hands.\nJonas: The victim has also been shot through the stomach.\nJonas: Though it's puzzling that the victim died from these.\n[[Let's talk about these facial injuries|Jonas.FaceInjuries]]\n[[What details to you have about the gunshot wound? |Jonas.Gunshot]]\n[[What's puzzling? |Jonas.Mystery]]",
+		"body": "Jonas: The exact cause of death is unclear at this stage.\nJonas: What I can say for sure, is that the victim was attacked by multiple assailants.\nJonas: There are multiple injuries to the face, possibly inflicted by bare hands.\nJonas: The victim has also been shot through the stomach.\nJonas: Though it's puzzling that the victim died from these.\n[[Let's talk about these facial injuries|Jonas.FaceInjuries]]\n[[What details to you have about the gunshot wound? |Jonas.Gunshot]]\n[[What's puzzling? |Jonas.Mystery]]",
 		"position": {
 			"x": -257,
 			"y": -483
@@ -32,7 +32,7 @@
 	{
 		"title": "Jonas.FaceInjuries",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject talking2 Jonas>>\nJonas: The face has been struck multiple times.\nJonas: Jonas: There's a couple of chipped teeth, and a lot of bruising around the right side of the face.\nJonas: This indicates a pretty powerful punch was delivered before the victim died.\nJonas: I'll be able to let you know more once I take x-rays of the skull.\n[[Let's talk about the gunshot wound next|Jonas.Gunshot]]\n[[What was strange about these wounds?|Jonas.Mystery]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]\n",
+		"body": "Jonas: The face has been struck multiple times.\nJonas: Jonas: There's a couple of chipped teeth, and a lot of bruising around the right side of the face.\nJonas: This indicates a pretty powerful punch was delivered before the victim died.\nJonas: I'll be able to let you know more once I take x-rays of the skull.\n[[Let's talk about the gunshot wound next|Jonas.Gunshot]]\n[[What was strange about these wounds?|Jonas.Mystery]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]\n",
 		"position": {
 			"x": -263,
 			"y": -133
@@ -42,7 +42,7 @@
 	{
 		"title": "Jonas.Gunshot",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject talking Jonas>>\nJonas: The bullet entered through the abdomen and pierced the large intestine and pancreas before it exited near the nape of the back.\nJonas: From the damage and fragments left behind, the bullet was likely full metal jacket 5.56mm. Used by the military, but still can be bought easily on the street.\nJonas: It's strange though, this damage shouldn't have been as catastrophic as it was.\n[[What about the facial wounds?|Jonas.FaceInjuries]]\n[[Why are these wounds strange?|Jonas.Mystery]]\n[[Have you run ballistics on the bullet yet?|Jonas.Ballistics]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]",
+		"body": "Jonas: The bullet entered through the abdomen and pierced the large intestine and pancreas before it exited near the nape of the back.\nJonas: From the damage and fragments left behind, the bullet was likely full metal jacket 5.56mm. Used by the military, but still can be bought easily on the street.\nJonas: It's strange though, this damage shouldn't have been as catastrophic as it was.\n[[What about the facial wounds?|Jonas.FaceInjuries]]\n[[Why are these wounds strange?|Jonas.Mystery]]\n[[Have you run ballistics on the bullet yet?|Jonas.Ballistics]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]",
 		"position": {
 			"x": 115,
 			"y": 59
@@ -52,7 +52,7 @@
 	{
 		"title": "Jonas.Mystery",
 		"tags": "",
-		"body": "Jonas: Well it's strange.\nJonas: The bullet wound was fatal, but not immediately.\nJonas: A wound like that would have taken a few days to die from.\nJonas: Likewise, the punch to the face was heavy, but definitely not lethal.\nJonas: Even together, the two wounds wouldn't have caused death as quickly as these wounds have.\n<<runAnimation AnimationObject talking Jonas>>\nJonas: I'm still waiting on the blood toxicology to come back. Maybe that will tell me more.\n[[Tell me more about the bullet wound.|Jonas.Gunshot]]\n[[Give me details about the facial injuries|Jonas.FaceInjuries]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]",
+		"body": "Jonas: Well it's strange.\nJonas: The bullet wound was fatal, but not immediately.\nJonas: A wound like that would have taken a few days to die from.\nJonas: Likewise, the punch to the face was heavy, but definitely not lethal.\nJonas: Even together, the two wounds wouldn't have caused death as quickly as these wounds have.\nJonas: I'm still waiting on the blood toxicology to come back. Maybe that will tell me more.\n[[Tell me more about the bullet wound.|Jonas.Gunshot]]\n[[Give me details about the facial injuries|Jonas.FaceInjuries]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]",
 		"position": {
 			"x": 438,
 			"y": -132
@@ -62,7 +62,7 @@
 	{
 		"title": "Jonas.Ballistics",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject talking Jonas>>\nJonas: I sent the bullet off to the labs. If we get a match, I'll let you know.\nJonas: Based on the entry and exit wounds, the rifle was likely fired from 2 or 3 blocks away.\nJonas: The chief has got officers checking the area at the moment.\n[[What about the facial wounds?|Jonas.FaceInjuries]]\n[[Why are these wounds strange?|Jonas.Mystery]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]",
+		"body": "Jonas: I sent the bullet off to the labs. If we get a match, I'll let you know.\nJonas: Based on the entry and exit wounds, the rifle was likely fired from 2 or 3 blocks away.\nJonas: The chief has got officers checking the area at the moment.\n[[What about the facial wounds?|Jonas.FaceInjuries]]\n[[Why are these wounds strange?|Jonas.Mystery]]\n[[Thanks Jonas, I'll come back if there's anything else|Jonas.Exit]]",
 		"position": {
 			"x": 186,
 			"y": 347

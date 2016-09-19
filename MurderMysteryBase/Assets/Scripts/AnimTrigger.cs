@@ -20,59 +20,32 @@ public class AnimTrigger : MonoBehaviour {
 
 
 	[YarnCommand("runAnimation")]
-	public void runAnimation(string r, string name)
+	public void runAnimation(string r)
 	{
-		if (name == "Nora") {
+
+		switch (r) {
+
+		case "angry":
 			
-			switch (r) {
+			GameObject.Find("Nora").GetComponent<Animator>().SetTrigger("angry");
 
-			case "angry":
-			
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("angry");
-				break;
+			break;
 
-			case "happy":
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("happy");
-				break;
+		case "happy":
+			GameObject.Find("Nora").GetComponent<Animator>().SetTrigger("happy");
+
+			break;
 
 
-			case "talking":
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("talking");
-				break;
+		case "talking":
+			GameObject.Find("Nora").GetComponent<Animator>().SetTrigger("talking");
 
-			case "sad":
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("sad");
-				break;
-			}
-		} else if (name == "Jonas") {
-			switch (r) {
+			break;
 
-			case "talking":
+		case "sad":
+			GameObject.Find ("Nora").GetComponent<Animator> ().SetTrigger ("sad");
 
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("talking");
-				break;
-
-			case "talking2":
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("talking2");
-				break;
-			}
-
-		} else if (name == "Logan") {
-			switch (r) {
-
-			case "talking":
-
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("talking");
-				break;
-
-			case "talking2":
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("talking2");
-				break;
-
-			case "talking3":
-				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("talking3");
-				break;
-			}
+			break;
 		}
 	}
 }
