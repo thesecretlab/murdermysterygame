@@ -1033,6 +1033,53 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1 &146219646 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 134070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+  m_PrefabInternal: {fileID: 742252652}
+--- !u!4 &146219649 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+  m_PrefabInternal: {fileID: 742252652}
+--- !u!114 &146219650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 146219646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectNumber: 0
+  characterName: Bandages
+  talkToNode: Bandages
+  scriptToLoad: {fileID: 4900000, guid: 9efa79e3dec060944945b5dc791e8567, type: 3}
+  player: {fileID: 0}
+  playerPosition: {fileID: 0}
+  npcPosition: {fileID: 0}
+  interactionButton: {fileID: 0}
+  inventory: {fileID: 0}
+  reticle: {fileID: 0}
+  dialogueUI: {fileID: 0}
+  gameTime: {fileID: 0}
+  range: 2
+  currentRange: 0
+  mouseIsOver: 0
+  isClueObject: 0
+--- !u!135 &146219651
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 146219646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.19155052
+  m_Center: {x: -0.0000075101852, y: 0.044072572, z: -0.00000017136335}
 --- !u!1 &170908347
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,6 +4918,10 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11426596, guid: 8b0ecff125ec2e54d8779f9dab0e1d9c, type: 2}
+      propertyPath: sourceText.Array.data[26]
+      value: 
+      objectReference: {fileID: 4900000, guid: d7704680dad0e33429d9ae4ed82807c2, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b0ecff125ec2e54d8779f9dab0e1d9c, type: 2}
   m_IsPrefabParent: 0
@@ -5603,6 +5654,60 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 492584, guid: 48aa851f0cd5cb84f95ede884b2ad1ae, type: 2}
   m_PrefabInternal: {fileID: 724859249}
+--- !u!1001 &742252652
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 840098618}
+    m_Modifications:
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -296.27084
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -44.854347
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -110.12584
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.6156615
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7880107
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_RootOrder
+      value: 116
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.30000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 434070, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.39999998
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a288b69755119c24f9121b983a4e4ab4, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &744986502
 Prefab:
   m_ObjectHideFlags: 0
@@ -6809,7 +6914,7 @@ Transform:
   m_LocalScale: {x: 1, y: 10, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
 --- !u!1 &806046255
 GameObject:
   m_ObjectHideFlags: 0
@@ -7465,6 +7570,7 @@ Transform:
   - {fileID: 1387767729}
   - {fileID: 652281771}
   - {fileID: 754708153}
+  - {fileID: 146219649}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!1 &854645009
@@ -8682,6 +8788,49 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3294442, y: 0.04575491, z: 0.286089}
   m_Center: {x: -0.06747701, y: 0.02827435, z: -0.12723789}
+--- !u!1 &1023701005 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107066, guid: e9847ce8fd6deb04fb2792fd34805c86, type: 2}
+  m_PrefabInternal: {fileID: 1341809747}
+--- !u!114 &1023701008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023701005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectNumber: 0
+  characterName: 
+  talkToNode: Facecream
+  scriptToLoad: {fileID: 4900000, guid: 60d2a6e01d6dfce4aa9251ed0d7b908c, type: 3}
+  player: {fileID: 0}
+  playerPosition: {fileID: 0}
+  npcPosition: {fileID: 0}
+  interactionButton: {fileID: 0}
+  inventory: {fileID: 0}
+  reticle: {fileID: 0}
+  dialogueUI: {fileID: 0}
+  gameTime: {fileID: 0}
+  range: 2
+  currentRange: 0
+  mouseIsOver: 0
+  isClueObject: 0
+--- !u!135 &1023701009
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023701005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.032276936
+  m_Center: {x: 0, y: 0.015763743, z: -0.000000059604645}
 --- !u!1 &1032252059
 GameObject:
   m_ObjectHideFlags: 0
@@ -10064,6 +10213,49 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14116643, y: 0.011742952, z: 0.11391348}
   m_Center: {x: 0.059767604, y: 0.29042867, z: 0.09725449}
+--- !u!1 &1264849254 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 119746, guid: 2bcd77597e3bbd144b5e3f235c562a3e, type: 2}
+  m_PrefabInternal: {fileID: 2032798932}
+--- !u!114 &1264849257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264849254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectNumber: 0
+  characterName: Painting
+  talkToNode: Painting
+  scriptToLoad: {fileID: 4900000, guid: 1033ad93b7c91db4fa15f260eb2c0d92, type: 3}
+  player: {fileID: 0}
+  playerPosition: {fileID: 0}
+  npcPosition: {fileID: 0}
+  interactionButton: {fileID: 0}
+  inventory: {fileID: 0}
+  reticle: {fileID: 0}
+  dialogueUI: {fileID: 0}
+  gameTime: {fileID: 0}
+  range: 2
+  currentRange: 0
+  mouseIsOver: 0
+  isClueObject: 0
+--- !u!65 &1264849258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264849254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04825565, y: 1.1053004, z: 2.5758314}
+  m_Center: {x: 0.024127008, y: -0.00000023841858, z: 0.0000004172325}
 --- !u!1001 &1287242098
 Prefab:
   m_ObjectHideFlags: 0
@@ -12222,6 +12414,92 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661917203}
   m_Mesh: {fileID: 4300000, guid: decc7f560581b5c47a9193f273eb04ed, type: 3}
+--- !u!1 &1667450700 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 192584, guid: 48aa851f0cd5cb84f95ede884b2ad1ae, type: 2}
+  m_PrefabInternal: {fileID: 724859249}
+--- !u!114 &1667450703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1667450700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectNumber: 26
+  characterName: Book
+  talkToNode: Book
+  scriptToLoad: {fileID: 4900000, guid: d7704680dad0e33429d9ae4ed82807c2, type: 3}
+  player: {fileID: 0}
+  playerPosition: {fileID: 0}
+  npcPosition: {fileID: 0}
+  interactionButton: {fileID: 0}
+  inventory: {fileID: 0}
+  reticle: {fileID: 0}
+  dialogueUI: {fileID: 0}
+  gameTime: {fileID: 0}
+  range: 2
+  currentRange: 0
+  mouseIsOver: 0
+  isClueObject: 1
+--- !u!135 &1667450704
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1667450700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.11773962
+  m_Center: {x: 0.004450038, y: 0.016861586, z: 0.00000086054206}
+--- !u!1 &1677391004 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 182038, guid: b0b6f4178f21cd946b12ce47a1e99100, type: 2}
+  m_PrefabInternal: {fileID: 1635621055}
+--- !u!114 &1677391007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677391004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectNumber: 0
+  characterName: LeftHanded
+  talkToNode: LeftHanded
+  scriptToLoad: {fileID: 4900000, guid: 1572b0c8439fe324d98b149d12537b2a, type: 3}
+  player: {fileID: 0}
+  playerPosition: {fileID: 0}
+  npcPosition: {fileID: 0}
+  interactionButton: {fileID: 0}
+  inventory: {fileID: 0}
+  reticle: {fileID: 0}
+  dialogueUI: {fileID: 0}
+  gameTime: {fileID: 0}
+  range: 2
+  currentRange: 0
+  mouseIsOver: 0
+  isClueObject: 1
+--- !u!135 &1677391008
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677391004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.09062804
+  m_Center: {x: -0.0000038146973, y: 0.020125104, z: 0.0000001844019}
 --- !u!1 &1687912736
 GameObject:
   m_ObjectHideFlags: 0
