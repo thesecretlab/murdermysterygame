@@ -2,10 +2,10 @@
 	{
 		"title": "Nora",
 		"tags": "",
-		"body": "<<if visited (\"Nora\") is false>>\nNora: Hello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n<<else>>\nNora: Yes, Detective?\n[[I'd like to some questions|Nora.Questions]]\n<<endif>>\n",
+		"body": "Nora: Yes, Detective?\n[[I'd like to some questions|Nora.Questions]]",
 		"position": {
-			"x": -426,
-			"y": 212
+			"x": -220,
+			"y": 163
 		},
 		"colorID": 6
 	},
@@ -22,7 +22,7 @@
 	{
 		"title": "Nora.Greet.Cautious",
 		"tags": "",
-		"body": "...\nNora: Alright then, let me unlock the door.\n",
+		"body": "...\nNora: Alright then, let me unlock the door.\n<<FadeScreen NoraEventController>>",
 		"position": {
 			"x": -384,
 			"y": 481
@@ -32,7 +32,7 @@
 	{
 		"title": "Nora.Greet.Scared",
 		"tags": "",
-		"body": "Nora: Alright! Fine. Sheesh...",
+		"body": "Nora: Alright! Fine. Sheesh...\n<<FadeScreen NoraEventController>>",
 		"position": {
 			"x": -391,
 			"y": 747
@@ -52,7 +52,7 @@
 	{
 		"title": "Nora.Greet.Willing",
 		"tags": "",
-		"body": "Nora: Ugh. Fine. But make it quick.",
+		"body": "Nora: Ugh. Fine. But make it quick.\n<<FadeScreen NoraEventController>>",
 		"position": {
 			"x": -389,
 			"y": 1006
@@ -128,5 +128,15 @@
 			"y": -144
 		},
 		"colorID": 6
+	},
+	{
+		"title": "Nora.Intro",
+		"tags": "",
+		"body": "Nora: Hello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n",
+		"position": {
+			"x": -705,
+			"y": 155
+		},
+		"colorID": 0
 	}
 ]
