@@ -2,7 +2,7 @@
 	{
 		"title": "InspectMess",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nJeez she has really been hitting the booze lately..\nMaybe there is something of interest in amoungst this mess.\n<<endThinkingFont Dialogue>>\n[[Search through the mess|InspectMess.inspect]]\n[[Yuck, I don't think I want to touch that.|InspectMess.Exit]]",
+		"body": "Geez she has really been hitting the booze lately..\nMaybe there is something of interest in amoungst this mess.\n[[Search through the mess|InspectMess.inspect]]\n[[Yuck, I don't think I want to touch that.|InspectMess.Exit]]",
 		"position": {
 			"x": 274,
 			"y": 93
@@ -12,7 +12,7 @@
 	{
 		"title": "InspectMess.inspect",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nHmm.. nothing here but empty bottles.\n<<endThinkingFont Dialogue>>",
+		"body": "Hmm.. nothing here but empty bottles.\n\n",
 		"position": {
 			"x": 663,
 			"y": 86
@@ -22,10 +22,10 @@
 	{
 		"title": "InspectMess.Exit",
 		"tags": "",
-		"body": "",
+		"body": "\n",
 		"position": {
-			"x": 664,
-			"y": 369
+			"x": 663,
+			"y": 367
 		},
 		"colorID": 0
 	}

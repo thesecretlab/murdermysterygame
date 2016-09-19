@@ -33791,7 +33791,7 @@ GameObject:
   - 4: {fileID: 1403865851}
   - 212: {fileID: 1403865850}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: ScreenSaver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

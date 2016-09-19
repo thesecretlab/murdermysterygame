@@ -1,0 +1,12 @@
+[
+	{
+		"title": "BloodPool",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>\nNot the cleanest morgue I've been to.\n<<endThinkingFont Dialogue>>",
+		"position": {
+			"x": 540,
+			"y": 260
+		},
+		"colorID": 0
+	}
+]

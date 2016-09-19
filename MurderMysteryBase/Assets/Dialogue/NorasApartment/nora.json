@@ -42,7 +42,7 @@
 	{
 		"title": "Nora.Greet.Jacob",
 		"tags": "",
-		"body": "Nora: I'll save you some time. He's a bastard, and we're not seeing each other anymore.\nNora: He can rot in hell for all I care.\n[[Funny you should say that. I'm investigating Jacob's death|Nora.Greet.Avoid2]]\n[[Please Miss Hastings, I'd rather not have this conversation through a door|Nora.Greet.Willing]]",
+		"body": "<<runAnimation AnimationObject angry>>\nNora: I'll save you some time. He's a bastard, and we're not seeing each other anymore.\nNora: He can rot in hell for all I care.\n[[Funny you should say that. I'm investigating Jacob's death|Nora.Greet.Avoid2]]\n[[Please Miss Hastings, I'd rather not have this conversation through a door|Nora.Greet.Willing]]",
 		"position": {
 			"x": -658,
 			"y": 742
@@ -62,7 +62,7 @@
 	{
 		"title": "Nora.Greet.Avoid2",
 		"tags": "",
-		"body": "Nora: Listen, I've told you everything I know.\nNora: Just leave me alone.\n[[I've had about enough of this. Open the door!|Nora.Greet.Scared]]",
+		"body": "<<runAnimation AnimationObject sad>>\nNora: Listen, I've told you everything I know.\nNora: Just leave me alone.\n[[I've had about enough of this. Open the door!|Nora.Greet.Scared]]",
 		"position": {
 			"x": -659,
 			"y": 1008
@@ -82,7 +82,7 @@
 	{
 		"title": "Nora.Question.Jacob",
 		"tags": "",
-		"body": "Nora: We were lovers for the last month.\nNora: I thought things were getting pretty serious, but clearly that wasn't the case.\nNora: Three days ago he told me we were finished. No warning, no explaination, he just decided we were done.\n<<$noraIsSuspect = true>>\n[[I'm sorry to hear that. I have more questions.|Nora.Questions]]\n[[Sounds like motive to me!|Nora.Accuse]]\n[[I'm sorry to hear that. I have no more questions|Nora.Exit]]",
+		"body": "<<runAnimation AnimationObject angry>>\nNora: We were lovers for the last month.\nNora: I thought things were getting pretty serious, but clearly that wasn't the case.\nNora: Three days ago he told me we were finished. No warning, no explaination, he just decided we were done.\n<<$noraIsSuspect = true>>\n[[I'm sorry to hear that. I have more questions.|Nora.Questions]]\n[[Sounds like motive to me!|Nora.Accuse]]\n[[I'm sorry to hear that. I have no more questions|Nora.Exit]]",
 		"position": {
 			"x": 130,
 			"y": 793
@@ -92,7 +92,7 @@
 	{
 		"title": "Nora.Question.LastNight",
 		"tags": "",
-		"body": "Nora: I was at home, finialising my leave.\n[[Can anyone verify that?|Nora.Question.LastNight.Confirm]]\n[[I think you're lying!|Nora.Accuse]]\n[[Thanks, I have more questions|Nora.Questions]]\n[[Thanks, no more questions for now|Nora.Exit]]",
+		"body": "<<runAnimation AnimationObject talking>>\nNora: I was at home, finialising my leave.\n[[Can anyone verify that?|Nora.Question.LastNight.Confirm]]\n[[I think you're lying!|Nora.Accuse]]\n[[Thanks, I have more questions|Nora.Questions]]\n[[Thanks, no more questions for now|Nora.Exit]]",
 		"position": {
 			"x": 660,
 			"y": 791
@@ -102,7 +102,7 @@
 	{
 		"title": "Nora.Accuse",
 		"tags": "",
-		"body": "Nora: Do you have any proof to back up that accusation?\nNora: I didn't think so. Get the hell out of my house!",
+		"body": "<<runAnimation AnimationObject angry>>\nNora: Do you have any proof to back up that accusation?\nNora: I didn't think so. Get the hell out of my house!",
 		"position": {
 			"x": 496,
 			"y": -141
@@ -112,7 +112,7 @@
 	{
 		"title": "Nora.Question.Self",
 		"tags": "",
-		"body": "Nora: I'm a nurse at the hospital downtown.\nNora: I started working there a year ago after I finished my degree.\n[[Thanks. I have more questions.|Nora.Questions]]\n[[Thanks. Nothing else for now.|Nora.Exit]]",
+		"body": "<<runAnimation AnimationObject happy>>\nNora: I'm a nurse at the hospital downtown.\nNora: I started working there a year ago after I finished my degree.\n[[Thanks. I have more questions.|Nora.Questions]]\n[[Thanks. Nothing else for now.|Nora.Exit]]",
 		"position": {
 			"x": 401,
 			"y": 786
