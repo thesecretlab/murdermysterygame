@@ -2,10 +2,10 @@
 	{
 		"title": "Logan",
 		"tags": "",
-		"body": "<<if visited (\"Logan\") is false>>\nLogan: Hello. Can I help you?\n-> Hello Mr. Rutledge. I'm Detective Schmidt. May I come in?\n    Logan: Yes of course.\n-> Hello Mr. Rutledge. I'm with the police. Can I come in?\n    Logan: Umm. Okay then.\nLogan: What is this about?\n-> Mr Rutledge, last night Jacob Wright was murdered.\n    Logan: ... I see.\n-> Last night Jacob Wright was killed. I'm investigating.\n    Logan: Oh... oh God. \nLogan: Why have you come to see me, officer?\n<<else>>\nLogan: Is there anything else, officer?\n<<endif>>\n<<if visited(\"Logan.LastNight\") is false>>\n[[I understand you were in Jacob Wright's apartment last night|Logan.LastNight]]\n[[I think you have something to do with it Mr Rutledge|Logan.Accuse]]\n<<else>>\n[[I have more questions about last night|Logan.LastNight]]\n[[Nothing yet. I'm going to look around|Logan.Exit]]\n<<endif>>\n",
+		"body": "\nLogan: Why have you come to see me, officer?\n<<if visited(\"Logan.LastNight\") is false>>\n[[I understand you were in Jacob Wright's apartment last night|Logan.LastNight]]\n[[I think you have something to do with it Mr Rutledge|Logan.Accuse]]\n<<else>>\n[[I have more questions about last night|Logan.LastNight]]\n[[Nothing yet. I'm going to look around|Logan.Exit]]\n<<endif>>",
 		"position": {
-			"x": -26,
-			"y": -517
+			"x": -38,
+			"y": -514
 		},
 		"colorID": 0
 	},
@@ -76,6 +76,16 @@
 		"position": {
 			"x": -887,
 			"y": -331
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Logan.Intro",
+		"tags": "",
+		"body": "Logan: Hello. Can I help you?\n-> Hello Mr. Rutledge. I'm Detective Schmidt. May I come in?\n    Logan: Yes of course.\n-> Hello Mr. Rutledge. I'm with the police. Can I come in?\n    Logan: Umm. Okay then.\nLogan: What is this about?\n-> Mr Rutledge, last night Jacob Wright was murdered.\n    Logan: ... I see. Please, come in.\n-> Last night Jacob Wright was killed. I'm investigating.\n    Logan: Oh... oh God. Come in.\n<<FadeScreen LoganEventController>>\n",
+		"position": {
+			"x": -369,
+			"y": -500
 		},
 		"colorID": 0
 	}
