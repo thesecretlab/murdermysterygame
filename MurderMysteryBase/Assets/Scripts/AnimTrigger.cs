@@ -72,6 +72,10 @@ public class AnimTrigger : MonoBehaviour {
 			case "talking3":
 				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("talking3");
 				break;
+
+			case "angry":
+				GameObject.Find (name).GetComponent<Animator> ().SetTrigger ("angry");
+				break;
 			}
 		}
 	}

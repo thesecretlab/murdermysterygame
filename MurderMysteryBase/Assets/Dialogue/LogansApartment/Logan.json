@@ -2,7 +2,7 @@
 	{
 		"title": "Logan",
 		"tags": "",
-		"body": "\nLogan: Why have you come to see me, officer?\n<<if visited(\"Logan.LastNight\") is false>>\n[[I understand you were in Jacob Wright's apartment last night|Logan.LastNight]]\n[[I think you have something to do with it Mr Rutledge|Logan.Accuse]]\n<<else>>\n[[I have more questions about last night|Logan.LastNight]]\n[[Nothing yet. I'm going to look around|Logan.Exit]]\n<<endif>>",
+		"body": "<<runAnimation AnimationObject talking Logan>>\nLogan: Why have you come to see me, officer?\n<<if visited(\"Logan.LastNight\") is false>>\n[[I understand you were in Jacob Wright's apartment last night|Logan.LastNight]]\n[[I think you have something to do with it Mr Rutledge|Logan.Accuse]]\n<<else>>\n[[I have more questions about last night|Logan.LastNight]]\n[[Nothing yet. I'm going to look around|Logan.Exit]]\n<<endif>>",
 		"position": {
 			"x": -38,
 			"y": -514
@@ -12,7 +12,7 @@
 	{
 		"title": "Logan.LastNight",
 		"tags": "",
-		"body": "Logan: We often shared a drink in his apartment.\nLogan: Last night was no different.\n<<set $loganIsSuspect to true>>\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
+		"body": "<<runAnimation AnimationObject talking2 Logan>>\nLogan: We often shared a drink in his apartment.\nLogan: Last night was no different.\n<<set $loganIsSuspect to true>>\n<<if visited (\"Lola.ArguingDetail\") is true>>\n[[I spoke with one of the cleaning staff. She said she heard an argument|Logan.Argument]]\n<<endif>>\n<<if visited (\"Jonas.FaceInjuries\") is true>>\n[[Mr Wright had some heavy bruising on his face. What do you know about that?|Logan.Punched]]\n<<endif>>\n<<if visited (\"Jonas.Gunshot\") is true>>\n[[Mr Wright had a bullet wound in his stomach. What do you know about that?|Logan.Gunshot]]\n<<endif>>\n[[What else can you tell me about the night?|Logan.Night]]\n[[May I look around a bit please?|Logan.Exit]]",
 		"position": {
 			"x": -319,
 			"y": -242
@@ -22,7 +22,7 @@
 	{
 		"title": "Logan.Argument",
 		"tags": "",
-		"body": "Logan: We argued over Jacob's business. He was putting himself at great risk with the deals he was making.\nLogan: I tried to convince him to change course before something went wrong.\nLogan: The argument got a little... heated. I didn't kill him though!\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "<<runAnimation AnimationObject talking Logan>>\nLogan: We argued over Jacob's business. He was putting himself at great risk with the deals he was making.\nLogan: I tried to convince him to change course before something went wrong.\nLogan: The argument got a little... heated. I didn't kill him though!\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
 			"x": -718,
 			"y": 183
@@ -32,7 +32,7 @@
 	{
 		"title": "Logan.Accuse",
 		"tags": "",
-		"body": "Logan: I certainly hope you have some evidence to back that up!\nLogan: I think you've overstayed your welcome here officer. I need to speak to my lawyer.\n[[I'm not done asking questions, Mr Rutledge|Logan.LastNight]]\n[[Fine. Goodbye Mr Rutledge|Logan.Exit]]",
+		"body": "<<runAnimation AnimationObject angry Logan>>\nLogan: I certainly hope you have some evidence to back that up!\nLogan: I think you've overstayed your welcome here officer. I need to speak to my lawyer.\n[[I'm not done asking questions, Mr Rutledge|Logan.LastNight]]\n[[Fine. Goodbye Mr Rutledge|Logan.Exit]]",
 		"position": {
 			"x": 632,
 			"y": -109
@@ -52,7 +52,7 @@
 	{
 		"title": "Logan.Punched",
 		"tags": "",
-		"body": "Logan: That... That was me.\nLogan: He was so stubborn about his business, and I lost my temper.\nLogan: I hit him in the face and left him to drink alone.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "<<runAnimation AnimationObject talking2 Logan>>\nLogan: That... That was me.\nLogan: He was so stubborn about his business, and I lost my temper.\nLogan: I hit him in the face and left him to drink alone.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
 			"x": -446,
 			"y": 284
@@ -62,7 +62,7 @@
 	{
 		"title": "Logan.Gunshot",
 		"tags": "",
-		"body": "Logan: He was shot?\nLogan: I abhor guns. I certainly did not shoot him.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "<<runAnimation AnimationObject angry Logan>>\nLogan: He was shot?\nLogan: I abhor guns. I certainly did not shoot him.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I'm not convinced Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
 			"x": -199,
 			"y": 297
@@ -72,7 +72,7 @@
 	{
 		"title": "Logan.Night",
 		"tags": "",
-		"body": "Logan: We discussed business. I used to be on the board of his company.\nLogan: I left at around half-past six.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I don't believe you. There must be more to it than that.|Logan.Argument]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "<<runAnimation AnimationObject talking3 Logan>>\nLogan: We discussed business. I used to be on the board of his company.\nLogan: I left at around half-past six.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[I don't believe you. There must be more to it than that.|Logan.Argument]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
 			"x": -887,
 			"y": -331
