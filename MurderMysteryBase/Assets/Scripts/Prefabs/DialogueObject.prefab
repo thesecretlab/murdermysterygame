@@ -456,7 +456,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: daa88b64abb013040abf80ba5b6b193c, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -765,6 +765,11 @@ MonoBehaviour:
   - {fileID: 4900000, guid: e6f2d9f4561c14946906842acafc324c, type: 3}
   - {fileID: 4900000, guid: 45992256536bc7147aaa646e0ddeb23e, type: 3}
   - {fileID: 4900000, guid: 9cc13903d898f3841a4e7323202ddcd4, type: 3}
+  - {fileID: 4900000, guid: 39ac2cf0ca0839a42badeb92d1a1a00c, type: 3}
+  - {fileID: 4900000, guid: 060121ebc810f2e4e95feada9c923db9, type: 3}
+  - {fileID: 4900000, guid: b52dd5b60bd4dc344bc9ad975821ad3e, type: 3}
+  - {fileID: 4900000, guid: 8b8b6614e7676ae4aa6fa2c1fa26e3d3, type: 3}
+  - {fileID: 4900000, guid: 9386555096af40c4a926b17f8b4a60b5, type: 3}
   variableStorage: {fileID: 11442140}
   dialogueUI: {fileID: 11417822}
   startNode: 
@@ -1667,7 +1672,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134590}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -2018,7 +2023,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 557, y: -55.5}
-  m_SizeDelta: {x: 1034, y: 31}
+  m_SizeDelta: {x: 1024, y: 31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22434362
 RectTransform:
@@ -2184,8 +2189,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 213.2, y: 470.9}
-  m_SizeDelta: {x: 460, y: 0}
+  m_AnchoredPosition: {x: 330, y: 470.9}
+  m_SizeDelta: {x: 690, y: 710}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &22487414
 RectTransform:
@@ -2246,7 +2251,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134590}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
