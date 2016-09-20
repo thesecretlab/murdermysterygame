@@ -42,7 +42,7 @@
 	{
 		"title": "Rachael.Intro",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nIt's funny how quickly a receptionist changes their tune when you flash your badge.\nThey weren't going to let me in to start with, but a quick flash of a badge, and I'm waved straight through...\n<<endThinkingFont Dialogue>>",
+		"body": "<<set $morgueCall to true>>\n<<thinkingFont Dialogue>>\nIt's funny how quickly a receptionist changes their tune when you flash your badge.\nThey weren't going to let me in to start with, but a quick flash of a badge, and I'm waved straight through...\n<<endThinkingFont Dialogue>>",
 		"position": {
 			"x": -61,
 			"y": -83

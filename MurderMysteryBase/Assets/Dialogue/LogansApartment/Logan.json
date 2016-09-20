@@ -82,7 +82,7 @@
 	{
 		"title": "Logan.Intro",
 		"tags": "",
-		"body": "Logan: Hello. Can I help you?\n-> Hello Mr. Rutledge. I'm Detective Schmidt. May I come in?\n    Logan: Yes of course.\n-> Hello Mr. Rutledge. I'm with the police. Can I come in?\n    Logan: Umm. Okay then.\nLogan: What is this about?\n-> Mr Rutledge, last night Jacob Wright was murdered.\n    Logan: ... I see. Please, come in.\n-> Last night Jacob Wright was killed. I'm investigating.\n    Logan: Oh... oh God. Come in.\n<<FadeScreen LoganEventController>>\n",
+		"body": "<<set $morgueCall to true>>\nLogan: Hello. Can I help you?\n-> Hello Mr. Rutledge. I'm Detective Schmidt. May I come in?\n    Logan: Yes of course.\n-> Hello Mr. Rutledge. I'm with the police. Can I come in?\n    Logan: Umm. Okay then.\nLogan: What is this about?\n-> Mr Rutledge, last night Jacob Wright was murdered.\n    Logan: ... I see. Please, come in.\n-> Last night Jacob Wright was killed. I'm investigating.\n    Logan: Oh... oh God. Come in.\n<<FadeScreen LoganEventController>>\n",
 		"position": {
 			"x": -369,
 			"y": -500
