@@ -22,7 +22,7 @@
 	{
 		"title": "syringe.GetTested",
 		"tags": "",
-		"body": "<<$syringeFound = true>>",
+		"body": "<<set $syringeFound to true>> ",
 		"position": {
 			"x": 634,
 			"y": 115
