@@ -22,40 +22,40 @@
 	{
 		"title": "Lola.Interview",
 		"tags": "",
-		"body": "Oh dear, you caught me.\n[[Game.Exit]]",
+		"body": "Why am I here?\nSeriously, how? There's no way you can trigger my variable..\n[[Game.Exit]]",
 		"position": {
-			"x": -715,
-			"y": -66
+			"x": -654,
+			"y": -61
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Logan.Interview",
 		"tags": "",
-		"body": "Oh dear, you caught me.\n[[Game.Exit]]",
+		"body": "What is this about detective?\n->I have evidence that you were behind Jacob Wright's death\n    What? That's preposerous! I'll have your badge for this!\n    ->You fought with Jacob on the night of his death.\n        What about it? Are you saying I beat him to death?\n        ->I am indeed.\n            You're a madman. This will never stand up in court...\n[[Game.Exit]]",
 		"position": {
-			"x": -369,
-			"y": 201
+			"x": -402,
+			"y": 180
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Rachael.Interview",
 		"tags": "",
-		"body": "Oh dear, you caught me.\n[[Game.Exit]]",
+		"body": "You'd better have a good reason for dragging me in here, detective.\n->The jig is up Rachael. I know you killed Jacob Wright.\n    Ha, and you think I'll just confess to you? You can't prove anything.\n    ->We found your rifle.\n->I have evidence that you were the one who killed Jacob Wright.\n    And what evidence would that be?\n    ->We found your rifle.\n\n...What?\nI knew I should have dumped it in the river...\nFine... I killed him.\nHe just wouldn't step back on his decision. It was going to cost the company millions.\nHe gave me no choice...\n[[Game.Exit]]",
 		"position": {
-			"x": -404,
-			"y": -66
+			"x": -400,
+			"y": -58
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Nora.Interview",
 		"tags": "",
-		"body": "Oh dear, you caught me.\n[[Game.Exit]]",
+		"body": "Can this hurry along, I've got a flight to catch soon.\n->I'm afraid you won't be going anywhere, Miss Hastings.\n    What the hell? On what grounds?\n    ->I've have evidence that you are behind Jacob's death.\n        And what evidence would that be?\n        ->I found the syringe in your apartment.\n\nDamn it...\nFine, I killed him.\nHe spun all these lies about our future together, but he never really wanted that.\nHe was just stringing me along to keep himself interested.\nI'm glad he's dead...\n[[Game.Exit]]",
 		"position": {
-			"x": -663,
-			"y": 210
+			"x": -657,
+			"y": 185
 		},
 		"colorID": 0
 	}
