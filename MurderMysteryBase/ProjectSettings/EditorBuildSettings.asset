@@ -25,5 +25,7 @@ EditorBuildSettings:
     path: Assets/Levels/InterviewRoom/InterviewRoom.unity
   - enabled: 1
     path: Assets/Levels/LogansApartment/LogansApartment.unity
+  - enabled: 1
+    path: Assets/Levels/RachaelsOffice/RachaelOffice.unity
   - enabled: 0
     path: Assets/Levels/TestLevels/Character Test Chamber/Character Test Chamber.unity

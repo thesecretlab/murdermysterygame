@@ -2,7 +2,7 @@
 	{
 		"title": "Kyle",
 		"tags": "",
-		"body": "Hello Kyle.\n<<if visited (\"Kyle\") is false>>\nI am Detective Schmidt. I'm investigating Jacob Wright's death.\nKyle: I see. I am the doorman here, so I see to all the guests and residents coming and going.\n<<endif>>\n<<if visited (\"Kyle.Angry\") is false>>\nKyle: What do you need, Detective? \n<<else>>\nKyle: What do you want?\n<<endif>>\n[[I'd like to ask you some questions|Kyle.Questions]]\n[[Nothing for now|Kyle.Exit]]\n",
+		"body": "Detective: Hello Kyle.\n<<if visited (\"Kyle\") is false>>\nDetective: I am Detective Schmidt. I'm investigating Jacob Wright's death.\nKyle: I see. I am the doorman here, so I see to all the guests and residents coming and going.\n<<endif>>\n<<if visited (\"Kyle.Angry\") is false>>\nKyle: What do you need, Detective? \n<<else>>\nKyle: What do you want?\n<<endif>>\n[[I'd like to ask you some questions|Kyle.Questions]]\n[[Nothing for now|Kyle.Exit]]\n",
 		"position": {
 			"x": 248,
 			"y": 653
@@ -32,7 +32,7 @@
 	{
 		"title": "Kyle.KnowVictim",
 		"tags": "",
-		"body": "Kyle: Didn’t know Mr. Wright all that well sorry. Conversation rarely went beyond the usual pleasantries.\r\nKyle: He tipped well when the need arose. He was forever bringing good looking women back, subtlety was never his style.\r\nWas he with one of these women tonight? [[Kyle.WithWoman]]\r\nDo you know anyone that would want to kill Mr. Wright? [[Kyle.MurderSuspects]]\r\n",
+		"body": "Kyle: Didn’t know Mr. Wright all that well sorry. Conversation rarely went beyond the usual pleasantries.\r\nKyle: He tipped well when the need arose. He was forever bringing good looking women back, subtlety was never his style.\r\n[[Was he with one of these women tonight?|Kyle.WithWoman]]\r\n[[Do you know anyone that would want to kill Mr. Wright?|Kyle.MurderSuspects]]\r\n",
 		"position": {
 			"x": 249,
 			"y": 1098
@@ -95,7 +95,7 @@
 		"body": "Kyle: Hmm... his old business partner Logan Rutledge came around at 5:45pm.\r\nKyle: Left at about 7. Don’t remember anyone else visiting today but I was on break from 6 to 6:30. \r\n<<set $foundSuspects to true>>\r\n<<set $loganIsSuspect to true>>\r\n<<set $logansapartmentUnlocked to true>>\r\n\r\n<<if $foundSuspects is true and $foundClues is true>>\r\n    <<set $CanTravel to true>>\r\n<<endif>>\r\n\r\n[[Does Mr. Rutledge visit often?|Kyle.RutledgeVisit]]\r\n[[How did he seem when you saw him leave?|Kyle.RutledgeMood]]",
 		"position": {
 			"x": 1748,
-			"y": 876
+			"y": 878
 		},
 		"colorID": 0
 	},

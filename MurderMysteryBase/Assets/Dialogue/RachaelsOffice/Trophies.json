@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Trophies",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>    \nHmm, looks like Rachael is a champion sharpshooter.\n<<set $trophiesFound to true>>\n<<set $trophiesConnectsTorachael to true>>\n<<set $foundCluesConnectToSuspects to true>>\n<<if $bulletholeFound == true>>\n    Just the kind of person to shoot someone in a penthouse from several buildings away.\n<<endif>>\n<<endThinkingFont Dialogue>>",
+		"position": {
+			"x": -479,
+			"y": -67
+		},
+		"colorID": 0
+	}
+]

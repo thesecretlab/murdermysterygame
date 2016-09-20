@@ -1,0 +1,21 @@
+[
+	{
+		"title": "Interview.Setup",
+		"tags": "",
+		"position": {
+			"x": 91,
+			"y": 214
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Sit",
+		"tags": "",
+		"body": "<<sit InterviewSceneController>>",
+		"position": {
+			"x": 330,
+			"y": 231
+		},
+		"colorID": 0
+	}
+]
