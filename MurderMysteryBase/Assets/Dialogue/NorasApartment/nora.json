@@ -12,7 +12,7 @@
 	{
 		"title": "Nora.Greet.Avoiding",
 		"tags": "",
-		"body": "Nora: Hello Detective.\nNora: I'm sorry, but I'm very busy right now. Can this wait?\n[[I'm sorry, but this is urgent. It's about Jacob Wright|Nora.Greet.Jacob]]\n[[I'm running out of patience, Miss Hastings. Open the door|Nora.Greet.Scared]]",
+		"body": "Nora: Hello Detective.\nNora: I'm sorry, but I'm very busy right now. Can this wait?\n[[This is urgent. It's about Jacob Wright|Nora.Greet.Jacob]]\n[[I'm running out of patience. Open the door|Nora.Greet.Scared]]",
 		"position": {
 			"x": -652,
 			"y": 488
@@ -42,7 +42,7 @@
 	{
 		"title": "Nora.Greet.Jacob",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject angry Nora>>\nNora: I'll save you some time. He's a bastard, and we're not seeing each other anymore.\nNora: He can rot in hell for all I care.\n[[Funny you should say that. I'm investigating Jacob's death|Nora.Greet.Avoid2]]\n[[Please Miss Hastings, I'd rather not have this conversation through a door|Nora.Greet.Willing]]",
+		"body": "<<runAnimation AnimationObject angry Nora>>\nNora: I'll save you some time. He's a bastard, and we're not seeing each other anymore.\nNora: He can rot in hell for all I care.\n[[Funny you should say that. I'm his death|Nora.Greet.Avoid2]]\n[[I'd rather not have this conversation through a door|Nora.Greet.Willing]]",
 		"position": {
 			"x": -658,
 			"y": 742
@@ -132,10 +132,20 @@
 	{
 		"title": "Nora.Intro",
 		"tags": "",
-		"body": "<<set $morgueCall to true>>\nNora: Hello? Who is it?\n[[I am Detective Schmidt. I'd like to speak with you Miss Hastings.|Nora.Greet.Avoiding]]\n[[Miss Hastings, this is the police. I'd like to speak to you.|Nora.Greet.Cautious]]\n",
+		"body": "<<set $morgueCall to true>>\nNora: Hello? Who is it?\n[[Detective Schmidt. I'd like to speak with you.|Nora.Greet.Avoiding]]\n[[This is the police. Open up.|Nora.Greet.Cautious]]\n",
 		"position": {
 			"x": -705,
 			"y": 155
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nora.Question.LastNight.Confirm",
+		"tags": "",
+		"body": "<<runAnimation AnimationObject talking Nora>>\nPlenty of people.\nCall my work.\nMy colleagues can vouch for me.",
+		"position": {
+			"x": 934,
+			"y": 791
 		},
 		"colorID": 0
 	}
