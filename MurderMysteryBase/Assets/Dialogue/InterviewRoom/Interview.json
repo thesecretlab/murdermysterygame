@@ -2,6 +2,7 @@
 	{
 		"title": "Interview.Setup",
 		"tags": "",
+		"body": "<<if $suspect == \"Logan\">>\n    <<interviewSuspect InterviewSceneController Logan>>\n<<elseif $suspect == \"Nora\">>\n    <<interviewSuspect InterviewSceneController Nora>>\n<<elseif $suspect == \"Rachael\">>\n    <<interviewSuspect InterviewSceneController Rachael>>\n<<elseif $suspect == \"Lola\">>\n    <<interviewSuspect InterviewSceneController Lola>>\n<<endif>>\n[[Interview.Sit]]\n    ",
 		"position": {
 			"x": 91,
 			"y": 214

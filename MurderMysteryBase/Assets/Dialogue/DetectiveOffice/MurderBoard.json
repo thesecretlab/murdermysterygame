@@ -1,11 +1,11 @@
 [
 	{
-		"title": "MurderBoardTest",
+		"title": "MurderBoard.Test",
 		"tags": "",
-		"body": "->Set clue as found\n    ->Set Bullet Hole as found\n        <<set $foundClues to true>>\n        <<set $bulletholeFound to true>>\n    ->Set Fingerprints as found\n        <<set $foundClues to true>>\n        <<set $fingerprintsFound to true>>\n    ->Set Whiskey Glass as found\n        <<set $foundClues to true>>\n        <<set $whiskeyglassFound to true>>\n    ->Set Syringe as found\n        <<set $foundClues to true>>\n        <<set $syringeFound to true>>\n->Set as suspect\n    ->Set Lola as suspect\n        <<set $foundSuspects to true>>\n        <<set $lolaIsSuspect to true>>\n    ->Set Logan as suspect\n        <<set $foundSuspects to true>>\n        <<set $loganIsSuspect to true>>\n    ->Set Nora as suspect\n        <<set $foundSuspects to true>>\n        <<set $noraIsSuspect to true>>\n    ->Set Rachael as suspect\n        <<set $foundSuspects to true>>\n        <<set $rachaelIsSuspect to true>>\n->Connect clue to suspect\n    ->Set Whiskey Glass connects to Logan\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $whiskeyglassConnectsTologan to true>>\n    ->Set FingerPrints connects to Logan\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $fingerprintsConnectsTologan to true>>\n    ->Set BulletHole connects to Rachael\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $bulletholeConnectsTorachael to true>>\n    ->Set Syringe connects to Nora\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $syringeConnectsTonora to true>>\n->All the things\n    <<set $foundClues to true>>\n    <<set $bulletholeFound to true>>\n    <<set $fingerprintsFound to true>>\n    <<set $whiskeyglassFound to true>>\n    <<set $syringeFound to true>>\n    <<set $foundSuspects to true>>\n    <<set $lolaIsSuspect to true>>\n    <<set $loganIsSuspect to true>>\n    <<set $noraIsSuspect to true>>\n    <<set $rachaelIsSuspect to true>>\n    <<set $foundCluesConnectToSuspects to true>>\n    <<set $whiskeyglassConnectsTologan to true>>\n    <<set $fingerprintsConnectsTologan to true>>\n    <<set $bulletholeConnectsTorachael to true>>\n    <<set $syringeConnectsTonora to true>>",
+		"body": "->Set canTravel to true.\n    <<set $CanTravel to true>>\n->Set clue as found\n    ->Set Bullet Hole as found\n        <<set $foundClues to true>>\n        <<set $bulletholeFound to true>>\n    ->Set Fingerprints as found\n        <<set $foundClues to true>>\n        <<set $fingerprintsFound to true>>\n    ->Set Whiskey Glass as found\n        <<set $foundClues to true>>\n        <<set $whiskeyglassFound to true>>\n    ->Set Syringe as found\n        <<set $foundClues to true>>\n        <<set $syringeFound to true>>\n->Set as suspect\n    ->Set Lola as suspect\n        <<set $foundSuspects to true>>\n        <<set $lolaIsSuspect to true>>\n    ->Set Logan as suspect\n        <<set $foundSuspects to true>>\n        <<set $loganIsSuspect to true>>\n    ->Set Nora as suspect\n        <<set $foundSuspects to true>>\n        <<set $noraIsSuspect to true>>\n    ->Set Rachael as suspect\n        <<set $foundSuspects to true>>\n        <<set $rachaelIsSuspect to true>>\n->Connect clue to suspect\n    ->Set Whiskey Glass connects to Logan\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $whiskeyglassConnectsTologan to true>>\n    ->Set FingerPrints connects to Logan\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $fingerprintsConnectsTologan to true>>\n    ->Set BulletHole connects to Rachael\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $bulletholeConnectsTorachael to true>>\n    ->Set Syringe connects to Nora\n        <<set $foundCluesConnectToSuspects to true>>\n        <<set $syringeConnectsTonora to true>>\n->All the things\n    <<set $foundClues to true>>\n    <<set $bulletholeFound to true>>\n    <<set $fingerprintsFound to true>>\n    <<set $whiskeyglassFound to true>>\n    <<set $syringeFound to true>>\n    <<set $foundSuspects to true>>\n    <<set $lolaIsSuspect to true>>\n    <<set $loganIsSuspect to true>>\n    <<set $noraIsSuspect to true>>\n    <<set $rachaelIsSuspect to true>>\n    <<set $foundCluesConnectToSuspects to true>>\n    <<set $whiskeyglassConnectsTologan to true>>\n    <<set $fingerprintsConnectsTologan to true>>\n    <<set $bulletholeConnectsTorachael to true>>\n    <<set $syringeConnectsTonora to true>>\n->Interrogate.\n    ->Interrogate Logan\n        <<set $suspect to \"Logan\">>\n        <<set $interviewroomUnlocked to true>>\n    ->Interrogate Nora\n        <<set $suspect to \"Nora\">>\n        <<set $interviewroomUnlocked to true>>\n    ->Interrogate Rachael\n        <<set $suspect to \"Rachael\">>\n        <<set $interviewroomUnlocked to true>>\n    ->Interrogate Lola\n        <<set $suspect to \"Lola\">>\n        <<set $interviewroomUnlocked to true>>",
 		"position": {
-			"x": -1318,
-			"y": -169
+			"x": -1320,
+			"y": -168
 		},
 		"colorID": 2
 	},
@@ -22,17 +22,17 @@
 	{
 		"title": "MurderBoard.AddClues",
 		"tags": "",
-		"body": "<<if $foundClues == true>>\n<<if $bulletholeFound == true>>\nI should add the bullet hole to the board.\n<<addClue MurderBoard bullethole>>\n<<endif>>\n<<if $fingerprintsFound == true>>\nI should add the fingerprints to the board.\n<<addClue MurderBoard fingerprints>>\n<<endif>>\n<<if $whiskeyglassFound == true>>\nI should add the whiskey glass to the board.\n<<addClue MurderBoard whiskeyglass>>\n<<endif>>\n<<if $syringeFound == true>>\nI should add the syringe to the board.\n<<addClue MurderBoard syringe>>\n<<endif>>\n<<else>>\nI haven't found any clues yet.\n<<endif>>\n[[MurderBoard.Add]]",
+		"body": "<<if $foundClues == true>>\n    <<if $bulletholeFound == true and $bulletholeAdded ==false>>\n        I should add the bullet hole to the board.\n        <<addClue MurderBoard bullethole>>\n        <<set $bulletholeAdded to true>>\n    <<endif>>\n    <<if $trophiesFound == true and $trophiesAdded ==false>>\n        I should add the shooting trophies to the board.\n        <<addClue MurderBoard trophies>>\n        <<set $trophiesAdded to true>>\n    <<endif>>\n    <<if $fingerprintsFound == true and $fingerprintsAdded ==false>>\n        I should add the fingerprints to the board.\n        <<addClue MurderBoard fingerprints>>\n        <<set $fingerprintsAdded to true>>\n    <<endif>>\n    <<if $whiskeyglassFound == true and $whiskeyglassAdded ==false>>\n        I should add the whiskey glass to the board.\n        <<addClue MurderBoard whiskeyglass>>\n        <<set $whiskeyglassAdded to true>>\n    <<endif>>\n    <<if $syringeFound == true and $syringeAdded ==false>>\n        I should add the syringe to the board.\n        <<addClue MurderBoard syringe>>\n        <<set $syringeAdded to true>>\n    <<endif>>\n<<else>>\n    I haven't found any clues yet.\n<<endif>>\n[[MurderBoard.Add]]",
 		"position": {
-			"x": -17,
-			"y": -52
+			"x": -11,
+			"y": -55
 		},
 		"colorID": 0
 	},
 	{
 		"title": "MurderBoard.AddSuspects",
 		"tags": "",
-		"body": "<<if $foundClues == true>>\n<<if $lolaIsSuspect == true>>\nI should add Lola as a suspect.\n<<addSuspect MurderBoard lola>>\n<<endif>>\n<<if $noraIsSuspect == true>>\nI should add Nora as a suspect.\n<<addSuspect MurderBoard nora>>\n<<endif>>\n<<if $loganIsSuspect == true>>\nI should add Logan as a suspect.\n<<addSuspect MurderBoard logan>>\n<<endif>>\n<<if $rachaelIsSuspect == true>>\nI should add Rachael as a suspect.\n<<addSuspect MurderBoard rachael>>\n<<endif>>\n<<else>>\nI haven't found any suspects yet.\n<<endif>>\n[[MurderBoard.Add]]",
+		"body": "<<if $foundClues == true>>\n    <<if $lolaIsSuspect == true and $lolaAdded == false>>\n        I should add Lola as a suspect.\n        <<addSuspect MurderBoard lola>>\n        <<set $lolaAdded to true>>\n    <<endif>>\n    <<if $noraIsSuspect == true and $noraAdded == false>>\n        I should add Nora as a suspect.\n        <<addSuspect MurderBoard nora>>\n        <<set $noraAdded to true>>\n    <<endif>>\n    <<if $loganIsSuspect == true and $loganAdded == false>>\n        I should add Logan as a suspect.\n        <<addSuspect MurderBoard logan>>\n        <<set $loganAdded to true>>\n    <<endif>>\n    <<if $rachaelIsSuspect == true and $rachaelAdded == false>>\n        I should add Rachael as a suspect.\n        <<addSuspect MurderBoard rachael>>\n        <<set $rachaelAdded to true>>\n    <<endif>>\n    <<else>>\n    I haven't found any suspects yet.\n<<endif>>\n[[MurderBoard.Add]]",
 		"position": {
 			"x": -265,
 			"y": 324
@@ -44,18 +44,18 @@
 		"tags": "",
 		"body": "<<thinkingFont Dialogue>>\n<<if $foundClues == true or $foundSuspects == true>>\n    I should start mapping out the investigation.\n    [[MurderBoard.Add]]\n<<else>>\n    Once I have some clues or suspects, I can map them out on the board here.\n    [[MurderBoard.Exit]]\n<<endif>>\n<<endThinkingFont Dialogue>>\n",
 		"position": {
-			"x": -938,
-			"y": -223
+			"x": -940,
+			"y": -225
 		},
 		"colorID": 0
 	},
 	{
 		"title": "MurderBoard.AddCluesToSuspects",
 		"tags": "",
-		"body": "<<if $foundCluesConnectToSuspects == true>>\n<<if $whiskeyglassConnectsTologan == true>>\nI can connect the Whiskey Glass to Logan\n<<moveClueToSuspect MurderBoard whiskeyglass logan>>\n<<endif>>\n<<if $fingerprintsConnectsTologan == true>>\nI can connect the Fingerprints to Logan\n<<moveClueToSuspect MurderBoard fingerprints logan>>\n<<endif>>\n<<if $bulletholeConnectsTorachael == true>>\nI can connect the Bullet Hole to Rachael\n<<moveClueToSuspect MurderBoard bullethole rachael>>\n<<endif>>\n<<if $syringeConnectsTonora == true>>\nI can connect the Syringe to Nora\n<<moveClueToSuspect MurderBoard syringe nora>>\n<<endif>>\n<<else>>\nI can't connect any of these clues to a suspect.\n<<endif>>\n[[MurderBoard.Add]]",
+		"body": "<<if $foundCluesConnectToSuspects == true>>\n    <<if $whiskeyglassConnectsTologan == true>>\n        I can connect the Whiskey Glass to Logan.\n        Logan was definitly there that night, I should drag him in for questioning.\n        <<set $suspect to \"Logan\">>\n        <<set $interviewroomUnlocked to true>>\n        <<moveClueToSuspect MurderBoard whiskeyglass logan>>\n    <<endif>>\n    <<if $fingerprintsConnectsTologan == true>>\n        I can connect the Fingerprints to Logan.\n        <<moveClueToSuspect MurderBoard fingerprints logan>>\n    <<endif>>\n    <<if $trophiesConnectsTorachael == true>>\n        I can connect the Shooting Trophies to Rachael.\n        <<if $bulletholeFound == true>>\n            <<set $bulletholeConnectsTorachael to true>>\n        <<endif>>\n        <<moveClueToSuspect MurderBoard trophies rachael>>\n    <<endif>>\n    <<if $bulletholeConnectsTorachael == true>>\n        I can connect the Bullet Hole to Rachael.\n        <<moveClueToSuspect MurderBoard bullethole rachael>>\n        Rachael has those shooting trophies.\n        I should drag her in for questioning.\n        <<set $suspect to \"Rachael\">>\n        <<set $interviewroomUnlocked to true>>\n    <<endif>>\n        <<if $syringeConnectsTonora == true>>\n        I can connect the Syringe to Nora.\n        <<set $suspect to \"Nora\">>\n        <<set $interviewroomUnlocked to true>>\n        <<moveClueToSuspect MurderBoard syringe nora>>\n    <<endif>>\n<<else>>\n    I can't connect any of these clues to a suspect.\n<<endif>>\n[[MurderBoard.Add]]",
 		"position": {
-			"x": -951,
-			"y": 282
+			"x": -946,
+			"y": 280
 		},
 		"colorID": 0
 	},
