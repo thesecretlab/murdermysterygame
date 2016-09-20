@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Bartender",
+		"tags": "",
+		"body": "Hello, I'm detective Schmidt.\nLooks like a quite night, do you mind answering some questions?\nBartender: Not at all detective, I gather this is about the murder?\n[[Yes it is. |Bartender.Questions]]\n[[Yes, how did you know that?|Bartender.Rachael]]\n\n",
+		"position": {
+			"x": -5,
+			"y": -533
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bartender.Questions",
+		"tags": "",
+		"body": "Bartender ask away.\n[[Does the name Rachael ring a bell?|Bartender.Certainly]]\n<<if visited (\"Bartender.Drink\") is false>>\n[[Can I get a gin and tonic?|Bartender.Drink]]\n<<endif>>\n",
+		"position": {
+			"x": -284,
+			"y": -316
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bartender.Rachael",
+		"tags": "",
+		"body": "Bartender: One of our regulars, Rachael told me around 20 minutes ago.\n[[Anything unusual?|Bartender.Bag]]\n[[Thank you for your time.|Bartender.Exit]]",
+		"position": {
+			"x": -15,
+			"y": -258
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bartender.Certainly",
+		"tags": "",
+		"body": "Bertender: Yeah, infact she was in here not 20 minutes ago.\n[[Notice anything unusual?|Bartender.Bag]]\n[[Thank you for your time.|Bartender.Exit]]",
+		"position": {
+			"x": -523,
+			"y": -318
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bartender.Drink",
+		"tags": "",
+		"body": "Bartender: Is the prohibition a thing again? Is this a sting?\n[[Nevermind.|Bartender.Questions]]",
+		"position": {
+			"x": -286,
+			"y": -605
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bartender.Bag",
+		"tags": "",
+		"body": "Bartender: Yeah, she was carrying a duffle bag.\nBartender: She said it was her pool cue.\nBartender: Didn't play a single rack though.\nBartender: Left through the back door as well.\n[[Excuse me, thank you for your time.|Bartender.Exit]]",
+		"position": {
+			"x": -647,
+			"y": -604
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bartender.Exit",
+		"tags": "",
+		"body": "Bartender: Not a worry sir.\nBartender: Have a goodnight.",
+		"position": {
+			"x": -831,
+			"y": -346
+		},
+		"colorID": 0
+	}
+]
