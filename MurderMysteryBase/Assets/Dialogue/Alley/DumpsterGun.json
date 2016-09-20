@@ -5,7 +5,7 @@
 		"body": "The dumpster seems to be filled with an assortment of documents associated with TempestTech.\nThere is also other, smellier, things.\n[[Rummage through the bin some more|DumpsterGun.Rummage]]\n[[Jump in for a more thorough, dirtier search|DumpsterGun.Search]]\n[[It's probably nothing. Walk away.|DumpsterGun.Exit]]",
 		"position": {
 			"x": 643,
-			"y": 197
+			"y": 198
 		},
 		"colorID": 0
 	},
@@ -22,7 +22,7 @@
 	{
 		"title": "DumpsterGun.Search",
 		"tags": "",
-		"body": "You jump into the dumpster.\nYou feel around the contents with your hands and legs.\nYou kick something hard, reaching in you pull out a rifle.\n<<set $rifleFound to true>>\n<<set $foundClues to true>>",
+		"body": "You jump into the dumpster.\nYou feel around the contents with your hands and legs.\nYou kick something hard, reaching in you pull out a rifle.\n<<set $rifleFound to true>>\n<<set $foundClues to true>>\n<<set $rifleConnectsTorachael to true>>",
 		"position": {
 			"x": 1051,
 			"y": 491
@@ -44,7 +44,7 @@
 		"tags": "",
 		"body": "You eat the slice of pizza. It has anchovies, gross.\n[[Jump in the dumpster|DumpsterGun.Search]]\n[[Leave, there's nothing worthwhile here|DumpsterGun.Exit]]",
 		"position": {
-			"x": 388,
+			"x": 389,
 			"y": 768
 		},
 		"colorID": 0

@@ -2,9 +2,9 @@
 	{
 		"title": "Lola",
 		"tags": "",
-		"body": "<<if visited(\"Lola\")is false>>\nDetective: Hello Miss. \nLola: Hello.\nDetective: I am Officer Schmidt. I'm investigating the murder.\nLola: Oh, I see. I'm Lola, I do the cleaning around here\n<<else>>\nDetective: Hello again, Lola.\nLola: Hello Detective.\n<<endif>>\n<<set $lolaIsSuspect to true>>\n<<if not visited(\"Lola.EveningBrief\")>>\n[[What can you tell me about the evening?|Lola.EveningBrief]]\n<<endif>>\n<<if visited (\"Lola.EveningBrief\")>>\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n<<endif>>\n[[Detective: Wait here please. I may have more questions.|Lola.Goodbye]]",
+		"body": "<<if visited(\"Lola\")is false>>\nDetective: Hello Miss. \nLola: Hello.\nDetective: I am Officer Schmidt. I'm investigating the murder.\nLola: Oh, I see. I'm Lola, I do the cleaning around here\n<<else>>\nDetective: Hello again, Lola.\nLola: Hello Detective.\n<<endif>>\n<<set $lolaIsSuspect to true>>\n<<if not visited(\"Lola.EveningBrief\")>>\n[[What can you tell me about the evening?|Lola.EveningBrief]]\n<<endif>>\n<<if visited (\"Lola.EveningBrief\")>>\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n<<endif>>\n[[Wait here please. I may have more questions.|Lola.Goodbye]]",
 		"position": {
-			"x": 721,
+			"x": 723,
 			"y": 73
 		},
 		"colorID": 0
@@ -12,7 +12,7 @@
 	{
 		"title": "Lola.DetailTime",
 		"tags": "",
-		"body": "Lola: It was at around 6:50.\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n[[Detective: Wait here please. I may have more questions.|Lola.Goodbye]]",
+		"body": "Lola: It was at around 6:50.\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n[[Wait here please. I may have more questions.|Lola.Goodbye]]",
 		"position": {
 			"x": 387,
 			"y": 710
@@ -22,9 +22,9 @@
 	{
 		"title": "Lola.EveningBrief",
 		"tags": "",
-		"body": "<<set $lolaIsSuspect to true>>\nLola: I was cleaning the hallways like I always do.\nLola: When I went past Mr Wright's apartment, I heard some raised voices.\nLola: I came past later on, and the door was ajar...\nLola: So I poked my head in to see if everything was alright\nLola: and I saw Mr Wright's body on the floor!\nLola: So I ran downstairs to tell Kyle to ring the police.\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n[[Detective: Wait here please. I may have more questions.|Lola.Goodbye]]",
+		"body": "<<set $lolaIsSuspect to true>>\nLola: I was cleaning the hallways like I always do.\nLola: When I went past Mr Wright's apartment, I heard some raised voices.\nLola: I came past later on, and the door was ajar...\nLola: So I poked my head in to see if everything was alright\nLola: and I saw Mr Wright's body on the floor!\nLola: So I ran downstairs to tell Kyle to ring the police.\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n[[Wait here please. I may have more questions.|Lola.Goodbye]]",
 		"position": {
-			"x": 275,
+			"x": 276,
 			"y": 417
 		},
 		"colorID": 0
@@ -34,7 +34,7 @@
 		"tags": "",
 		"body": "Lola: I'll be waiting here.",
 		"position": {
-			"x": 1111,
+			"x": 1112,
 			"y": 73
 		},
 		"colorID": 0
@@ -42,7 +42,7 @@
 	{
 		"title": "Lola.SeeAnyone",
 		"tags": "",
-		"body": "Lola: No, I didn't see anyone leave the aparment. Sorry.\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n[[Detective: Wait here please. I may have more questions.|Lola.Goodbye]]",
+		"body": "Lola: No, I didn't see anyone leave the aparment. Sorry.\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[You said you heard an argument. Can you tell me any details? |Lola.ArguingDetail]]<<not visited (\"Lola.ArgumentDetail\")>>\n[[Wait here please. I may have more questions.|Lola.Goodbye]]",
 		"position": {
 			"x": 688,
 			"y": 806
@@ -62,9 +62,9 @@
 	{
 		"title": "Lola.ArguingDetail2",
 		"tags": "",
-		"body": "Lola: I didn't hear what was said exactly.\nLola: It was definately two men arguing though.\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[Detective: Wait here please. I may have more questions.|Lola.Goodbye]]",
+		"body": "Lola: I didn't hear what was said exactly.\nLola: It was definately two men arguing though.\n[[When you found the body, what time was it?|Lola.DetailTime]]<<not visited (\"Lola.DetailTime\")>>\n[[Did you see anyone leave the apartment?|Lola.SeeAnyone]]<<not visited (\"Lola.SeeAnyone\")>>\n[[Wait here please. I may have more questions.|Lola.Goodbye]]",
 		"position": {
-			"x": 1112,
+			"x": 1110,
 			"y": 1053
 		},
 		"colorID": 0
@@ -72,7 +72,7 @@
 	{
 		"title": "Lola.ArguingMaybeFriend",
 		"tags": "",
-		"body": "Lola: I heard another man's voice.\nLola: Mr. Wright often had friends over. Maybe you should ask Kyle if he knows who it was.\n[[Detective: Wait here please. I may have more questions.|Lola.Goodbye]]",
+		"body": "Lola: I heard another man's voice.\nLola: Mr. Wright often had friends over. Maybe you should ask Kyle if he knows who it was.\n[[Wait here please. I may have more questions.|Lola.Goodbye]]",
 		"position": {
 			"x": 1391,
 			"y": 815
