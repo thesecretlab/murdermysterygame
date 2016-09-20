@@ -1,0 +1,62 @@
+[
+	{
+		"title": "ShootOut",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>\nThat looks like Rachael by the dumpster.\nSeems like she is trying to get rid of the evidence.\n<<endThinkingFont Dialogue>>\n[[Hide quietly and observe|ShootOut.Observe]]\n[[Call out for her to stop|ShootOut.CallOut]]\n[[Draw your gun|ShootOut.Draw]]",
+		"position": {
+			"x": 492,
+			"y": -65
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ShootOut.Observe",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>\nShe is putting something in the dumpster.\nLooks like a rifle, poorly disguised in a bag.\n<<endThinkingFont Dialogue>>\n[[Sneak up to apprehend her|ShootOut.Sneak]]\n[[Draw your weapon and announce yourself|ShootOut.Announce]]",
+		"position": {
+			"x": 48,
+			"y": 27
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ShootOut.CallOut",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 491,
+			"y": 245
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ShootOut.Draw",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 944,
+			"y": 13
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ShootOut.Sneak",
+		"tags": "",
+		"body": "Rachael: You should pick a better hiding spot next time Detective. ",
+		"position": {
+			"x": -110,
+			"y": 321
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ShootOut.Announce",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 173,
+			"y": 318
+		},
+		"colorID": 0
+	}
+]
