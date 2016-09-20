@@ -3095,7 +3095,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 5cd2b3c1a67416345be88570dc8d88e7, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 5cd2b3c1a67416345be88570dc8d88e7, type: 3}
       propertyPath: m_LocalScale.x
@@ -3322,7 +3322,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 480848, guid: 30f9259b97d50e046961567c888f13f8, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30f9259b97d50e046961567c888f13f8, type: 2}
@@ -3838,7 +3838,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 417184, guid: b9704bcf9cd5fe844910bdc63ccc57f4, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 13722834, guid: b9704bcf9cd5fe844910bdc63ccc57f4, type: 2}
       propertyPath: m_Enabled
@@ -22289,7 +22289,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22419620, guid: 7227ec274623ee44dbad64e44b0482bd, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 22419620, guid: 7227ec274623ee44dbad64e44b0482bd, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -28947,7 +28947,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 404566, guid: 14da9e0e19eef5044b433ed7d645182f, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 116358, guid: 14da9e0e19eef5044b433ed7d645182f, type: 2}
       propertyPath: m_Name
@@ -33618,7 +33618,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 482382, guid: 8b0ecff125ec2e54d8779f9dab0e1d9c, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 22409400, guid: 8b0ecff125ec2e54d8779f9dab0e1d9c, type: 2}
       propertyPath: m_AnchorMin.y
