@@ -31,9 +31,12 @@ namespace Yarn.Unity.Example
 
         void Update()
         {
-            if (player == null)
+            if (player == null || MapObject== null || dialogueUI == null)
             {
                 player = GameObject.FindGameObjectWithTag("Player");
+                MapObject = GameObject.FindGameObjectWithTag("Map");
+                
+                dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
             }
             if (Input.GetKeyDown(KeyCode.M) && mapKeyEnabled && !dialogueUI.inDialogue)
             {
@@ -59,7 +62,7 @@ namespace Yarn.Unity.Example
         {
             Debug.Log("Exiting Game");
             Application.Quit();
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
 
 
