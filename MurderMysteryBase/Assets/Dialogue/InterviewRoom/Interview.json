@@ -18,5 +18,45 @@
 			"y": 231
 		},
 		"colorID": 0
+	},
+	{
+		"title": "Lola.Interview",
+		"tags": "",
+		"body": "Oh dear, you caught me.\n[[Game.Exit]]",
+		"position": {
+			"x": -715,
+			"y": -66
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Logan.Interview",
+		"tags": "",
+		"body": "Oh dear, you caught me.\n[[Game.Exit]]",
+		"position": {
+			"x": -369,
+			"y": 201
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Rachael.Interview",
+		"tags": "",
+		"body": "Oh dear, you caught me.\n[[Game.Exit]]",
+		"position": {
+			"x": -404,
+			"y": -66
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nora.Interview",
+		"tags": "",
+		"body": "Oh dear, you caught me.\n[[Game.Exit]]",
+		"position": {
+			"x": -663,
+			"y": 210
+		},
+		"colorID": 0
 	}
 ]

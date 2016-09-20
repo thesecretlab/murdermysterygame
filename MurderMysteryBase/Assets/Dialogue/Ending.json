@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Game.Exit",
+		"tags": "",
+		"body": "Congratulations, you caught the killer.\n<<exitGame MapObject>>",
+		"position": {
+			"x": 537,
+			"y": 259
+		},
+		"colorID": 0
+	}
+]

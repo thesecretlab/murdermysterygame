@@ -54,6 +54,14 @@ namespace Yarn.Unity.Example
             }
         }
 
+        [YarnCommand("exitGame")]
+        public void exitGame()
+        {
+            Debug.Log("Exiting Game");
+            Application.Quit();
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
+
 
     }
 }
