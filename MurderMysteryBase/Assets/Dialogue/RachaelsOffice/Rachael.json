@@ -12,7 +12,7 @@
 	{
 		"title": "Rachael.LastNight",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject talking2 Rachael>>\n\nRachael: Let's see. I finished work here at 5:00. Ask my staff.\nRachael: From there, I went to my favourite bar for a drink.\n<<set $barUnlocked to true>>\nRachael: I left there at around 8, and went home.\n->Do you have anyone who can back that up?\n    Rachael: My staff and the bartender at BARNAME.\n    ->Thanks.\n        Rachael: Anything else?\n    ->Can anyone vouch for you at home?\n        Rachael: I live on my own, so no.\n->Thanks. I'll add that to my notes\nRachael: I'm not a suspect am I?\n->Everyone is a suspect at this stage.\n->I'm just following all the leads.\nRachael: I see.\n[[What can you tell me about Jacob's announcement?|Rachael.Jacob]]\n[[Just a moment, let me consult my notes|Rachael.Exit]]",
+		"body": "<<runAnimation AnimationObject talking2 Rachael>>\n\nRachael: Let's see. I finished work here at 5:00. Ask my staff.\nRachael: From there, I went to my favourite bar Alchemy, for a drink.\n<<set $barUnlocked to true>>\nRachael: I left there at around 8, and went home.\n->Do you have anyone who can back that up?\n    Rachael: My staff and the bartender at Alchemy.\n    ->Thanks.\n        Rachael: Anything else?\n    ->Can anyone vouch for you at home?\n        Rachael: I live on my own, so no.\n->Thanks. I'll add that to my notes\nRachael: I'm not a suspect am I?\n->Everyone is a suspect at this stage.\n->I'm just following all the leads.\nRachael: I see.\n[[What can you tell me about Jacob's announcement?|Rachael.Jacob]]\n[[Just a moment, let me consult my notes|Rachael.Exit]]",
 		"position": {
 			"x": 244,
 			"y": 336

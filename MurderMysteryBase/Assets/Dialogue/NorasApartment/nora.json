@@ -2,7 +2,7 @@
 	{
 		"title": "Nora",
 		"tags": "",
-		"body": "Nora: Yes, Detective?\n[[I'd like to some questions|Nora.Questions]]",
+		"body": "Nora: Yes, Detective?\n[[I'd like to ask some questions|Nora.Questions]]",
 		"position": {
 			"x": -220,
 			"y": 163
@@ -12,7 +12,7 @@
 	{
 		"title": "Nora.Greet.Avoiding",
 		"tags": "",
-		"body": "Nora: Hello Detective.\nNora: I'm sorry, but I'm very busy right now. Can this wait?\n[[This is urgent. It's about Jacob Wright|Nora.Greet.Jacob]]\n[[I'm running out of patience. Open the door|Nora.Greet.Scared]]",
+		"body": "Nora: Hello Detective.\nNora: I'm sorry, but I'm very busy right now. Can this wait?\n[[This is urgent. It's about Jacob Wright.|Nora.Greet.Jacob]]\n[[I'm running out of patience. Open the door.|Nora.Greet.Scared]]",
 		"position": {
 			"x": -652,
 			"y": 488
@@ -42,7 +42,7 @@
 	{
 		"title": "Nora.Greet.Jacob",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject angry Nora>>\nNora: I'll save you some time. He's a bastard, and we're not seeing each other anymore.\nNora: He can rot in hell for all I care.\n[[Funny you should say that. I'm his death|Nora.Greet.Avoid2]]\n[[I'd rather not have this conversation through a door|Nora.Greet.Willing]]",
+		"body": "<<runAnimation AnimationObject angry Nora>>\nNora: I'll save you some time. He's a bastard, and we're not seeing each other anymore.\nNora: He can rot in hell for all I care.\n[[Funny you should say that. I'm investigating his death.|Nora.Greet.Avoid2]]\n[[I'd rather not have this conversation through a door.|Nora.Greet.Willing]]",
 		"position": {
 			"x": -658,
 			"y": 742
@@ -82,7 +82,7 @@
 	{
 		"title": "Nora.Question.Jacob",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject talking Nora>>\nNora: We were lovers for the last month.\nNora: I thought things were getting pretty serious, but clearly that wasn't the case.\nNora: Three days ago he told me we were finished. No warning, no explaination, he just decided we were done.\n<<$noraIsSuspect = true>>\n[[I'm sorry to hear that. I have more questions.|Nora.Questions]]\n[[Sounds like motive to me!|Nora.Accuse]]\n[[I'm sorry to hear that. I have no more questions|Nora.Exit]]",
+		"body": "<<runAnimation AnimationObject talking Nora>>\nNora: We were lovers for the last month.\nNora: I thought things were getting pretty serious, but clearly that wasn't the case.\nNora: Three days ago he told me we were finished. No warning, no explanation, he just decided we were done.\n<<$noraIsSuspect = true>>\n[[I'm sorry to hear that. I have more questions.|Nora.Questions]]\n[[Sounds like motive to me!|Nora.Accuse]]\n[[I'm sorry to hear that. I have no more questions|Nora.Exit]]",
 		"position": {
 			"x": 130,
 			"y": 791

@@ -2,7 +2,7 @@
 	{
 		"title": "InspectCounterMess",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nThis place is filthy.\nThat pizza slice has to be atleast a week old.\nI don't think I'm going to find anything useful here.\nMaybe I should try looking in another room..\n<<endThinkingFont Dialogue>>",
+		"body": "<<thinkingFont Dialogue>>\nThis place is filthy.\nThat pizza slice has to be at least a week old.\nI don't think I'm going to find anything useful here.\nMaybe I should try looking in another room..\n<<endThinkingFont Dialogue>>",
 		"position": {
 			"x": 488,
 			"y": 112

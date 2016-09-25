@@ -12,7 +12,7 @@
 	{
 		"title": "Kyle.Questions",
 		"tags": "",
-		"body": "<<if visited (\"Kyle.Call\") is false>>\n[[I understand you were the one who called the police|Kyle.Call]]\n<<endif>>\n<<if visited (\"Kyle.KnowVictim\") is false>>\n[[Tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]]\n<<endif>>\n<<if visited (\"Whisky-Glass1\") is true>>\n[[I found evidence of a second person. Did you see anyone enter?|Kyle.SawRutledge]]\n<<endif>>\n[[Nothing else for now|Kyle.Exit]]",
+		"body": "<<if visited (\"Kyle.Call\") is false>>\n[[I understand you were the one who called the police|Kyle.Call]]\n<<endif>>\n<<if visited (\"Kyle.KnowVictim\") is false>>\n[[Tell me about Mr. Wright. Did you know him well?|Kyle.KnowVictim]]\n<<endif>>\n<<if visited (\"Whisky-Glass1\") is true>>\n[[I found evidence of a second person. Did you see anyone enter?|Kyle.SawRutledge]]\n<<endif>>\n<<if visited (\"Lola.ArguingMaybeFriend\") is true>>\n[[Lola mentioned that the victim was arguing with someone.|Kyle.SawRutledge]]\n<<endif>>\n[[Nothing else for now|Kyle.Exit]]",
 		"position": {
 			"x": 686,
 			"y": 801

@@ -2,7 +2,7 @@
 	{
 		"title": "InspectMess",
 		"tags": "",
-		"body": "Geez she has really been hitting the booze lately..\nMaybe there is something of interest in amoungst this mess.\n[[Search through the mess|InspectMess.inspect]]\n[[Yuck, I don't think I want to touch that.|InspectMess.Exit]]",
+		"body": "Geez she has really been hitting the booze lately..\nMaybe there is something of interest in amoungst this mess.\n[[Search through the mess.|InspectMess.inspect]]\n[[Yuck, I don't think I want to touch that.|InspectMess.Exit]]",
 		"position": {
 			"x": 274,
 			"y": 93

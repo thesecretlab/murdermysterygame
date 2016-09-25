@@ -2,10 +2,10 @@
 	{
 		"title": "VictimComputer",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nThe victim's Computer.\n[[Attempt to log on|VictimComputer.LoginSuccess]]\n[[Step Away|VictimComputer.Logoff]]",
+		"body": "<<thinkingFont Dialogue>>\nThe victim's computer.\n[[Attempt to log on|VictimComputer.LoginSuccess]]\n[[Step Away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 2698,
-			"y": 315
+			"x": 2843,
+			"y": 264
 		},
 		"colorID": 0
 	},
@@ -14,8 +14,8 @@
 		"tags": "",
 		"body": "[[Check emails|VictimComputer.Emails]]\n[[Step Away|Victim.Computer.Logoff]]",
 		"position": {
-			"x": 2700,
-			"y": 559
+			"x": 2845,
+			"y": 508
 		},
 		"colorID": 0
 	},
@@ -24,8 +24,8 @@
 		"tags": "",
 		"body": "Lets see. What should I check?\n[[Inbox|VictimComputer.Emails.Inbox]]\n[[Sent|VictimComputer.Emails.Sent]]\n[[Deleted|VictimComputer.Emails.Deleted]]\n[[Junk|VictimComputer.Emails.Junk]]\n[[Step away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 2288,
-			"y": 815
+			"x": 2433,
+			"y": 764
 		},
 		"colorID": 0
 	},
@@ -34,8 +34,8 @@
 		"tags": "",
 		"body": "<<endThinkingFont Dialogue>>",
 		"position": {
-			"x": 2250,
-			"y": 395
+			"x": 2395,
+			"y": 344
 		},
 		"colorID": 0
 	},
@@ -44,8 +44,8 @@
 		"tags": "",
 		"body": "[[From: Freeman's Highrise Ptd Ltd; Subject: This month's bond|VictimComputer.Emails.Inbox.Bond]]\n[[From: Rachael Baxter; Subject: Last Chance|VictimComputer.Emails.Inbox.Threat]]\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 1947,
-			"y": 805
+			"x": 2092,
+			"y": 754
 		},
 		"colorID": 4
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 1949,
-			"y": 1063
+			"x": 2094,
+			"y": 1012
 		},
 		"colorID": 4
 	},
@@ -64,8 +64,8 @@
 		"tags": "",
 		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 1949,
-			"y": 1294
+			"x": 2094,
+			"y": 1243
 		},
 		"colorID": 4
 	},
@@ -74,8 +74,8 @@
 		"tags": "",
 		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 1944,
-			"y": 1522
+			"x": 2089,
+			"y": 1471
 		},
 		"colorID": 4
 	},
@@ -84,18 +84,18 @@
 		"tags": "",
 		"body": "<<endThinkingFont Dialogue>>\n\"Thank you Mr Wright for your 6 month advance on your rates.. blah blah blah\"\n<<thinkingFont Dialogue>>\nNothing useful here.\n<<endThinkingFont Dialogue>>\n[[BACK|VictimComputer.Emails.Inbox]]",
 		"position": {
-			"x": 1633,
-			"y": 601
+			"x": 1778,
+			"y": 550
 		},
 		"colorID": 5
 	},
 	{
 		"title": "VictimComputer.Emails.Inbox.Threat",
 		"tags": "",
-		"body": "<<endThinkingFont Dialogue>>\n\"Jacob, I'm warning you. Your announcment has not been recieved well by the board of directors.\nPlease reconsider your decision before it puts you in danger.\nRegards, Rachael\"\n<<thinkingFont Dialogue>>\nInteresting...\n<<endThinkingFont Dialogue>>\n<<set $rachaelIsSuspect to true>>\n<<set $foundSuspects to true>>\n<<set $rachelsofficeUnlocked to true>>\n\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n[[BACK|VictimComputer.Emails.Inbox]]",
+		"body": "<<endThinkingFont Dialogue>>\n\"Jacob, I'm warning you. Your announcment has not been received well by the board of directors.\nPlease reconsider your decision before it puts you in danger.\nRegards, Rachael\"\n<<thinkingFont Dialogue>>\nInteresting...\n<<endThinkingFont Dialogue>>\n<<set $rachaelIsSuspect to true>>\n<<set $foundSuspects to true>>\n<<set $rachelsofficeUnlocked to true>>\n\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n[[BACK|VictimComputer.Emails.Inbox]]",
 		"position": {
-			"x": 1633,
-			"y": 840
+			"x": 1778,
+			"y": 789
 		},
 		"colorID": 1
 	}
