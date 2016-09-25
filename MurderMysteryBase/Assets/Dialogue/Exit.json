@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Exit.Exit",
+		"tags": "",
+		"body": "Are you sure you want to exit the game?\n->Yep\n    <<exitGame MapObject>>\n->Nope",
+		"position": {
+			"x": 536,
+			"y": 259
+		},
+		"colorID": 0
+	}
+]

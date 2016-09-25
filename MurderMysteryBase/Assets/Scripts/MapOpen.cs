@@ -41,7 +41,10 @@ namespace Yarn.Unity.Example
             if (Input.GetKeyDown(KeyCode.M) && mapKeyEnabled && !dialogueUI.inDialogue)
             {
                 FindObjectOfType<DialogueRunner>().StartDialogue("MapDialogue." + SceneManager.GetActiveScene().name);
-                player.GetComponent<FirstPersonController>().enabled = false;
+            }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                FindObjectOfType<DialogueRunner>().StartDialogue("Exit.Exit");
             }
         
         }
