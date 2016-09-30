@@ -102,7 +102,7 @@
 	{
 		"title": "VictimComputer.Emails.Sent.Breakup",
 		"tags": "",
-		"body": "\"Nora, I'm done with you. This isn't working.\"\n\"It's not you, it's me. You're nice and all, but I think we should see other people\"\n<<thinkingFont Dialogue>>\nWow, he broke up with this Nora person over email. Pretty rough.\nI'll see if I can track down her address.\n<<endThinkingFont Dialogue>>\n\n<<set $foundSuspects to true>>\n<<set $noraSuspect to true>>\n<<set $norasapartmentUnlocked to true>>\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n\n[[BACK|VictimComputer.Emails.Sent]]",
+		"body": "\"Nora, I'm done with you. This isn't working.\"\n\"It's not you, it's me. You're nice and all, but I think we should see other people\"\n<<thinkingFont Dialogue>>\nWow, he broke up with this Nora person over email. Pretty rough.\nI'll see if I can track down her address.\n<<endThinkingFont Dialogue>>\n\n<<set $foundSuspects to true>>\n<<set $noraIsSuspect to true>>\n<<set $norasapartmentUnlocked to true>>\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n\n[[BACK|VictimComputer.Emails.Sent]]",
 		"position": {
 			"x": 1921,
 			"y": 585

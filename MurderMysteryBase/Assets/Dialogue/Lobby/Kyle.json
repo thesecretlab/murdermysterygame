@@ -42,7 +42,7 @@
 	{
 		"title": "Kyle.WithWoman",
 		"tags": "",
-		"body": "Kyle: Not that I saw, if I recall correctly his latest squeeze was Nora Hastings.\nKyle: Some sort of model I think, whatever kind of job that is...\n\n<<set $foundSuspects to true>>\n<<set $noraSuspect to true>>\n<<set $norasapartmentUnlocked to true>>\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n\n<<if visited (\"Kyle.Call\") is false>>\n[[I understand you were the one who called the police|Kyle.Call]]\n<<endif>>\n<<if visited (\"Whisky-Glass1\") is true>>\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]]\n<<endif>>\n[[Nothing else for now|Kyle.Exit]]",
+		"body": "Kyle: Not that I saw, if I recall correctly his latest squeeze was Nora Hastings.\nKyle: Some sort of model I think, whatever kind of job that is...\n\n<<set $foundSuspects to true>>\n<<set $noraIsSuspect to true>>\n<<set $norasapartmentUnlocked to true>>\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n\n<<if visited (\"Kyle.Call\") is false>>\n[[I understand you were the one who called the police|Kyle.Call]]\n<<endif>>\n<<if visited (\"Whisky-Glass1\") is true>>\n[[I found evidence that someone else was in the apartment. Did you see anyone enter?|Kyle.SawRutledge]]\n<<endif>>\n[[Nothing else for now|Kyle.Exit]]",
 		"position": {
 			"x": 136,
 			"y": 1482
