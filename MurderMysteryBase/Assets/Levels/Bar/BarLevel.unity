@@ -42346,7 +42346,7 @@ MonoBehaviour:
   reticle: {fileID: 0}
   dialogueUI: {fileID: 0}
   gameTime: {fileID: 0}
-  range: 2
+  range: 4
   currentRange: 0
   mouseIsOver: 0
   isClueObject: 0

@@ -4,8 +4,8 @@
 		"tags": "",
 		"body": "<<thinkingFont Dialogue>>\nThe victim's computer.\n[[Attempt to log on|VictimComputer.LoginSuccess]]\n[[Step Away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 2843,
-			"y": 264
+			"x": 2971,
+			"y": -210
 		},
 		"colorID": 0
 	},
@@ -14,8 +14,8 @@
 		"tags": "",
 		"body": "[[Check emails|VictimComputer.Emails]]\n[[Step Away|Victim.Computer.Logoff]]",
 		"position": {
-			"x": 2845,
-			"y": 508
+			"x": 2973,
+			"y": 34
 		},
 		"colorID": 0
 	},
@@ -24,8 +24,8 @@
 		"tags": "",
 		"body": "Lets see. What should I check?\n[[Inbox|VictimComputer.Emails.Inbox]]\n[[Sent|VictimComputer.Emails.Sent]]\n[[Deleted|VictimComputer.Emails.Deleted]]\n[[Junk|VictimComputer.Emails.Junk]]\n[[Step away|VictimComputer.Logoff]]",
 		"position": {
-			"x": 2433,
-			"y": 764
+			"x": 2561,
+			"y": 290
 		},
 		"colorID": 0
 	},
@@ -34,8 +34,8 @@
 		"tags": "",
 		"body": "<<endThinkingFont Dialogue>>",
 		"position": {
-			"x": 2395,
-			"y": 344
+			"x": 2523,
+			"y": -130
 		},
 		"colorID": 0
 	},
@@ -44,38 +44,38 @@
 		"tags": "",
 		"body": "[[From: Freeman's Highrise Ptd Ltd; Subject: This month's bond|VictimComputer.Emails.Inbox.Bond]]\n[[From: Rachael Baxter; Subject: Last Chance|VictimComputer.Emails.Inbox.Threat]]\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 2092,
-			"y": 754
+			"x": 2220,
+			"y": 280
 		},
 		"colorID": 4
 	},
 	{
 		"title": "VictimComputer.Emails.Sent",
 		"tags": "",
-		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
+		"body": "[[To: Nora Hastings; Subject: We're done.|VictimComputer.Emails.Sent.Breakup]]\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 2094,
-			"y": 1012
+			"x": 2222,
+			"y": 538
 		},
 		"colorID": 4
 	},
 	{
 		"title": "VictimComputer.Emails.Junk",
 		"tags": "",
-		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
+		"body": "There are a lot of Nigerian Princes in here.\nI hope they're not involved, that's outside of my juristiction...\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 2094,
-			"y": 1243
+			"x": 2222,
+			"y": 769
 		},
 		"colorID": 4
 	},
 	{
 		"title": "VictimComputer.Emails.Deleted",
 		"tags": "",
-		"body": "Empty Text\n[[BACK|VictimComputer.Emails]]",
+		"body": "Not much to see here.\n[[BACK|VictimComputer.Emails]]",
 		"position": {
-			"x": 2089,
-			"y": 1471
+			"x": 2217,
+			"y": 997
 		},
 		"colorID": 4
 	},
@@ -84,8 +84,8 @@
 		"tags": "",
 		"body": "<<endThinkingFont Dialogue>>\n\"Thank you Mr Wright for your 6 month advance on your rates.. blah blah blah\"\n<<thinkingFont Dialogue>>\nNothing useful here.\n<<endThinkingFont Dialogue>>\n[[BACK|VictimComputer.Emails.Inbox]]",
 		"position": {
-			"x": 1778,
-			"y": 550
+			"x": 1906,
+			"y": 76
 		},
 		"colorID": 5
 	},
@@ -94,9 +94,19 @@
 		"tags": "",
 		"body": "<<endThinkingFont Dialogue>>\n\"Jacob, I'm warning you. Your announcment has not been received well by the board of directors.\nPlease reconsider your decision before it puts you in danger.\nRegards, Rachael\"\n<<thinkingFont Dialogue>>\nInteresting...\n<<endThinkingFont Dialogue>>\n<<set $rachaelIsSuspect to true>>\n<<set $foundSuspects to true>>\n<<set $rachelsofficeUnlocked to true>>\n\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n[[BACK|VictimComputer.Emails.Inbox]]",
 		"position": {
-			"x": 1778,
-			"y": 789
+			"x": 1906,
+			"y": 315
 		},
 		"colorID": 1
+	},
+	{
+		"title": "VictimComputer.Emails.Sent.Breakup",
+		"tags": "",
+		"body": "\"Nora, I'm done with you. This isn't working.\"\n\"It's not you, it's me. You're nice and all, but I think we should see other people\"\n<<thinkingFont Dialogue>>\nWow, he broke up with this Nora person over email. Pretty rough.\nI'll see if I can track down her address.\n<<endThinkingFont Dialogue>>\n\n<<set $foundSuspects to true>>\n<<set $noraSuspect to true>>\n<<set $norasapartmentUnlocked to true>>\n<<if $foundSuspects is true and $foundClues is true>>\n    <<set $CanTravel to true>>\n<<endif>>\n\n[[BACK|VictimComputer.Emails.Sent]]",
+		"position": {
+			"x": 1921,
+			"y": 585
+		},
+		"colorID": 2
 	}
 ]

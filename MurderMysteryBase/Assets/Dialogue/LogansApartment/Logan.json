@@ -42,7 +42,7 @@
 	{
 		"title": "Logan.Exit",
 		"tags": "",
-		"body": "<<if visited (\"Logan.Exit\") is false>>\n<<if visited (\"Logan.Accuse\")is false>>\nLogan: Fine, but please don't break anything.\n<<else>>\nLogan: Come back with a warrant!\n<<endif>>\n<<else>>\n<<if visited (\"Logan.Accuse\") is false>>\nLogan: Go on then.\n<<else>>\nLogan: Get the hell out if you have nothing else to ask!\n<<endif>>\n<<endif>>\n",
+		"body": "<<if visited (\"Logan.Exit\") is false>>\n<<if visited (\"Logan.Accuse\")is false>>\nLogan: Fine, but please don't break anything.\n<<else>>\nLogan: Come back with a warrant!\n<<set $logansapartmentUnlocked to false>>\n<<loadLevel MapObject detectivesOffice>>\n<<endif>>\n<<else>>\n<<if visited (\"Logan.Accuse\") is false>>\nLogan: Go on then.\n<<else>>\nLogan: Get the hell out if you have nothing else to ask!\n<<set $logansapartmentUnlocked to false>>\n<<endif>>\n<<endif>>\n",
 		"position": {
 			"x": 384,
 			"y": -414
@@ -92,7 +92,7 @@
 	{
 		"title": "Logan.Bandages",
 		"tags": "",
-		"body": "<<runAnimation AnimationObject talking2 Logan>>\nLogan: I may have thrown a punch, the bandages are for my hand.\nLogan: I left after that however, Logan was very much alive.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[You did more than punch him Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
+		"body": "<<runAnimation AnimationObject talking2 Logan>>\nLogan: I may have thrown a punch, the bandages are for my hand.\nLogan: I left after that however, Jacob was very much alive.\n[[I believe you Mr Rutledge. Please, I have more questions|Logan.LastNight]]\n[[You did more than punch him Mr Rutledge. |Logan.Accuse]]\n[[Thanks Mr Rutledge. That's all for now. May I look around?|Logan.Exit]]",
 		"position": {
 			"x": -677,
 			"y": 261
