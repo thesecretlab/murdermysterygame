@@ -112,10 +112,10 @@
 	{
 		"title": "Interview.ChooseSuspect",
 		"tags": "",
-		"body": "Who should I bring in for questioning?\n<<if $whiskeyglassConnectsTologan == true>>\n->Logan Rutledge\n    <<set $suspect to \"Logan\">>\n    <<loadLevel MapObject InterviewRoom>>\n<<endif>>\n<<if $rifleConnectsTorachael is true>>\n->Rachael Baxter\n    <<set $suspect to \"Rachael\">>\n    <<loadLevel MapObject InterviewRoom>>\n<<endif>>\n<<if $syringeConnectsTonora == true>>\n->Nora Hastings\n    <<set $suspect to \"Nora\">>\n    <<loadLevel MapObject InterviewRoom>>\n<<endif>>\n->No one yet",
+		"body": "Who should I bring in for questioning?\n<<if $whiskeyglassConnectsTologan == true or $rifleConnectsTorachael == true or $syringeConnectsTonora == true>>\n    <<if $whiskeyglassConnectsTologan == true>>\n    ->Logan Rutledge\n        <<set $suspect to \"Logan\">>\n        <<loadLevel MapObject InterviewRoom>>\n    <<endif>>\n    <<if $rifleConnectsTorachael is true>>\n    ->Rachael Baxter\n        <<set $suspect to \"Rachael\">>\n        <<loadLevel MapObject InterviewRoom>>\n    <<endif>>\n    <<if $syringeConnectsTonora == true>>\n    ->Nora Hastings\n        <<set $suspect to \"Nora\">>\n        <<loadLevel MapObject InterviewRoom>>\n    <<endif>>\n<<else>>\n->No one yet\n<<endif>>",
 		"position": {
-			"x": 20,
-			"y": -368
+			"x": 21,
+			"y": -367
 		},
 		"colorID": 0
 	}

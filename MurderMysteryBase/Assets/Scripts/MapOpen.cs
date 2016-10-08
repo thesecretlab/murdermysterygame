@@ -17,6 +17,8 @@ namespace Yarn.Unity.Example
 
         public GameObject MapObject;
 
+        public GameTime gameTime;
+
         public DialogueUI dialogueUI;
 
 
@@ -24,6 +26,7 @@ namespace Yarn.Unity.Example
         {
             player = GameObject.FindGameObjectWithTag("Player");
             MapObject = GameObject.FindGameObjectWithTag("Map");
+            gameTime = GameObject.FindObjectOfType<GameTime>();
 
             dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
         }
@@ -31,18 +34,20 @@ namespace Yarn.Unity.Example
 
         void Update()
         {
-            if (player == null || MapObject== null || dialogueUI == null)
+            if (player == null || MapObject == null || dialogueUI == null || gameTime == null)
             {
                 player = GameObject.FindGameObjectWithTag("Player");
                 MapObject = GameObject.FindGameObjectWithTag("Map");
                 
                 dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
+
+                gameTime = GameObject.FindObjectOfType<GameTime>();
             }
             if (Input.GetKeyDown(KeyCode.M) && mapKeyEnabled && !dialogueUI.inDialogue)
             {
                 FindObjectOfType<DialogueRunner>().StartDialogue("MapDialogue." + SceneManager.GetActiveScene().name);
             }
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKey(KeyCode.Escape))
             {
                 FindObjectOfType<DialogueRunner>().StartDialogue("Exit.Exit");
             }
@@ -56,6 +61,7 @@ namespace Yarn.Unity.Example
             Debug.Log(levelName);
             if (SceneManager.GetActiveScene().name != levelName || ignoreLocation == true)
             {
+                gameTime.addGameTime(0, 15);
                 SceneManager.LoadScene(levelName);
             }
         }
@@ -64,8 +70,14 @@ namespace Yarn.Unity.Example
         public void exitGame()
         {
             Debug.Log("Exiting Game");
-            Application.Quit();
-            //UnityEditor.EditorApplication.isPlaying = false;
+            if (Application.isEditor)
+            {
+                UnityEditor.EditorApplication.isPlaying = false;
+            }
+            else
+            {
+                Application.Quit();
+            }
         }
 
 

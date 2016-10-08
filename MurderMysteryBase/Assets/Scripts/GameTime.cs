@@ -41,7 +41,7 @@ public class GameTime : MonoBehaviour {
 	void Start()
 	{
 		secondsPerSecond = 1;
-        totalGameSeconds = (8 * 60 * 60);
+        totalGameSeconds = (20 * 60 * 60);
 		totalGameSeconds += secondsPerSecond * Time.deltaTime;
 	}
 

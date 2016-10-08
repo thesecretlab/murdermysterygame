@@ -672,7 +672,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -756,7 +756,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -810,8 +810,10 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 39ac2cf0ca0839a42badeb92d1a1a00c, type: 3}
   - {fileID: 4900000, guid: 060121ebc810f2e4e95feada9c923db9, type: 3}
   - {fileID: 4900000, guid: e6f2d9f4561c14946906842acafc324c, type: 3}
-  - {fileID: 4900000, guid: 05b7027ebfc901b4ab37e760ed0e36ad, type: 3}
+  - {fileID: 4900000, guid: 45992256536bc7147aaa646e0ddeb23e, type: 3}
   - {fileID: 4900000, guid: 9cc13903d898f3841a4e7323202ddcd4, type: 3}
+  - {fileID: 4900000, guid: 05b7027ebfc901b4ab37e760ed0e36ad, type: 3}
+  - {fileID: 4900000, guid: 842b7b46e4e934946aca66db1c536cc2, type: 3}
   variableStorage: {fileID: 11442140}
   dialogueUI: {fileID: 11417822}
   startNode: 
@@ -983,7 +985,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -1016,7 +1018,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -1220,7 +1222,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -1305,7 +1307,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -1365,7 +1367,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -1567,7 +1569,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -1789,7 +1791,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
@@ -2094,7 +2096,7 @@ RectTransform:
   m_GameObject: {fileID: 107118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22407952}
   m_Father: {fileID: 22480384}
@@ -2112,7 +2114,7 @@ RectTransform:
   m_GameObject: {fileID: 114012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22497582}
   m_Father: {fileID: 22480384}
@@ -2130,7 +2132,7 @@ RectTransform:
   m_GameObject: {fileID: 149340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22438906}
   m_Father: {fileID: 22480384}
@@ -2165,7 +2167,7 @@ RectTransform:
   m_GameObject: {fileID: 146890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22479016}
   m_Father: {fileID: 22480384}
@@ -2217,7 +2219,7 @@ RectTransform:
   m_GameObject: {fileID: 127540}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22400718}
   m_Father: {fileID: 22480384}
@@ -2269,7 +2271,7 @@ RectTransform:
   m_GameObject: {fileID: 150030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22409874}
   m_Father: {fileID: 22480384}
@@ -2324,7 +2326,7 @@ RectTransform:
   m_GameObject: {fileID: 162492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22434362}
   m_Father: {fileID: 22480384}
@@ -2342,7 +2344,7 @@ RectTransform:
   m_GameObject: {fileID: 117430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22477282}
   m_Father: {fileID: 22480384}
@@ -2410,7 +2412,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 330, y: 515}
-  m_SizeDelta: {x: 690, y: 710}
+  m_SizeDelta: {x: 690, y: 720}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &22487414
 RectTransform:
@@ -2420,7 +2422,7 @@ RectTransform:
   m_GameObject: {fileID: 151396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.95, y: 0.7, z: 1}
   m_Children:
   - {fileID: 22424848}
   m_Father: {fileID: 22480384}
