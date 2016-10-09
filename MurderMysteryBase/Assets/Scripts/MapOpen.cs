@@ -53,7 +53,7 @@ namespace Yarn.Unity.Example
             }
             if (gameTime.seconds > 93600 && !dialogueUI.inDialogue)
             {
-                FindObjectOfType<DialogueRunner>().StartDialogue("Exit.Fail");
+                FindObjectOfType<DialogueRunner>().StartDialogue("Game.Fail");
             }
         
         }
