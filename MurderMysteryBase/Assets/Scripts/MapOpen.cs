@@ -51,7 +51,7 @@ namespace Yarn.Unity.Example
             {
                 FindObjectOfType<DialogueRunner>().StartDialogue("Exit.Exit");
             }
-            if(gameTime.hours>6)
+            if (gameTime.seconds > 93600)
             {
                 FindObjectOfType<DialogueRunner>().StartDialogue("Exit.Fail");
             }
