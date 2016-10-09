@@ -4,8 +4,18 @@
 		"tags": "",
 		"body": "Congratulations, you caught the killer.\n<<exitGame MapObject>>",
 		"position": {
-			"x": 537,
-			"y": 259
+			"x": 823,
+			"y": 245
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Game.Fail",
+		"tags": "",
+		"body": "<<thinkingFont Dialogue>>  \nHuh? My phone...\n<<endThinkingFont Dialogue>>\n->Answer\n    Caller: Detective? This is the Station.\n    Caller: We just got a report that Nora Hastings has fled the country.\n    Detective: Dammit, where'd she go?\n    Caller: North Korea.\n    Detective: Whelp, we're not extraditing her from there.\n    You have failed to catch the murderer.\n    <<exitGame MapObject>>",
+		"position": {
+			"x": 487,
+			"y": 209
 		},
 		"colorID": 0
 	}
