@@ -5,7 +5,7 @@ public class Lola : MonoBehaviour {
 
 	Animator anim;
 
-    int dance = 0;
+    public int dance = 0;
 
 	// Use this for initialization
 	void Start () {

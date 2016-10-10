@@ -3,6 +3,11 @@ using System.Collections;
 using Yarn.Unity;
 using Yarn.Unity.GameScripts;
 
+//!  Rachael's Office Scene Setup Class
+/*!
+ Sets up the intro events in the Rachael's Office scene.
+*/
+
 public class RachaelEventScript : MonoBehaviour {
     public GameObject playerObject;
 

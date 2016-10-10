@@ -1,6 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//!  Random Idle Class
+/*!
+ Randomises the characters idle animations.
+*/
+
+
 public class RandomIdle : StateMachineBehaviour {
 
     // OnStateEnter is called before OnStateEnter is called on any state inside this state machine

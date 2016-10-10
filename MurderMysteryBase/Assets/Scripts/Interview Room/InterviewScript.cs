@@ -4,6 +4,11 @@ using UnityStandardAssets.Characters.FirstPerson;
 using System.Collections;
 using Yarn.Unity;
 
+//!  Interview Room Setup Class
+/*!
+ Sets up the Interview room ready to interrogate a suspect.
+*/
+
 namespace Yarn.Unity.GameScripts
 {
     public class InterviewScript : MonoBehaviour
@@ -50,6 +55,7 @@ namespace Yarn.Unity.GameScripts
             
         }
 
+        /*! This Yarn Spinner Accessible function accepts string 'suspectName' and activates the appropriate character in the scene.*/
         [YarnCommand("interviewSuspect")]
         public void interview(string suspectName)
         {
@@ -63,6 +69,8 @@ namespace Yarn.Unity.GameScripts
             suspect.SetActive(true);
 
         }
+
+        /*! This Yarn Spinner Accessible function moves the players viewpoint t a sitting position on the chair in the interrogation room.*/
         [YarnCommand("sit")]
         public void sit()
         {

@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using Yarn.Unity;
 using Yarn.Unity.GameScripts;
 
-//Sets up the camera for the Intro scene
-
+//!  Intro Scene Setup Class
+/*!
+ Sets up the camera for the Intro scene
+*/
 public class IntroSceneSetup : MonoBehaviour
 {
 
@@ -76,6 +78,8 @@ public class IntroSceneSetup : MonoBehaviour
         phoneDialogue.enabled = isPhoneRinging;
     }
 
+    /*! This Yarn Spinner Accessible function starts the phone ringing sound.*/
+
     [YarnCommand("startPhoneRing")]
     public void StartPhoneRing()
     {
@@ -83,11 +87,15 @@ public class IntroSceneSetup : MonoBehaviour
         GameObject.Find("IntroEventSystem").GetComponent<IntroSceneSetup>().isPhoneRinging = true;
     }
 
+    /*! This Yarn Spinner Accessible function stops the phone ringing sound.*/
+
     [YarnCommand("stopPhoneRing")]
     public void StopPhoneRing()
     {
         GameObject.Find("IntroEventSystem").GetComponent<IntroSceneSetup>().isPhoneRinging = false;
     }
+
+    /*! This Yarn Spinner Accessible function unlocks player movement.*/
 
     [YarnCommand("UnlockPlayer")]
     public void UnlockPlayer()

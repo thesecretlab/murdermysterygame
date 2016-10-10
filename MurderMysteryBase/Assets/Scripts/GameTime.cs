@@ -159,6 +159,9 @@ public class GameTime : MonoBehaviour {
         
     }
 
+    /*! This Yarn Spinner Accessible function accepts a boolean variable and freezes and unfreezes the in-game clock based on that variable. 
+     *  Passing 'true' freezes the clock and passing 'false' unfreezes it.*/
+
     [YarnCommand("freezeTime")]
     public void freezeTime(string freeze)
     {
@@ -172,6 +175,9 @@ public class GameTime : MonoBehaviour {
             countTime = true;
         }
     }
+
+    /*! This Yarn Spinner Accessible function accepts two strings, 'addTime' and 'timeUnit' and adds time to the in-game clock based on those variable.
+     *  'addTime' is the number of time units to add and 'timeUnit' is the unit to add, either 'seconds', 'minutes', or hours.*/
 
     [YarnCommand("addTime")]
     public void addTime(string addTime, string timeUnit)

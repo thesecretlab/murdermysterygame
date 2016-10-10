@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 
-
+//!  Inventory Control Class (Not Implemented In Current Release)
+/*!
+ This class controls the in-game Inventory
+*/
 
 public class HUD : MonoBehaviour {
 

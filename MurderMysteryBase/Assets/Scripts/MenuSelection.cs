@@ -2,6 +2,11 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
+//!  Main Menu Class
+/*!
+ Controls the main menu and loads the new game.
+*/
+
 public class MenuSelection : MonoBehaviour
 {
     public bool newGame;

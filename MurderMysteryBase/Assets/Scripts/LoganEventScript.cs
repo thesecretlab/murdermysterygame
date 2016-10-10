@@ -3,7 +3,10 @@ using System.Collections;
 using Yarn.Unity;
 using Yarn.Unity.GameScripts;
 
-
+//!  Logan's Apartment Scene Setup Class
+/*!
+ Sets up the intro events in the Logan's Apartment scene.
+*/
 public class LoganEventScript : MonoBehaviour {
     public GameObject playerObject;
 

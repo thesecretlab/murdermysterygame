@@ -2,6 +2,11 @@
 using System.Collections;
 using Yarn.Unity;
 
+//!  Player Prompt Class
+/*!
+ Controls the on screen text prompts to the player.
+*/
+
 public class PlayerPrompts : MonoBehaviour {
 
     public GameTime gameTime;
@@ -36,9 +41,13 @@ public class PlayerPrompts : MonoBehaviour {
         }
     }
 
+    /*! This Yarn Spinner Accessible function accepts three string variables, 'prompt', 'displayTime', and 'fadeTime' , and prompts the player with on screen text accordingly
+     *  'prompt' is the text to display to the player, 'displayTime' is the time in seconds to display the prompt, and 'fadeTime' is the time in seconds over which to fade the prompt out.*/
+
     [YarnCommand("promptPlayer")]
     public void promptPlayer(string prompt,string displayTime, string fadeTime)
     {
+        Debug.Log("Prompting Player");
         this.GetComponent<UnityEngine.UI.Text>().text = prompt;
         //promptGroup.alpha = 1;
 

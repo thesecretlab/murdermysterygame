@@ -4,6 +4,11 @@ using UnityStandardAssets.Characters.FirstPerson;
 using System.Collections;
 using Yarn.Unity;
 
+//!  Map Open Class
+/*!
+ * Controls the 'Map', the dialogue used for traveling between scenes, and handles the scene switches and game exits.
+*/
+
 namespace Yarn.Unity.GameScripts
 {
     public class MapOpen : MonoBehaviour
@@ -58,6 +63,8 @@ namespace Yarn.Unity.GameScripts
         
         }
 
+        /*! This Yarn Spinner Accessible function accepts a string variables, 'levelName', and loads the appropriate scene.
+         *  'levelName' is the name of the scene to load.*/
         [YarnCommand("loadLevel")]
         public void loadlLevel(string levelName)
         {
@@ -70,15 +77,16 @@ namespace Yarn.Unity.GameScripts
             }
         }
 
+        /*! This Yarn Spinner Accessible function prompts the player for confirmation before exiting the game.*/
         [YarnCommand("exitGame")]
         public void exitGame()
         {
             Debug.Log("Exiting Game");
-            if (Application.isEditor)
+            try
             {
                 UnityEditor.EditorApplication.isPlaying = false;
             }
-            else
+            finally
             {
                 Application.Quit();
             }

@@ -3,6 +3,11 @@ using System.Collections;
 using Yarn.Unity;
 using Yarn.Unity.GameScripts;
 
+//!  Nora's Apartment Scene Setup Class
+/*!
+ Sets up the intro events in the Nora's Apartment scene.
+*/
+
 public class NoraEventScript : MonoBehaviour {
     public GameObject playerObject;
 

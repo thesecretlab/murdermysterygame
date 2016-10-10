@@ -5,6 +5,11 @@ using Yarn.Unity;
 using Yarn.Unity.GameScripts;
 using UnityStandardAssets.Characters.FirstPerson;
 
+//!  Lobby Scene Setup Class
+/*!
+ Sets up the introduction dialogue in the lobby scene.
+*/
+
 public class LobbySceneHandler : MonoBehaviour {
 
 
