@@ -4,7 +4,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 using System.Collections;
 using Yarn.Unity;
 
-namespace Yarn.Unity.Example
+namespace Yarn.Unity.GameScripts
 {
     public class InterviewScript : MonoBehaviour
     {

@@ -40,7 +40,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 // is that you provide the RunLine, RunOptions, RunCommand
 // and DialogueComplete coroutines; what they do is up to you.
 
-namespace Yarn.Unity.Example {
+namespace Yarn.Unity.GameScripts {
 	public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
 	{
 		

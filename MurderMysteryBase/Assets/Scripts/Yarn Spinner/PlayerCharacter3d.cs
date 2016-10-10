@@ -30,7 +30,7 @@ using System.Collections.Generic;
 using UnityStandardAssets.Characters.FirstPerson;
 
 
-namespace Yarn.Unity.Example {
+namespace Yarn.Unity.GameScripts {
 	public class PlayerCharacter3d : MonoBehaviour {
 
 

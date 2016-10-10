@@ -1,7 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Yarn.Unity;
-using Yarn.Unity.Example;
+using Yarn.Unity.GameScripts;
+
+//!  Yarn Spinner Animation Trigger
+/*!
+ This class implements a number of Yarn Spinner accessible scripts for controlling a character's animation.
+*/
 
 public class AnimTrigger : MonoBehaviour {
 
@@ -18,7 +23,8 @@ public class AnimTrigger : MonoBehaviour {
 	}
 
 
-
+    //! runAnimation function
+    /*! This function accepts two strings, 'r' and 'name', and changes the animation ofcharacter 'name' to animation 'r' */
 	[YarnCommand("runAnimation")]
 	public void runAnimation(string r, string name)
 	{

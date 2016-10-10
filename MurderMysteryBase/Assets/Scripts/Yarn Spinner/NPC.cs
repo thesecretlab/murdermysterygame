@@ -29,7 +29,12 @@ using System.Collections;
 using UnityEngine.Serialization;
 using UnityStandardAssets.Characters.FirstPerson;
 
-namespace Yarn.Unity.Example {
+//!  Yarn Spinner NPC Control Class
+/*!
+ This class controls the NPC conversations
+*/
+
+namespace Yarn.Unity.GameScripts {
 	public class NPC : MonoBehaviour {
         public int objectNumber; 	//the slot number of clue in inventory
 

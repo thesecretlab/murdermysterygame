@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Yarn.Unity;
-using Yarn.Unity.Example;
+using Yarn.Unity.GameScripts;
 
 //Sets up the camera for the Intro scene
 

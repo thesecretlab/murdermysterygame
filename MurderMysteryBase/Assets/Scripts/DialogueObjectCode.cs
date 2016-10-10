@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//!  Dialogue Object Persistance Code
+/*!
+ This class keeps the attached Dialogue Object alive through scene transitions and ensures no duplicate Dialogue Objects persist in the scene.
+*/
+
 public class DialogueObjectCode : MonoBehaviour {
 
     private static DialogueObjectCode _instance;

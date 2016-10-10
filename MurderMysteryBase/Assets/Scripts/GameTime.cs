@@ -2,7 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using Yarn.Unity;
-using Yarn.Unity.Example;
+using Yarn.Unity.GameScripts;
+
+//!  GameTime Control Class
+/*!
+ This class controls the in game clock, tracks the current time, and includes Yarn Spinner accesible functions for incrementing the time.
+*/
 
 public class GameTime : MonoBehaviour {
 
@@ -91,6 +96,8 @@ public class GameTime : MonoBehaviour {
 
 	}
 
+    /*! This function accepts upo to three floats, seconds, minutes, and hours, andsets the current in-game time accordingly.*/
+
 	public void setGameTime(float seconds)
 	{
 		totalGameSeconds = seconds;
@@ -106,6 +113,8 @@ public class GameTime : MonoBehaviour {
 		totalGameSeconds = seconds + (minutes * 60) + (hours*3600);
 	}
 
+    /*! This function accepts up to three floats, seconds, minutes, and hours, and increments the current in-game time accordingly.*/
+
 	public void addGameTime(float seconds)
 	{
 		totalGameSeconds += seconds;
@@ -120,6 +129,9 @@ public class GameTime : MonoBehaviour {
 	{
 		totalGameSeconds += seconds + (minutes * 60) + (hours * 3600);
 	}
+
+    /*! This function returns the current in-game time as a formatted string.
+     *  Without any parameters the function returns a 24 hours time format. If true is passed as a parameter, the time is returned as a 12 hour time format with am/pm appended.*/
 
 	public string getGameTimeString()
 	{
