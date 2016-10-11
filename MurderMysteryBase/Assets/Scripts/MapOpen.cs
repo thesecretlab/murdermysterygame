@@ -85,7 +85,7 @@ namespace Yarn.Unity.GameScripts
             Debug.Log("Exiting Game");
             try
             {
-                UnityEditor.EditorApplication.isPlaying = false;
+                //UnityEditor.EditorApplication.isPlaying = false;
             }
             finally
             {
