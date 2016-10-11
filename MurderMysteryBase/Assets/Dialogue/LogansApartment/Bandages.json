@@ -2,7 +2,7 @@
 	{
 		"title": "Bandages",
 		"tags": "",
-		"body": "Interesting, military surplus guaze. Not something you'd use for a paper cut.",
+		"body": "Interesting, military surplus guaze. Not something you'd use for a paper cut.\n<<set $bandagesFound to true>>",
 		"position": {
 			"x": 540,
 			"y": 260

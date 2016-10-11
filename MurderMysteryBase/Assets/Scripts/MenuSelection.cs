@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using Yarn.Unity;
+using Yarn.Unity.GameScripts;
 
 //!  Main Menu Class
 /*!
@@ -14,6 +16,24 @@ public class MenuSelection : MonoBehaviour
     public bool quit;
     // Use this for initialization
 
+    public DialogueUI dialogueUI;
+
+    private VariableStorage yarnVars;
+
+    void Start()
+    {
+        dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
+        yarnVars = GameObject.Find("DialogueObject").GetComponentInChildren<VariableStorage>();
+    }
+
+    void Update()
+    {
+        if (dialogueUI == null)
+        {
+            dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
+        }
+    }
+
     void OnMouseUp()
     {
         //Currently both options select the map screen, easy to change.
@@ -26,7 +46,8 @@ public class MenuSelection : MonoBehaviour
         if (options)
         {
 			Debug.Log("Button: Options");
-			SceneManager.LoadScene("murderscene");
+            yarnVars.SetValue("NewGameIntroDone", new Yarn.Value(true));
+            StartCoroutine(LoadNewGame());
 			//SceneManager.LoadScene("optionsScene");
         }
         if (quit)
