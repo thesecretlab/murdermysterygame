@@ -56,8 +56,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167666}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -7.147, y: 1.029, z: 3.8849998}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000005924769}
+  m_LocalPosition: {x: -42.32, y: 97.875, z: -34.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 438180}
@@ -301,6 +301,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shader: {fileID: 4800000, guid: 9d7e8f87435780644abb4acdfd72a2f0, type: 3}
   LookupTexture: {fileID: 2800000, guid: e1f85ed96262e2f41b921dd3b7dfe029, type: 3}
+  StandardLookupTexture: {fileID: 2800000, guid: e1f85ed96262e2f41b921dd3b7dfe029,
+    type: 3}
+  MatrixLookupTexture: {fileID: 2800000, guid: f9f759a9dc6e49341abe9733fdd14f8a, type: 3}
   Amount: 1
   TintColor: {r: 1, g: 1, b: 1, a: 1}
   Hue: 0

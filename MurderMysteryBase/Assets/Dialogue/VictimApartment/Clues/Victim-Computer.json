@@ -12,7 +12,7 @@
 	{
 		"title": "VictimComputer.LoginSuccess",
 		"tags": "",
-		"body": "[[Check emails|VictimComputer.Emails]]\n[[Step Away|Victim.Computer.Logoff]]",
+		"body": "->Check emails\n    [[VictimComputer.Emails]]\n->Play Solitaire\n    <<thinkingFont Dialogue>>\n    Ain't nobody got time for that!\n    <<endThinkingFont Dialogue>>\n    [[VictimComputer.LoginSuccess]]\n->Step Away\n    [[VictimComputer.Logoff]]",
 		"position": {
 			"x": 2973,
 			"y": 34

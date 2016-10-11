@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using Yarn.Unity;
 
 namespace DigitalRuby.SimpleLUT
 {
@@ -13,6 +14,11 @@ namespace DigitalRuby.SimpleLUT
         [Tooltip("Texture to use for the lookup. Make sure it has read/write enabled and mipmaps disabled. The height must equal the square root of the width.")]
         public Texture2D LookupTexture;
         private Texture2D previousTexture;
+
+
+        public Texture2D StandardLookupTexture;
+
+        public Texture2D MatrixLookupTexture;
 
         [Range(0, 1)]
         [Tooltip("Lerp between original (0) and corrected color (1)")]
@@ -136,6 +142,20 @@ namespace DigitalRuby.SimpleLUT
                 return false;
             }
             return true;
+        }
+
+        [YarnCommand("enterTheMatrix")]
+        public void enterTheMatrix()
+        {
+            LookupTexture = MatrixLookupTexture;
+            Amount = 0.5f;
+        }
+
+        [YarnCommand("leaveTheMatrix")]
+        public void leaveTheMatrix()
+        {
+            LookupTexture = StandardLookupTexture;
+            Amount = 1f;
         }
 
         internal bool Convert(Texture2D lookupTexture)
