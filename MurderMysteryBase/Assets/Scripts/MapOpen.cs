@@ -4,6 +4,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 using System.Collections;
 using Yarn.Unity;
 
+
 //!  Map Open Class
 /*!
  * Controls the 'Map', the dialogue used for traveling between scenes, and handles the scene switches and game exits.

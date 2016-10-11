@@ -97,10 +97,11 @@ namespace Yarn.Unity.GameScripts {
 
         // Update is called once per frame
         void Update () {
-            if (player == null)
+            if (player == null || dialogueUI ==null)
             {
                 player = GameObject.FindGameObjectWithTag("Player");
                 playerPosition = player.GetComponent<Transform>();
+                dialogueUI = GameObject.FindObjectOfType<DialogueUI>();
             }
             currentRange = Vector3.Distance(playerPosition.position, npcPosition.position);
             if (dialogueUI.inDialogue)

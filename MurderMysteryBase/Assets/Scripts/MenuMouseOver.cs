@@ -16,10 +16,34 @@ public class MenuMouseOver : MonoBehaviour {
     void OnMouseEnter()
     {
         GetComponent<Renderer>().material.color = Color.grey;
+        switch(name){
+            case "New Game":
+                GetComponent<MenuSelection>().newGame = true;
+                break;
+            case "Quit":
+                GetComponent<MenuSelection>().quit = true;
+                break;
+            case "skip":
+                GetComponent<MenuSelection>().options = true;
+                break;
+        }
+        
     }
 
     void OnMouseExit()
     {
         GetComponent<Renderer>().material.color = Color.white;
+        switch (name)
+        {
+            case "New Game":
+                GetComponent<MenuSelection>().newGame = false;
+                break;
+            case "Quit":
+                GetComponent<MenuSelection>().quit = false;
+                break;
+            case "skip":
+                GetComponent<MenuSelection>().options = false;
+                break;
+        }
     }
 }

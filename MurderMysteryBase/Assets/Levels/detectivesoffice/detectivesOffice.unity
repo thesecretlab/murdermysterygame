@@ -18576,7 +18576,7 @@ Transform:
   - {fileID: 1311043302}
   - {fileID: 1704067053}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1 &1278922179
 GameObject:
   m_ObjectHideFlags: 0
@@ -20584,7 +20584,7 @@ Transform:
   m_LocalScale: {x: 0.120000005, y: 0.120000005, z: 0.120000005}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 9
 --- !u!114 &1442164389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20598,7 +20598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectNumber: 0
   characterName: 
-  talkToNode: MurderBoard.Test
+  talkToNode: MurderBoard.Test2
   scriptToLoad: {fileID: 0}
   player: {fileID: 0}
   playerPosition: {fileID: 0}
@@ -24360,7 +24360,7 @@ Transform:
   - {fileID: 1270631586}
   - {fileID: 1087483323}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
 --- !u!1 &1895965069
 GameObject:
   m_ObjectHideFlags: 0
