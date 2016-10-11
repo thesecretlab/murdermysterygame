@@ -72,7 +72,7 @@
 	{
 		"title": "MurderBoard.Test2",
 		"tags": "",
-		"body": "->Skip murder scene\n    <<set $CanTravel to true>>\n    <<set $foundSuspects to true>>\n    <<set $lolaIsSuspect to true>>\n    <<set $loganIsSuspect to true>>\n    <<set $logansapartmentUnlocked to true>>\n    <<set $foundClues to true>>\n    <<set $whiskeyglassFound to true>>\n->Skip logan's apartment\n    <<set $loganIsSuspect to true>>\n    <<set $bandagesFound to true>>\n    <<set $logansapartmentUnlocked to false>>\n    <<set $morgueCall to true>>",
+		"body": "->Skip office intro\n    <<set $CanTravel to true>>\n    <<set $murdersceneUnlocked to true>>\n->Skip murder scene\n    <<set $CanTravel to true>>\n    <<set $foundSuspects to true>>\n    <<set $lolaIsSuspect to true>>\n    <<set $loganIsSuspect to true>>\n    <<set $logansapartmentUnlocked to true>>\n    <<set $foundClues to true>>\n    <<set $whiskeyglassFound to true>>\n->Skip logan's apartment\n    <<set $loganIsSuspect to true>>\n    <<set $bandagesFound to true>>\n    <<set $logansapartmentUnlocked to false>>\n    <<set $morgueCall to true>>",
 		"position": {
 			"x": -1206,
 			"y": 53

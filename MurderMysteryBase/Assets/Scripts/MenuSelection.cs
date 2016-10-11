@@ -46,7 +46,6 @@ public class MenuSelection : MonoBehaviour
         if (options)
         {
 			Debug.Log("Button: Options");
-            //yarnVars.GetValue("NewGameIntroDone").AsBool
             yarnVars.SetValue("NewGameIntroDone", new Yarn.Value(true));
             StartCoroutine(LoadNewGame());
 			//SceneManager.LoadScene("optionsScene");
