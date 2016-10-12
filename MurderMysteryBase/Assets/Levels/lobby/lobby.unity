@@ -25999,11 +25999,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10826674, guid: 6dfb246ab8d0d6941896b72df9fcf9bd, type: 2}
       propertyPath: m_Shadows.m_Resolution
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 10826674, guid: 6dfb246ab8d0d6941896b72df9fcf9bd, type: 2}
       propertyPath: m_Shadows.m_Type
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 10826674, guid: 6dfb246ab8d0d6941896b72df9fcf9bd, type: 2}
       propertyPath: m_Range
@@ -42103,11 +42103,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10826674, guid: 6dfb246ab8d0d6941896b72df9fcf9bd, type: 2}
       propertyPath: m_Shadows.m_Resolution
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 10826674, guid: 6dfb246ab8d0d6941896b72df9fcf9bd, type: 2}
       propertyPath: m_Shadows.m_Type
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 10826674, guid: 6dfb246ab8d0d6941896b72df9fcf9bd, type: 2}
       propertyPath: m_Range
