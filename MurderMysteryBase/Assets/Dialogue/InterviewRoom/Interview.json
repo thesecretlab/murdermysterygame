@@ -4,8 +4,8 @@
 		"tags": "",
 		"body": "<<if $suspect == \"Logan\">>\n    <<interviewSuspect InterviewSceneController Logan>>\n<<elseif $suspect == \"Nora\">>\n    <<interviewSuspect InterviewSceneController Nora>>\n<<elseif $suspect == \"Rachael\">>\n    <<interviewSuspect InterviewSceneController Rachael>>\n<<elseif $suspect == \"Lola\">>\n    <<interviewSuspect InterviewSceneController Lola>>\n<<endif>>\n[[Interview.Sit]]\n    ",
 		"position": {
-			"x": 91,
-			"y": 214
+			"x": -919,
+			"y": -138
 		},
 		"colorID": 0
 	},
@@ -14,48 +14,128 @@
 		"tags": "",
 		"body": "<<sit InterviewSceneController>>",
 		"position": {
-			"x": 330,
-			"y": 231
+			"x": -972,
+			"y": 216
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Lola.Interview",
+		"title": "Interview.Lola",
 		"tags": "",
 		"body": "Why am I here?\nSeriously, how? There's no way you can trigger my variable..\n[[Game.Exit]]",
 		"position": {
-			"x": -654,
-			"y": -61
+			"x": -635,
+			"y": -112
 		},
-		"colorID": 0
+		"colorID": 1
 	},
 	{
-		"title": "Logan.Interview",
+		"title": "Interview.Logan",
 		"tags": "",
 		"body": "What is this about detective?\n->I have evidence that you were behind Jacob Wright's death\n    What? That's preposerous! I'll have your badge for this!\n    ->You fought with Jacob on the night of his death.\n        What about it? Are you saying I beat him to death?\n        ->I am indeed.\n            You're a madman. This will never stand up in court...\n[[Game.Exit]]",
 		"position": {
-			"x": -402,
-			"y": 180
+			"x": 1123,
+			"y": -140
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Rachael.Interview",
+		"title": "Interview.Rachael",
 		"tags": "",
 		"body": "You'd better have a good reason for dragging me in here, detective.\n->The jig is up Rachael. I know you killed Jacob Wright.\n    Ha, and you think I'll just confess to you? You can't prove anything.\n    ->We found your rifle.\n->I have evidence that you were the one who killed Jacob Wright.\n    And what evidence would that be?\n    ->We found your rifle.\n\n...What?\nI knew I should have dumped it in the river...\nFine... I killed him.\nHe just wouldn't step back on his decision. It was going to cost the company millions.\nHe gave me no choice...\n[[Game.Exit]]",
 		"position": {
-			"x": -400,
-			"y": -58
+			"x": -235,
+			"y": -88
 		},
 		"colorID": 0
 	},
 	{
-		"title": "Nora.Interview",
+		"title": "Interview.Nora",
 		"tags": "",
 		"body": "Can this hurry along, I've got a flight to catch soon.\n->I'm afraid you won't be going anywhere, Miss Hastings.\n    What the hell? On what grounds?\n    ->I've have evidence that you are behind Jacob's death.\n        And what evidence would that be?\n        ->I found the syringe in your apartment.\n\nDamn it...\nFine, I killed him.\nHe spun all these lies about our future together, but he never really wanted that.\nHe was just stringing me along to keep himself interested.\nI'm glad he's dead...\n[[Game.Exit]]",
 		"position": {
-			"x": -657,
-			"y": 185
+			"x": 26,
+			"y": -170
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Logan.Convict",
+		"tags": "",
+		"body": "Hello Mr Rutledge.\nLogan: First you come into my home.\nLogan: And now I'm dragged in here!?\nLogan: What is this about?\nI believe you killed Mr Wright Logan.\nThe arguement got heated, you punched Mr Wright.\nBut you didn't stop there...\nLogan: This is absurd!\nYou drew a weapon and shot Mr Wright in the stomach.\nThe bullet passed through the window.\nAnd now we're here.\nWhat do you have to say for yourself?\nLogan: Detective...\nLogan: I didn't kill Jacob.\nLogan: Sometimes I wanted to, yes.\nLogan: But you've got the wrong man.\nSave it for the court room, you know what you did.",
+		"position": {
+			"x": 1132,
+			"y": 123
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Nora.Convict",
+		"tags": "",
+		"body": "Nora: What am I even here for? You're wasting my time.\nDetective: Look missy, I've got the results from your apartment back from the lab.\nNora: What results? You've got nothing on me.\nDetective: On the contrary, I've got quite a solid case for your arrest Miss Hasting.\nNora: Push off. You know nothing.\nDetective: Then how do you explain this?\n[[Mention the syringe|Interview.Nora.Convict.syringe]]\n\n",
+		"position": {
+			"x": 32,
+			"y": 79
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Nora.Convict.Exit",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 9,
+			"y": 1493
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Nora.Convict.syringe",
+		"tags": "",
+		"body": "Nora: A syringe from my apartment?\nNora: You do realise I work in a hospital, right?\n[[What was it doing in your apartment?|Interview.Nora.Convict.apartment]]\n",
+		"position": {
+			"x": 27,
+			"y": 316
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Nora.Convict.apartment",
+		"tags": "",
+		"body": "Nora: I..um...\nNora: I'll have you know that I..\nNora: ..suffer from type 2 diabetes!\nNora: ..Yeah, that's right!\nNora: I'm required to give myself insulin injections daily!\n[[I had the substance inside the syringe tested.|Interview.Nora.Convict.poison]]\n",
+		"position": {
+			"x": 16,
+			"y": 535
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Nora.Convict.poison",
+		"tags": "",
+		"body": "Detective: You and I know that is a bold-faced lie Miss Hastings.\n    Nora: and why is that?..\nDetective: I had the substance in the needle tested at the lab..\n        Nora: oh...\nDetective: it is the same poison that was used to kill Jocob!\n        Nora: Alright...\n        Nora: you got me..\n        Nora: You meddling cops!\n        Nora: You don't know what he was like though.\n        Nora: He just chewed me up, then spat me back out..\n        Nora: just like everyone else he knew.\n        Nora: Yeah, I'll go way for this..\n        Nora: ..but I'm sure it was just a matter of time..\n[[What do you mean?|NoraConvict.conclusion]]\n",
+		"position": {
+			"x": 8,
+			"y": 780
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Nora.Convict.conclusion",
+		"tags": "",
+		"body": "Nora: Maybe you didn't notice but Jacob wasn't a well-liked man.\nNora: If I hadn't of poisoned that bastard..\nNora: ..then someone else would have stepped up to the plate!\n[[I've heard enough. You're nicked!|Interview.Nora.Convict.spit]]\n\n",
+		"position": {
+			"x": 6,
+			"y": 997
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interview.Nora.Convict.spit",
+		"tags": "",
+		"body": "Nora: *spits*\n[[Interview.Nora.Convict.exit]]\n",
+		"position": {
+			"x": 5,
+			"y": 1256
 		},
 		"colorID": 0
 	}

@@ -1110,10 +1110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectNumber: 0
   characterName: Bandages
   talkToNode: Bandages
-  scriptToLoad: {fileID: 0}
+  scriptToLoad: {fileID: 4900000, guid: 9efa79e3dec060944945b5dc791e8567, type: 3}
   player: {fileID: 0}
   playerPosition: {fileID: 0}
   npcPosition: {fileID: 0}
@@ -1125,7 +1124,6 @@ MonoBehaviour:
   range: 3
   currentRange: 0
   mouseIsOver: 0
-  isClueObject: 1
 --- !u!65 &146219651
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8742,10 +8740,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectNumber: 0
   characterName: 
   talkToNode: Facecream
-  scriptToLoad: {fileID: 0}
+  scriptToLoad: {fileID: 4900000, guid: 60d2a6e01d6dfce4aa9251ed0d7b908c, type: 3}
   player: {fileID: 0}
   playerPosition: {fileID: 0}
   npcPosition: {fileID: 0}
@@ -8757,7 +8754,6 @@ MonoBehaviour:
   range: 3
   currentRange: 0
   mouseIsOver: 0
-  isClueObject: 1
 --- !u!65 &1023701009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9692,10 +9688,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectNumber: 0
   characterName: Ergonomic
   talkToNode: Ergonomic
-  scriptToLoad: {fileID: 0}
+  scriptToLoad: {fileID: 4900000, guid: 130e5c64a61051d43a86e1e392224387, type: 3}
   player: {fileID: 0}
   playerPosition: {fileID: 0}
   npcPosition: {fileID: 0}
@@ -9707,7 +9702,6 @@ MonoBehaviour:
   range: 2
   currentRange: 0
   mouseIsOver: 0
-  isClueObject: 1
 --- !u!1001 &1193372653
 Prefab:
   m_ObjectHideFlags: 0
@@ -9747,6 +9741,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11471596, guid: 66c955f66d7552045877781f5245d090, type: 2}
+      propertyPath: scriptToLoad
+      value: 
+      objectReference: {fileID: 4900000, guid: 3e61b60cf1700aa45b87d36da3e67bb6, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66c955f66d7552045877781f5245d090, type: 2}
   m_IsPrefabParent: 0
@@ -10149,7 +10147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectNumber: 0
   characterName: Painting
   talkToNode: Painting
   scriptToLoad: {fileID: 4900000, guid: 1033ad93b7c91db4fa15f260eb2c0d92, type: 3}
@@ -10164,7 +10161,6 @@ MonoBehaviour:
   range: 2
   currentRange: 0
   mouseIsOver: 0
-  isClueObject: 1
 --- !u!135 &1264849258
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12362,10 +12358,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectNumber: 0
   characterName: Book
   talkToNode: Book
-  scriptToLoad: {fileID: 0}
+  scriptToLoad: {fileID: 4900000, guid: d7704680dad0e33429d9ae4ed82807c2, type: 3}
   player: {fileID: 0}
   playerPosition: {fileID: 0}
   npcPosition: {fileID: 0}
@@ -12377,7 +12372,6 @@ MonoBehaviour:
   range: 2
   currentRange: 0
   mouseIsOver: 0
-  isClueObject: 1
 --- !u!65 &1667450704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12405,10 +12399,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectNumber: 0
   characterName: LeftHanded
   talkToNode: LeftHanded
-  scriptToLoad: {fileID: 0}
+  scriptToLoad: {fileID: 4900000, guid: 1572b0c8439fe324d98b149d12537b2a, type: 3}
   player: {fileID: 0}
   playerPosition: {fileID: 0}
   npcPosition: {fileID: 0}
@@ -12420,7 +12413,6 @@ MonoBehaviour:
   range: 2
   currentRange: 0
   mouseIsOver: 0
-  isClueObject: 1
 --- !u!135 &1677391008
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14385,7 +14377,7 @@ Transform:
   m_Children:
   - {fileID: 1032252060}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
 --- !u!1001 &2060914292
 Prefab:
   m_ObjectHideFlags: 0

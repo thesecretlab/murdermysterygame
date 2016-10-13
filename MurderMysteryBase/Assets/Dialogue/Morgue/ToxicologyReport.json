@@ -2,9 +2,9 @@
 	{
 		"title": "ToxicologyReport",
 		"tags": "",
-		"body": "<<thinkingFont Dialogue>>\nJonas's toxicology report.\nJacob seems to have been poisoned by something prior to his death.\nJust how many badsides was this guy on?\n<<endThinkingFont Dialogue>>\n<<$toxicologyFound = true>>",
+		"body": "<<if $unlockToxicologyReport == true>>\n    <<thinkingFont Dialogue>>\n    Jonas's toxicology report.\n    Jacob seems to have been poisoned by something prior to his death.\n    Just how many badsides was this guy on?\n    <<endThinkingFont Dialogue>>\n    <<set $toxicologyFound to true>>\n<<else>>\n    <<thinkingFont Dialogue>>\n    Jonas's unfinished toxicology report.\n    Looks like he's still waiting on some lab results.\n    <<endThinkingFont Dialogue>>\n<<endif>>",
 		"position": {
-			"x": 540,
+			"x": 541,
 			"y": 260
 		},
 		"colorID": 0

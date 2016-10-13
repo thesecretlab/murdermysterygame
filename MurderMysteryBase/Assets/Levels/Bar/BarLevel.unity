@@ -42346,10 +42346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectNumber: 0
   characterName: Bartender
   talkToNode: Bartender
-  scriptToLoad: {fileID: 0}
+  scriptToLoad: {fileID: 4900000, guid: 9386555096af40c4a926b17f8b4a60b5, type: 3}
   player: {fileID: 0}
   playerPosition: {fileID: 0}
   npcPosition: {fileID: 0}
@@ -42361,7 +42360,6 @@ MonoBehaviour:
   range: 4
   currentRange: 0
   mouseIsOver: 0
-  isClueObject: 0
 --- !u!1 &1954365796
 GameObject:
   m_ObjectHideFlags: 0

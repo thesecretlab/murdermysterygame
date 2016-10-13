@@ -102,10 +102,10 @@
 	{
 		"title": "MapDialogue.Exit",
 		"tags": "",
-		"body": "",
+		"body": "<<if visited(\"Jonas.Mystery\")>>\n    <<set $unlockToxicologyReport to true>>\n<<endif>>",
 		"position": {
 			"x": -7,
-			"y": 441
+			"y": 445
 		},
 		"colorID": 0
 	},

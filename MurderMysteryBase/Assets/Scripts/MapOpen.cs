@@ -91,6 +91,12 @@ namespace Yarn.Unity.GameScripts
             {
                 Application.Quit();
             }
+            #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+            #endif
+            #if UNITY_STANDALONE
+                Application.Quit();
+            #endif
         }
 
 

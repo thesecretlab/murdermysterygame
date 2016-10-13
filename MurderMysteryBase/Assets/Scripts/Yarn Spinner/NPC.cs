@@ -36,7 +36,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 namespace Yarn.Unity.GameScripts {
 	public class NPC : MonoBehaviour {
-        public int objectNumber; 	//the slot number of clue in inventory
+        private int objectNumber; 	//the slot number of clue in inventory (Not Implemented In Current Release)
 
 		public string characterName = "";
 
@@ -68,7 +68,7 @@ namespace Yarn.Unity.GameScripts {
 
         public bool mouseIsOver = false;
 
-        public bool isClueObject = false;
+        private bool isClueObject = false; 	//identifies clues for inclusiopn in the inventory (Not Implemented In Current Release)
 
         private Color startcolor;	//initial outline color of cube
 
